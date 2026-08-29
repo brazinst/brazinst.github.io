@@ -2,6 +2,8 @@ import sys
 import re
 import os
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from urllib.parse import urlparse, urljoin, urldefrag
 from collections import deque
 import requests

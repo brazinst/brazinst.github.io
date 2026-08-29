@@ -1,6 +1,10 @@
+import sys
 import re
 import json
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from typing import Dict, Any, List
 from urllib.parse import urljoin
 import requests
