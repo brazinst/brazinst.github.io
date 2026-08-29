@@ -231,6 +231,7 @@ class BrazinstExtractor:
 
 
 if __name__ == "__main__":
-    out = Path("/Users/gregoriomelo/dev/labeet/content_brazinst")
+    root_dir = Path(__file__).resolve().parent.parent
+    out = root_dir / "content_brazinst"
     extractor = BrazinstExtractor(out)
     extractor.run()

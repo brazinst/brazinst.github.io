@@ -96,7 +96,8 @@ def generate_inventory_report(backup_dir: Path, content_dir: Path, output_file: 
 
 
 if __name__ == "__main__":
-    b_dir = Path("/Users/gregoriomelo/dev/labeet/backup_full")
-    c_dir = Path("/Users/gregoriomelo/dev/labeet/content_brazinst")
+    root_dir = Path(__file__).resolve().parent.parent
+    b_dir = root_dir / "backup_full"
+    c_dir = root_dir / "content_brazinst"
     rep = c_dir / "inventory_report.md"
     generate_inventory_report(b_dir, c_dir, rep)

@@ -52,6 +52,7 @@ def archive_all_urls(state_file: Path, output_file: Path, delay: float = 2.0) ->
 
 
 if __name__ == "__main__":
-    st = Path("/Users/gregoriomelo/dev/labeet/backup_full/state.json")
-    out = Path("/Users/gregoriomelo/dev/labeet/content_brazinst/wayback_archive.md")
+    root_dir = Path(__file__).resolve().parent.parent
+    st = root_dir / "backup_full" / "state.json"
+    out = root_dir / "content_brazinst" / "wayback_archive.md"
     archive_all_urls(st, out)
