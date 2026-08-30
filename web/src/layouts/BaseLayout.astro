@@ -1,0 +1,37 @@
+---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+
+interface Props {
+  title: string;
+  description?: string;
+  activeTab?: string;
+}
+
+const { 
+  title, 
+  description = "Brazil Instrumentarium: acervo digital dedicado aos instrumentos musicais brasileiros. LABEET / UFPB.",
+  activeTab = ""
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt-BR" class="bg-[#FAF8F5] text-stone-900 antialiased scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} — Brazil Instrumentarium</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body class="min-h-screen flex flex-col font-sans">
+    <Header activeTab={activeTab} />
+    <main class="flex-grow">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
