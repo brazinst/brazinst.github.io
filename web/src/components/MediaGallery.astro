@@ -1,0 +1,40 @@
+---
+interface ImageItem {
+  file: string;
+  caption?: string;
+  rights?: string;
+}
+
+interface Props {
+  images: ImageItem[];
+  instrumentTitle: string;
+}
+
+const { images, instrumentTitle } = Astro.props;
+---
+
+{images.length > 0 && (
+  <section class="my-10 bg-stone-100/70 p-6 rounded-2xl border border-stone-200">
+    <h3 class="font-serif font-bold text-xl text-stone-900 mb-6 flex items-center gap-2">
+      <span>📷</span> Registros Iconográficos e Fotografias
+    </h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      {images.map((img, idx) => (
+        <figure class="bg-white rounded-xl overflow-hidden shadow-sm border border-stone-200 flex flex-col">
+          <img
+            src={`/${img.file}`}
+            alt={img.caption || `${instrumentTitle} - Imagem ${idx + 1}`}
+            loading="lazy"
+            class="w-full aspect-[4/3] object-cover hover:scale-105 transition-transform duration-300"
+          />
+          {img.caption && (
+            <figcaption class="p-3 text-xs text-stone-600 bg-stone-50 border-t border-stone-100">
+              <span class="font-medium text-stone-800">{img.caption}</span>
+              {img.rights && <span class="block text-stone-400 mt-0.5">Créditos: {img.rights}</span>}
+            </figcaption>
+          )}
+        </figure>
+      ))}
+    </div>
+  </section>
+)}

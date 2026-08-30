@@ -1,0 +1,56 @@
+---
+interface AudioItem {
+  title: string;
+  url: string;
+}
+
+interface Props {
+  links: AudioItem[];
+}
+
+const { links } = Astro.props;
+
+function getYouTubeId(url: string): string | null {
+  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+  return m ? m[1] : null;
+}
+---
+
+{links.length > 0 && (
+  <section class="my-10 bg-emerald-50/50 p-6 rounded-2xl border border-emerald-200/80">
+    <h3 class="font-serif font-bold text-xl text-emerald-950 mb-4 flex items-center gap-2">
+      <span>🎵</span> Fonografia e Registros Sonoros de Campo
+    </h3>
+    <div class="space-y-4">
+      {links.map((item) => {
+        const ytId = getYouTubeId(item.url);
+        return (
+          <div class="bg-white p-4 rounded-xl border border-emerald-100 shadow-sm flex flex-col gap-3">
+            <div class="flex items-center justify-between">
+              <span class="font-medium text-stone-900 text-sm">{item.title}</span>
+              <a 
+                href={item.url} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="text-xs text-emerald-700 hover:text-emerald-900 flex items-center gap-1 font-medium"
+              >
+                Abrir link original &nearr;
+              </a>
+            </div>
+            {ytId && (
+              <div class="aspect-video w-full rounded-lg overflow-hidden border border-stone-200">
+                <iframe
+                  src={`https://www.youtube-nocookie.com/embed/${ytId}`}
+                  title={item.title}
+                  class="w-full h-full"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  </section>
+)}

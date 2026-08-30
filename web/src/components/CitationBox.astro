@@ -1,0 +1,53 @@
+---
+interface Props {
+  title: string;
+  author?: string | null;
+  reviewer?: string | null;
+  slug: string;
+}
+
+const { title, author = 'Equipe LABEET', reviewer = 'Alice L. Satomi', slug } = Astro.props;
+const authorDisplay = author || 'Equipe LABEET';
+const currentYear = new Date().getFullYear();
+const citationText = `SATOMI, Alice L. (Coord.); ${authorDisplay}. "${title}". In: Brazil Instrumentarium. Laboratório de Estudos Etnomusicológicos (LABEET/UFPB), ${currentYear}. Disponível em: <https://brazil-instrumentarium.github.io/instrumentos/${slug}>.`;
+---
+
+<div class="my-10 bg-stone-100/90 rounded-2xl p-6 border border-stone-200">
+  <div class="flex items-center justify-between mb-3">
+    <h4 class="font-sans font-semibold text-xs uppercase tracking-wider text-stone-700 flex items-center gap-2">
+      <span>📚</span> Como citar este verbete (ABNT)
+    </h4>
+    <button
+      id="copy-citation-btn"
+      data-citation={citationText}
+      class="text-xs px-3 py-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 font-medium transition-colors flex items-center gap-1.5 shadow-sm cursor-pointer"
+    >
+      <svg class="w-3.5 h-3.5 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
+      <span>Copiar Citação</span>
+    </button>
+  </div>
+  <p class="font-mono text-xs text-stone-700 bg-white p-3.5 rounded-xl border border-stone-200 select-all leading-relaxed">
+    {citationText}
+  </p>
+</div>
+
+<script>
+  const btn = document.getElementById('copy-citation-btn');
+  if (btn) {
+    btn.addEventListener('click', async () => {
+      const text = btn.getAttribute('data-citation') || '';
+      try {
+        await navigator.clipboard.writeText(text);
+        const span = btn.querySelector('span');
+        if (span) {
+          span.textContent = 'Copiado!';
+          setTimeout(() => {
+            span.textContent = 'Copiar Citação';
+          }, 2000);
+        }
+      } catch (err) {
+        console.error('Falha ao copiar:', err);
+      }
+    });
+  }
+</script>
