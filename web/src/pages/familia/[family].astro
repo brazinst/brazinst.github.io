@@ -1,0 +1,55 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import FamilyTabs from '../../components/FamilyTabs.astro';
+import InstrumentCard from '../../components/InstrumentCard.astro';
+
+export async function getStaticPaths() {
+  const families = ['aerofones', 'cordofones', 'idiofones', 'membranofones'];
+  return families.map(family => ({
+    params: { family },
+  }));
+}
+
+const { family } = Astro.params;
+const allInstruments = await getCollection('instruments');
+const filtered = allInstruments
+  .filter(i => i.data.family === family)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, 'pt-BR'));
+
+const counts = {
+  todos: allInstruments.length,
+  aerofones: allInstruments.filter(i => i.data.family === 'aerofones').length,
+  cordofones: allInstruments.filter(i => i.data.family === 'cordofones').length,
+  idiofones: allInstruments.filter(i => i.data.family === 'idiofones').length,
+  membranofones: allInstruments.filter(i => i.data.family === 'membranofones').length,
+};
+
+const familyNames: Record<string, string> = {
+  aerofones: 'Aerofones (Instrumentos de Sopro)',
+  cordofones: 'Cordofones (Instrumentos de Corda)',
+  idiofones: 'Idiofones (O Próprio Corpo Vibra)',
+  membranofones: 'Membranofones (Pele ou Membrana)',
+};
+---
+
+<BaseLayout title={familyNames[family] || family} activeTab="inicio">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+    <div class="text-center max-w-2xl mx-auto mb-6">
+      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-stone-900 capitalize">
+        {familyNames[family]}
+      </h1>
+      <p class="mt-2 text-stone-600 text-sm font-sans">
+        Mostrando {filtered.length} instrumentos catalogados nesta categoria organológica.
+      </p>
+    </div>
+
+    <FamilyTabs activeFamily={family} counts={counts} />
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
+      {filtered.map(inst => (
+        <InstrumentCard instrument={inst} />
+      ))}
+    </div>
+  </div>
+</BaseLayout>

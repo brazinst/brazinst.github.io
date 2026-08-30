@@ -1,0 +1,81 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  instrument: CollectionEntry<'instruments'>;
+}
+
+const { instrument } = Astro.props;
+const data = instrument.data;
+
+// Família com cores temáticas
+const familyColors: Record<string, string> = {
+  aerofones: 'bg-sky-100 text-sky-800 border-sky-200',
+  cordofones: 'bg-amber-100 text-amber-800 border-amber-200',
+  idiofones: 'bg-emerald-100 text-emerald-800 border-emerald-200',
+  membranofones: 'bg-rose-100 text-rose-800 border-rose-200',
+};
+
+// Imagem de capa
+const coverImg = data.images.length > 0 ? `/${data.images[0].file}` : null;
+// Resumo sanitizado
+const summary = (instrument.body || '').slice(0, 160).replace(/[#*`_]/g, '') + '...';
+---
+
+<article class="bg-white rounded-2xl border border-stone-200/80 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col group">
+  <a href={`/instrumentos/${instrument.slug}`} class="block relative aspect-[4/3] bg-stone-100 overflow-hidden">
+    {coverImg ? (
+      <img
+        src={coverImg}
+        alt={data.title}
+        loading="lazy"
+        class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+      />
+    ) : (
+      <div class="w-full h-full flex flex-col items-center justify-center text-stone-400 bg-stone-50">
+        <svg class="w-12 h-12 mb-2 text-stone-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19V6l12-3v13M9 19c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zm12-3c0 1.105-1.343 2-3 2s-3-.895-3-2 1.343-2 3-2 3 .895 3 2zM9 10l12-3"></path></svg>
+        <span class="text-xs uppercase tracking-wider">Acervo Brazinst</span>
+      </div>
+    )}
+    <span class={`absolute top-3 left-3 px-2.5 py-1 rounded-full text-xs font-semibold uppercase tracking-wider border shadow-sm ${familyColors[data.family] || 'bg-stone-100 text-stone-800'}`}>
+      {data.family}
+    </span>
+  </a>
+
+  <div class="p-5 flex flex-col flex-grow">
+    <div class="flex items-center justify-between gap-2 mb-2">
+      <h2 class="font-serif font-bold text-xl text-stone-900 group-hover:text-amber-800 transition-colors">
+        <a href={`/instrumentos/${instrument.slug}`}>
+          {data.title}
+        </a>
+      </h2>
+      {data.mimo_code && (
+        <span class="font-mono text-[11px] text-stone-500 bg-stone-100 px-2 py-0.5 rounded border border-stone-200">
+          MIMO {data.mimo_code}
+        </span>
+      )}
+    </div>
+
+    <p class="text-sm text-stone-600 line-clamp-3 mb-4 leading-relaxed font-sans">
+      {summary}
+    </p>
+
+    <div class="mt-auto pt-4 border-t border-stone-100 flex items-center justify-between text-xs text-stone-500">
+      <div class="flex items-center gap-3">
+        {data.audio_video_links.length > 0 && (
+          <span class="flex items-center gap-1 text-emerald-700 font-medium" title="Possui registros sonoros">
+            🎵 {data.audio_video_links.length} áudio(s)
+          </span>
+        )}
+        {data.images.length > 0 && (
+          <span class="flex items-center gap-1 text-stone-600" title="Possui fotos históricas">
+            📷 {data.images.length} foto(s)
+          </span>
+        )}
+      </div>
+      <a href={`/instrumentos/${instrument.slug}`} class="font-medium text-amber-800 hover:text-amber-950 group-hover:translate-x-0.5 transition-all">
+        Ver verbete &rarr;
+      </a>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import FamilyTabs from '../components/FamilyTabs.astro';
+import InstrumentCard from '../components/InstrumentCard.astro';
+
+const allInstruments = await getCollection('instruments');
+allInstruments.sort((a, b) => a.data.title.localeCompare(b.data.title, 'pt-BR'));
+
+const counts = {
+  todos: allInstruments.length,
+  aerofones: allInstruments.filter(i => i.data.family === 'aerofones').length,
+  cordofones: allInstruments.filter(i => i.data.family === 'cordofones').length,
+  idiofones: allInstruments.filter(i => i.data.family === 'idiofones').length,
+  membranofones: allInstruments.filter(i => i.data.family === 'membranofones').length,
+};
+---
+
+<BaseLayout title="Acervo Digital de Instrumentos Musicais Brasileiros" activeTab="inicio">
+  <Hero />
+
+  <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-pagefind-ignore>
+    <FamilyTabs activeFamily="todos" counts={counts} />
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
+      {allInstruments.map(inst => (
+        <InstrumentCard instrument={inst} />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
