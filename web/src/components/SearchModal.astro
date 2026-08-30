@@ -1,0 +1,95 @@
+---
+---
+
+<div id="search-modal" class="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-sm hidden items-start justify-center pt-16 sm:pt-24 p-4">
+  <div class="bg-white w-full max-w-2xl rounded-2xl shadow-2xl border border-stone-200 overflow-hidden flex flex-col max-h-[80vh]">
+    <div class="p-4 border-b border-stone-200 flex items-center gap-3">
+      <svg class="w-5 h-5 text-stone-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      <input
+        id="search-input"
+        type="text"
+        placeholder="Buscar por instrumento, ritmo (capoeira, maracatu), material ou autor..."
+        class="w-full text-base font-sans text-stone-900 placeholder-stone-400 focus:outline-none bg-transparent"
+        autocomplete="off"
+      />
+      <button id="search-close" class="text-xs text-stone-400 hover:text-stone-600 bg-stone-100 px-2 py-1 rounded">
+        Esc
+      </button>
+    </div>
+
+    <div id="search-results" class="p-4 overflow-y-auto space-y-3 flex-grow divide-y divide-stone-100">
+      <p class="text-xs text-stone-400 text-center py-8">
+        Digite para pesquisar em todos os 78 verbetes e transcrições do acervo...
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+  let pagefind: any = null;
+  const modal = document.getElementById('search-modal');
+  const input = document.getElementById('search-input') as HTMLInputElement;
+  const resultsDiv = document.getElementById('search-results');
+  const trigger = document.getElementById('search-trigger');
+  const closeBtn = document.getElementById('search-close');
+
+  async function initPagefind() {
+    if (!pagefind) {
+      try {
+        const pagefindPath = '/pagefind/pagefind.js';
+        pagefind = await import(/* @vite-ignore */ pagefindPath);
+        await pagefind.init();
+      } catch (e) {
+        console.log('Pagefind disponível após o build de produção.');
+      }
+    }
+  }
+
+  function openModal() {
+    modal?.classList.remove('hidden');
+    modal?.classList.add('flex');
+    input?.focus();
+    initPagefind();
+  }
+
+  function closeModal() {
+    modal?.classList.add('hidden');
+    modal?.classList.remove('flex');
+    if (input) input.value = '';
+    if (resultsDiv) resultsDiv.innerHTML = '<p class="text-xs text-stone-400 text-center py-8">Digite para pesquisar no acervo...</p>';
+  }
+
+  trigger?.addEventListener('click', openModal);
+  closeBtn?.addEventListener('click', closeModal);
+
+  window.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      openModal();
+    }
+    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+      closeModal();
+    }
+  });
+
+  input?.addEventListener('input', async (e) => {
+    const q = (e.target as HTMLInputElement).value.trim();
+    if (!q || !pagefind || !resultsDiv) return;
+
+    const search = await pagefind.search(q);
+    if (!search.results.length) {
+      resultsDiv.innerHTML = `<p class="text-xs text-stone-500 text-center py-8">Nenhum instrumento encontrado para "<strong>${q}</strong>".</p>`;
+      return;
+    }
+
+    const five = search.results.slice(0, 5);
+    const data = await Promise.all(five.map((r: any) => r.data()));
+
+    resultsDiv.innerHTML = data.map((item: any) => `
+      <a href="${item.url}" class="block p-3 rounded-xl hover:bg-amber-50 transition-colors">
+        <h4 class="font-serif font-bold text-stone-900 text-base mb-1">${item.meta.title || 'Verbete'}</h4>
+        <p class="text-xs text-stone-600 line-clamp-2">${item.excerpt}</p>
+      </a>
+    `).join('');
+  });
+</script>
