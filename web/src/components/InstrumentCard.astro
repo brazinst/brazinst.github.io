@@ -18,12 +18,13 @@ const familyColors: Record<string, string> = {
 
 // Imagem de capa
 const coverImg = data.images.length > 0 ? `/${data.images[0].file}` : null;
+const slug = data.slug || instrument.id;
 // Resumo sanitizado
 const summary = (instrument.body || '').slice(0, 160).replace(/[#*`_]/g, '') + '...';
 ---
 
 <article class="bg-white rounded-2xl border border-stone-200/80 shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden flex flex-col group">
-  <a href={`/instrumentos/${instrument.slug}`} class="block relative aspect-[4/3] bg-stone-100 overflow-hidden">
+  <a href={`/instrumentos/${slug}`} class="block relative aspect-[4/3] bg-stone-100 overflow-hidden">
     {coverImg ? (
       <img
         src={coverImg}
@@ -45,7 +46,7 @@ const summary = (instrument.body || '').slice(0, 160).replace(/[#*`_]/g, '') + '
   <div class="p-5 flex flex-col flex-grow">
     <div class="flex items-center justify-between gap-2 mb-2">
       <h2 class="font-serif font-bold text-xl text-stone-900 group-hover:text-amber-800 transition-colors">
-        <a href={`/instrumentos/${instrument.slug}`}>
+        <a href={`/instrumentos/${slug}`}>
           {data.title}
         </a>
       </h2>
@@ -73,7 +74,7 @@ const summary = (instrument.body || '').slice(0, 160).replace(/[#*`_]/g, '') + '
           </span>
         )}
       </div>
-      <a href={`/instrumentos/${instrument.slug}`} class="font-medium text-amber-800 hover:text-amber-950 group-hover:translate-x-0.5 transition-all">
+      <a href={`/instrumentos/${slug}`} class="font-medium text-amber-800 hover:text-amber-950 group-hover:translate-x-0.5 transition-all">
         Ver verbete &rarr;
       </a>
     </div>

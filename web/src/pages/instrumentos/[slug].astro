@@ -1,5 +1,5 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import MediaGallery from '../../components/MediaGallery.astro';
 import AudioPlayer from '../../components/AudioPlayer.astro';
@@ -7,14 +7,17 @@ import CitationBox from '../../components/CitationBox.astro';
 
 export async function getStaticPaths() {
   const instruments = await getCollection('instruments');
-  return instruments.map(inst => ({
-    params: { slug: inst.slug },
-    props: { instrument: inst },
-  }));
+  return instruments.map(inst => {
+    const rawSlug = inst.data.slug || inst.id;
+    return {
+      params: { slug: decodeURIComponent(rawSlug) },
+      props: { instrument: inst },
+    };
+  });
 }
 
 const { instrument } = Astro.props;
-const { Content } = await instrument.render();
+const { Content } = await render(instrument);
 const data = instrument.data;
 
 const familyNames: Record<string, string> = {

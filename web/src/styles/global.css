@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-brand-dark: #1c1917;
+  --color-brand-warm: #78350f;
+  --color-brand-accent: #047857;
+  --color-brand-gold: #d97706;
+  --color-brand-bg: #faf8f5;
+
+  --font-serif: Merriweather, Georgia, serif;
+  --font-sans: Inter, system-ui, sans-serif;
+}
