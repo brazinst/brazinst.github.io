@@ -7,15 +7,15 @@ interface Props {
 const { activeFamily = 'todos', counts } = Astro.props;
 
 const tabs = [
-  { id: 'todos', name: 'Todos os Instrumentos', href: '/', count: counts.todos || 78 },
-  { id: 'aerofones', name: 'Aerofones', href: '/familia/aerofones', count: counts.aerofones || 20, icon: '💨' },
-  { id: 'cordofones', name: 'Cordofones', href: '/familia/cordofones', count: counts.cordofones || 20, icon: '🎻' },
-  { id: 'idiofones', name: 'Idiofones', href: '/familia/idiofones', count: counts.idiofones || 19, icon: '🔔' },
-  { id: 'membranofones', name: 'Membranofones', href: '/familia/membranofones', count: counts.membranofones || 19, icon: '🥁' },
+  { id: 'todos', name: 'Todos os Instrumentos', href: '/', count: counts.todos || 165 },
+  { id: 'aerofones', name: 'Aerofones', href: '/familia/aerofones', count: counts.aerofones || 34, icon: '💨' },
+  { id: 'cordofones', name: 'Cordofones', href: '/familia/cordofones', count: counts.cordofones || 19, icon: '🎻' },
+  { id: 'idiofones', name: 'Idiofones', href: '/familia/idiofones', count: counts.idiofones || 76, icon: '🔔' },
+  { id: 'membranofones', name: 'Membranofones', href: '/familia/membranofones', count: counts.membranofones || 36, icon: '🥁' },
 ];
 ---
 
-<div class="flex items-center justify-center flex-wrap gap-2 py-8">
+<div class="flex items-center justify-center flex-wrap gap-2.5 py-6">
   {tabs.map(t => {
     const isActive = activeFamily === t.id;
     return (
@@ -23,13 +23,13 @@ const tabs = [
         href={t.href}
         class={`px-4 py-2 rounded-full text-sm font-medium transition-all flex items-center gap-2 ${
           isActive 
-            ? 'bg-amber-900 text-white shadow-md' 
-            : 'bg-white text-stone-700 hover:bg-amber-50 hover:text-amber-900 border border-stone-200'
+            ? 'bg-[#0A5517] text-white shadow-md border border-[#00420c]' 
+            : 'bg-white text-stone-700 hover:bg-emerald-50 hover:text-[#0A5517] border border-stone-200 shadow-2xs'
         }`}
       >
-        {t.icon && <span>{t.icon}</span>}
+        {t.icon && <span class="text-base">{t.icon}</span>}
         <span>{t.name}</span>
-        <span class={`text-xs px-2 py-0.5 rounded-full ${isActive ? 'bg-amber-800 text-amber-100' : 'bg-stone-100 text-stone-500'}`}>
+        <span class={`text-xs font-semibold px-2 py-0.5 rounded-full ${isActive ? 'bg-[#00420c] text-emerald-200' : 'bg-stone-100 text-stone-600'}`}>
           {t.count}
         </span>
       </a>

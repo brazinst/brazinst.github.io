@@ -1,33 +1,52 @@
 ---
 ---
 
-<footer class="bg-stone-900 text-stone-300 py-12 border-t border-stone-800 mt-20">
+<footer class="bg-[#00420C] text-emerald-100/90 py-14 border-t-4 border-[#0A5517] mt-20">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
       <div>
-        <h3 class="font-serif font-bold text-lg text-amber-400 mb-3">Brazil Instrumentarium (Brazinst)</h3>
-        <p class="text-sm text-stone-400 leading-relaxed">
-          Primeiro acervo digital dedicado exclusivamente aos instrumentos musicais brasileiros, com foco em timbres, contextos socioculturais e paisagens sonoras tradicionais.
+        <h3 class="font-serif font-bold text-xl text-[#F59E0B] mb-3">Brazil Instrumentarium (Brazinst)</h3>
+        <p class="text-sm text-emerald-100/80 leading-relaxed mb-4">
+          Primeiro acervo digital dedicado exclusivamente aos instrumentos musicais brasileiros, com foco em timbres, contextos socioculturais, organologia Hornbostel-Sachs (MIMO) e paisagens sonoras tradicionais.
         </p>
+        <span class="inline-block text-xs font-semibold px-3 py-1 rounded bg-black/20 text-emerald-200 border border-white/10">
+          Iniciativa de Preservação Perpétua e Acesso Aberto
+        </span>
       </div>
       <div>
-        <h4 class="font-sans font-semibold text-white text-sm uppercase tracking-wider mb-3">Pesquisa & Coordenação</h4>
-        <ul class="text-sm text-stone-400 space-y-2">
+        <h4 class="font-sans font-bold text-white text-xs uppercase tracking-widest mb-3 text-amber-300">Pesquisa & Coordenação</h4>
+        <ul class="text-sm text-emerald-100/80 space-y-2">
+          <li><strong>Coordenação:</strong> Profa. Dra. Alice Lumi Satomi</li>
           <li>Laboratório de Estudos Etnomusicológicos (LABEET)</li>
           <li>Centro de Comunicação, Turismo e Artes (CCTA)</li>
           <li>Universidade Federal da Paraíba (UFPB)</li>
-          <li>Coordenação: Profa. Dra. Alice L. Satomi</li>
+          <li class="text-xs text-emerald-300/80 pt-1">Campus I &bull; Cidade Universitária &bull; João Pessoa - PB</li>
         </ul>
       </div>
       <div>
-        <h4 class="font-sans font-semibold text-white text-sm uppercase tracking-wider mb-3">Preservação Digital</h4>
-        <p class="text-sm text-stone-400 leading-relaxed mb-4">
-          Acervo digital autônomo e de acesso aberto, preservado em formatos perpétuos livres para pesquisadores, estudantes e a comunidade.
+        <h4 class="font-sans font-bold text-white text-xs uppercase tracking-widest mb-3 text-amber-300">Famílias Organológicas</h4>
+        <div class="grid grid-cols-2 gap-2 text-xs">
+          <a href="/familia/aerofones" class="p-2 rounded bg-black/20 hover:bg-black/30 text-white transition-colors">💨 Aerofones</a>
+          <a href="/familia/cordofones" class="p-2 rounded bg-black/20 hover:bg-black/30 text-white transition-colors">🎻 Cordofones</a>
+          <a href="/familia/idiofones" class="p-2 rounded bg-black/20 hover:bg-black/30 text-white transition-colors">🔔 Idiofones</a>
+          <a href="/familia/membranofones" class="p-2 rounded bg-black/20 hover:bg-black/30 text-white transition-colors">🥁 Membranofones</a>
+        </div>
+        <p class="text-xs text-emerald-300/70 mt-4 leading-relaxed">
+          Dados e registros de campo preservados no âmbito dos projetos PDMCP e Brazil Instrumentarium.
         </p>
       </div>
     </div>
-    <div class="border-t border-stone-800 mt-8 pt-8 text-center text-xs text-stone-500">
-      &copy; {new Date().getFullYear()} LABEET / UFPB &bull; Brazil Instrumentarium &bull; Classificação Organológica Hornbostel-Sachs (MIMO).
+    <div class="border-t border-emerald-900/60 mt-10 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-emerald-200/60 gap-4">
+      <div>
+        &copy; {new Date().getFullYear()} LABEET / UFPB &bull; Brazil Instrumentarium &bull; Classificação Organológica Hornbostel-Sachs (MIMO).
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="/" class="hover:text-amber-300 transition-colors">Início</a>
+        <span>&bull;</span>
+        <a href="/sobre" class="hover:text-amber-300 transition-colors">Histórico e Sobre</a>
+        <span>&bull;</span>
+        <a href="https://www.ufpb.br" target="_blank" rel="noopener noreferrer" class="hover:text-amber-300 transition-colors">UFPB &nearr;</a>
+      </div>
     </div>
   </div>
 </footer>

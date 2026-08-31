@@ -32,39 +32,39 @@ const familyNames: Record<string, string> = {
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12" data-pagefind-body>
     <!-- Breadcrumbs -->
     <nav class="flex items-center gap-2 text-xs text-stone-500 mb-6 font-sans" data-pagefind-ignore>
-      <a href="/" class="hover:text-amber-800">Início</a>
+      <a href="/" class="hover:text-[#0A5517]">Início</a>
       <span>&rsaquo;</span>
-      <a href={`/familia/${data.family}`} class="hover:text-amber-800 capitalize">{familyNames[data.family]}</a>
+      <a href={`/familia/${data.family}`} class="hover:text-[#0A5517] capitalize">{familyNames[data.family]}</a>
       <span>&rsaquo;</span>
       <span class="text-stone-800 font-medium">{data.title}</span>
     </nav>
 
     <!-- Cabeçalho do Verbete -->
     <header class="border-b border-stone-200 pb-8 mb-8">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wider bg-amber-100 text-amber-900 border border-amber-200">
+      <div class="flex items-center gap-2.5 mb-3">
+        <span class="px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-[#0A5517]/10 text-[#0A5517] border border-[#0A5517]/25">
           {familyNames[data.family]}
         </span>
         {data.mimo_code && (
-          <span class="px-3 py-1 rounded-full text-xs font-mono bg-stone-100 text-stone-700 border border-stone-200">
+          <span class="px-3 py-1 rounded-full text-xs font-mono bg-stone-100 text-stone-700 border border-stone-200 font-medium">
             MIMO {data.mimo_code}
           </span>
         )}
       </div>
 
-      <h1 class="font-serif text-4xl sm:text-5xl font-bold text-stone-900 tracking-tight mb-4 leading-tight">
+      <h1 class="font-serif text-4xl sm:text-5xl font-bold text-stone-900 tracking-tight mb-2 leading-tight">
         {data.title}
       </h1>
 
-      <div class="flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-stone-500 font-sans">
+      <div class="flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-stone-500 font-sans mt-4">
         {data.author && <div><strong class="text-stone-700">Elaboração:</strong> {data.author}</div>}
-        {data.reviewer && <div><strong class="text-stone-700">Revisão:</strong> {data.reviewer}</div>}
-        {data.published_date && <div><strong class="text-stone-700">Publicação:</strong> {data.published_date}</div>}
+        {data.reviewer && <div><strong class="text-stone-700">Revisão Científica:</strong> {data.reviewer}</div>}
+        {data.published_date && <div><strong class="text-stone-700">Publicação original:</strong> {data.published_date}</div>}
       </div>
     </header>
 
     <!-- Corpo do Artigo em Markdown -->
-    <div class="prose prose-stone prose-lg max-w-none prose-headings:font-serif prose-headings:text-stone-900 prose-a:text-amber-800 hover:prose-a:text-amber-950 prose-img:rounded-xl">
+    <div class="prose prose-stone prose-lg max-w-none prose-headings:font-serif prose-headings:text-stone-900 prose-a:text-[#0A5517] hover:prose-a:text-[#00420c] prose-img:rounded-xl">
       <Content />
     </div>
 

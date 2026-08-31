@@ -29,7 +29,25 @@ const {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
   </head>
-  <body class="min-h-screen flex flex-col font-sans">
+  <body class="min-h-screen flex flex-col font-sans bg-[#FAF8F5]">
+    <!-- Barra Governamental / Institucional UFPB -->
+    <div class="bg-stone-800 text-stone-300 text-[11px] font-sans py-1 px-4 border-b border-stone-700/80">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span class="font-semibold text-white">UNIVERSIDADE FEDERAL DA PARAÍBA</span>
+          <span class="text-stone-500">&bull;</span>
+          <span>CCTA</span>
+          <span class="text-stone-500">&bull;</span>
+          <span>LABEET</span>
+        </div>
+        <div class="hidden sm:flex items-center gap-4 text-stone-400">
+          <span>Acervo Digital de Acesso Aberto</span>
+          <span class="text-stone-600">|</span>
+          <a href="https://www.ufpb.br" target="_blank" rel="noopener noreferrer" class="hover:text-white transition-colors">Portal UFPB &nearr;</a>
+        </div>
+      </div>
+    </div>
+
     <Header activeTab={activeTab} />
     <main class="flex-grow">
       <slot />
