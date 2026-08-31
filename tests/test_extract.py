@@ -51,6 +51,57 @@ def test_parse_verbete_html():
     assert data["image_urls"][0] == "http://150.165.254.38/labeet/agogo.jpg"
 
 
+SAMPLE_PLONE_NITF_HTML = '''
+<!DOCTYPE html>
+<html>
+<head><title>Afofiê — LABEET</title></head>
+<body>
+<div id="content">
+    <article prefix="rnews: http://iptc.org/std/rNews/2011-10-07#" typeof="Article">
+        <h1 class="documentFirstHeading">Afofiê</h1>
+        <h2 class="nitfSubtitle">Flauta tradicional</h2>
+        <div class="documentDescription">Pequena flauta de taquara com bocal de madeira.</div>
+        <div class="documentByLine" id="plone-document-byline">
+            <span class="documentPublished">publicado: <span>17/08/2017 13h11</span></span>
+            <span class="documentModified">última modificação: <span>11/03/2026 12h19</span></span>
+        </div>
+        <div class="newsLeftPane">
+            <div class="newsImageContainer">
+                <a class="parent-nitf-image" href="Afofie/@@slideshow_view">
+                    <img src="Afofie.jpg/@@images/thumb.jpeg" alt="Foto Afofiê" />
+                </a>
+            </div>
+        </div>
+        <div property="rnews:articleBody">
+            <p>Aerofone (4) de sopro (4.2.), da família das flautas.</p>
+            <p style="text-align: right;">Gabriel Felipe Sena & Alice S. Lumi.</p>
+            <h3>Referências</h3>
+            <p>CASCUDO, Câmara. Dicionário do Folclore Brasileiro.</p>
+            <p>DE ANDRADE, Mário. Dicionário Musical Brasileiro.</p>
+        </div>
+    </article>
+</div>
+</body></html>
+'''
+
+
+def test_parse_verbete_html_plone_nitf():
+    data = parse_verbete_html(
+        SAMPLE_PLONE_NITF_HTML,
+        "http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_of_aerofones/Afofie"
+    )
+    assert data["title"] == "Afofiê"
+    assert data["slug"] == "Afofie"
+    assert data["family"] == "aerofones"
+    assert data["subtitle"] == "Flauta tradicional"
+    assert "Pequena flauta de taquara" in data["description"]
+    assert data["published_date"] == "2017-08-17"
+    assert data["modified_date"] == "2026-03-11"
+    assert "Aerofone (4) de sopro" in data["body"]
+    assert "CASCUDO" in data["body"]
+    assert len(data["image_urls"]) >= 1
+
+
 def test_brazinst_extractor_run(tmp_path: Path):
     output_dir = tmp_path / "content_brazinst"
     extractor = BrazinstExtractor(output_dir)
