@@ -25,14 +25,16 @@
   </div>
 </div>
 
-<script>
-  let pagefind: any = null;
-  let pagefindLoading: Promise<any> | null = null;
+<script is:inline type="module">
+  let pagefind = null;
+  let pagefindLoading = null;
   const modal = document.getElementById('search-modal');
-  const input = document.getElementById('search-input') as HTMLInputElement;
+  const input = document.getElementById('search-input');
   const resultsDiv = document.getElementById('search-results');
   const trigger = document.getElementById('search-trigger');
   const closeBtn = document.getElementById('search-close');
+
+  let pagefindError = null;
 
   async function initPagefind() {
     if (pagefind) return pagefind;
@@ -40,14 +42,14 @@
 
     pagefindLoading = (async () => {
       try {
-        // Carrega o pagefind.js em runtime sem que o Vite injete __VITE_PRELOAD__
-        const loadFn = new Function('p', 'return import(p)');
-        const pf = await loadFn('/pagefind/pagefind.js');
+        const pf = await import('/pagefind/pagefind.js');
         await pf.init();
         pagefind = pf;
+        pagefindError = null;
         return pf;
       } catch (e) {
-        console.warn('Pagefind disponível após o build de produção (npm run build).', e);
+        console.error('Falha ao carregar Pagefind:', e);
+        pagefindError = e;
         return null;
       } finally {
         pagefindLoading = null;
@@ -86,12 +88,13 @@
   });
 
   input?.addEventListener('input', async (e) => {
-    const q = (e.target as HTMLInputElement).value.trim();
+    const q = e.target.value.trim();
     if (!q || !resultsDiv) return;
 
     const pf = await initPagefind();
     if (!pf || !pagefind) {
-      resultsDiv.innerHTML = '<p class="text-xs text-amber-700 bg-amber-50 p-4 rounded-xl text-center border border-amber-200">A busca instantânea está disponível no ambiente de produção compilado (após executar <code>npm run build</code>).</p>';
+      const errMsg = pagefindError ? String(pagefindError?.message || pagefindError) : 'Índice de busca não carregado.';
+      resultsDiv.innerHTML = `<p class="text-xs text-amber-700 bg-amber-50 p-4 rounded-xl text-center border border-amber-200">Não foi possível carregar a busca no momento.<br><span class="text-[11px] text-stone-500 font-mono mt-1 block">${errMsg}</span></p>`;
       return;
     }
 
@@ -111,10 +114,10 @@
     }
 
     const five = search.results.slice(0, 5);
-    const data = await Promise.all(five.map((r: any) => r.data()));
+    const data = await Promise.all(five.map((r) => r.data()));
 
     const fragment = document.createDocumentFragment();
-    data.forEach((item: any) => {
+    data.forEach((item) => {
       const card = document.createElement('a');
       card.href = item.url;
       card.className = 'block p-3 rounded-xl hover:bg-amber-50 transition-colors';
