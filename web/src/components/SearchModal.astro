@@ -59,9 +59,31 @@
     return pagefindLoading;
   }
 
+  let selectedIndex = -1;
+
+  function updateSelectedCard(items) {
+    items.forEach((item, idx) => {
+      if (idx === selectedIndex) {
+        item.classList.add('bg-amber-100/80', 'ring-2', 'ring-[#0A5517]/40', 'border-[#0A5517]/30');
+        item.classList.remove('hover:bg-amber-50');
+        item.setAttribute('aria-selected', 'true');
+        item.scrollIntoView({ block: 'nearest' });
+      } else {
+        item.classList.remove('bg-amber-100/80', 'ring-2', 'ring-[#0A5517]/40', 'border-[#0A5517]/30');
+        item.classList.add('hover:bg-amber-50');
+        item.setAttribute('aria-selected', 'false');
+      }
+    });
+  }
+
+  function getResultCards() {
+    return Array.from(resultsDiv?.querySelectorAll('.search-result-card') || []);
+  }
+
   function openModal() {
     modal?.classList.remove('hidden');
     modal?.classList.add('flex');
+    selectedIndex = -1;
     input?.focus();
     initPagefind();
   }
@@ -69,6 +91,7 @@
   function closeModal() {
     modal?.classList.add('hidden');
     modal?.classList.remove('flex');
+    selectedIndex = -1;
     if (input) input.value = '';
     if (resultsDiv) resultsDiv.innerHTML = '<p class="text-xs text-stone-400 text-center py-8">Digite para pesquisar em todos os 165 verbetes e transcrições do acervo...</p>';
   }
@@ -81,14 +104,51 @@
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
       e.preventDefault();
       openModal();
+      return;
     }
-    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+
+    if (modal?.classList.contains('hidden')) return;
+
+    if (e.key === 'Escape') {
       closeModal();
+      return;
+    }
+
+    const cards = getResultCards();
+
+    if (e.key === 'ArrowDown') {
+      if (!cards.length) return;
+      e.preventDefault();
+      if (selectedIndex < cards.length - 1) {
+        selectedIndex++;
+        updateSelectedCard(cards);
+      }
+    } else if (e.key === 'ArrowUp') {
+      if (!cards.length) return;
+      if (selectedIndex === 0) {
+        e.preventDefault();
+        selectedIndex = -1;
+        updateSelectedCard(cards);
+        input?.focus();
+      } else if (selectedIndex > 0) {
+        e.preventDefault();
+        selectedIndex--;
+        updateSelectedCard(cards);
+      }
+    } else if (e.key === 'Enter') {
+      if (selectedIndex >= 0 && cards[selectedIndex]) {
+        e.preventDefault();
+        cards[selectedIndex].click();
+      } else if (selectedIndex === -1 && cards.length > 0 && document.activeElement === input) {
+        e.preventDefault();
+        cards[0].click();
+      }
     }
   });
 
   input?.addEventListener('input', async (e) => {
     const q = e.target.value.trim();
+    selectedIndex = -1;
     if (!q || !resultsDiv) return;
 
     const pf = await initPagefind();
@@ -117,10 +177,18 @@
     const data = await Promise.all(five.map((r) => r.data()));
 
     const fragment = document.createDocumentFragment();
-    data.forEach((item) => {
+    data.forEach((item, index) => {
       const card = document.createElement('a');
       card.href = item.url;
-      card.className = 'block p-3 rounded-xl hover:bg-amber-50 transition-colors';
+      card.className = 'search-result-card block p-3 rounded-xl border border-transparent hover:bg-amber-50 transition-all cursor-pointer';
+      card.setAttribute('role', 'option');
+      card.setAttribute('aria-selected', 'false');
+      card.setAttribute('data-index', String(index));
+
+      card.addEventListener('mouseenter', () => {
+        selectedIndex = index;
+        updateSelectedCard(getResultCards());
+      });
 
       const titleH4 = document.createElement('h4');
       titleH4.className = 'font-serif font-bold text-stone-900 text-base mb-1';
@@ -129,11 +197,8 @@
 
       const excerptP = document.createElement('p');
       excerptP.className = 'text-xs text-stone-600 line-clamp-2';
-      // excerpt do Pagefind pode conter marcas <mark> seguras para destaque de texto
-      // Se contiver tags, sanitizamos ou inserimos de forma segura
       const tempDiv = document.createElement('div');
       tempDiv.innerHTML = item.excerpt || '';
-      // Garantir que nenhum elemento perigoso (script, iframe, img, etc) sobreviva no excerpt
       tempDiv.querySelectorAll('script, iframe, object, embed, img, svg, form').forEach(el => el.remove());
       excerptP.replaceChildren(...Array.from(tempDiv.childNodes));
       card.appendChild(excerptP);

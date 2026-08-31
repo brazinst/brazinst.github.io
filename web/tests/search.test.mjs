@@ -13,7 +13,10 @@ const requiredFiles = [
       '/pagefind/pagefind.js',
       'pagefind.search',
       'initPagefind',
-      'Escape'
+      'Escape',
+      'ArrowDown',
+      'ArrowUp',
+      'selectedIndex'
     ],
   },
   {
