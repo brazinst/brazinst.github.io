@@ -19,7 +19,7 @@
 
     <div id="search-results" class="p-4 overflow-y-auto space-y-3 flex-grow divide-y divide-stone-100">
       <p class="text-xs text-stone-400 text-center py-8">
-        Digite para pesquisar em todos os 78 verbetes e transcrições do acervo...
+        Digite para pesquisar em todos os 165 verbetes e transcrições do acervo...
       </p>
     </div>
   </div>
@@ -27,6 +27,7 @@
 
 <script>
   let pagefind: any = null;
+  let pagefindLoading: Promise<any> | null = null;
   const modal = document.getElementById('search-modal');
   const input = document.getElementById('search-input') as HTMLInputElement;
   const resultsDiv = document.getElementById('search-results');
@@ -34,15 +35,26 @@
   const closeBtn = document.getElementById('search-close');
 
   async function initPagefind() {
-    if (!pagefind) {
+    if (pagefind) return pagefind;
+    if (pagefindLoading) return pagefindLoading;
+
+    pagefindLoading = (async () => {
       try {
-        const pagefindPath = '/pagefind/pagefind.js';
-        pagefind = await import(/* @vite-ignore */ pagefindPath);
-        await pagefind.init();
+        // Carrega o pagefind.js em runtime sem que o Vite injete __VITE_PRELOAD__
+        const loadFn = new Function('p', 'return import(p)');
+        const pf = await loadFn('/pagefind/pagefind.js');
+        await pf.init();
+        pagefind = pf;
+        return pf;
       } catch (e) {
-        console.log('Pagefind disponível após o build de produção.');
+        console.warn('Pagefind disponível após o build de produção (npm run build).', e);
+        return null;
+      } finally {
+        pagefindLoading = null;
       }
-    }
+    })();
+
+    return pagefindLoading;
   }
 
   function openModal() {
@@ -56,7 +68,7 @@
     modal?.classList.add('hidden');
     modal?.classList.remove('flex');
     if (input) input.value = '';
-    if (resultsDiv) resultsDiv.innerHTML = '<p class="text-xs text-stone-400 text-center py-8">Digite para pesquisar no acervo...</p>';
+    if (resultsDiv) resultsDiv.innerHTML = '<p class="text-xs text-stone-400 text-center py-8">Digite para pesquisar em todos os 165 verbetes e transcrições do acervo...</p>';
   }
 
   trigger?.addEventListener('click', openModal);
@@ -75,7 +87,13 @@
 
   input?.addEventListener('input', async (e) => {
     const q = (e.target as HTMLInputElement).value.trim();
-    if (!q || !pagefind || !resultsDiv) return;
+    if (!q || !resultsDiv) return;
+
+    const pf = await initPagefind();
+    if (!pf || !pagefind) {
+      resultsDiv.innerHTML = '<p class="text-xs text-amber-700 bg-amber-50 p-4 rounded-xl text-center border border-amber-200">A busca instantânea está disponível no ambiente de produção compilado (após executar <code>npm run build</code>).</p>';
+      return;
+    }
 
     const search = await pagefind.search(q);
     resultsDiv.replaceChildren();

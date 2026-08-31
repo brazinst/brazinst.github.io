@@ -23,7 +23,13 @@ const slug = data.slug || instrument.id;
 const summary = (instrument.body || '').slice(0, 160).replace(/[#*`_]/g, '') + '...';
 ---
 
-<article class="bg-white rounded-2xl border border-stone-200/90 shadow-2xs hover:shadow-md hover:border-[#0A5517]/30 transition-all duration-300 overflow-hidden flex flex-col group">
+<article 
+  class="instrument-card bg-white rounded-2xl border border-stone-200/90 shadow-2xs hover:shadow-md hover:border-[#0A5517]/30 transition-all duration-300 overflow-hidden flex flex-col group"
+  data-family={data.family}
+  data-title={data.title.toLowerCase()}
+  data-has-audio={data.audio_video_links.length > 0 ? "true" : "false"}
+  data-has-images={data.images.length > 0 ? "true" : "false"}
+>
   <a href={`/instrumentos/${slug}`} class="block relative aspect-[4/3] bg-stone-100 overflow-hidden">
     {coverImg ? (
       <img

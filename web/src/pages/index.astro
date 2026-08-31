@@ -23,10 +23,109 @@ const counts = {
   <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" data-pagefind-ignore>
     <FamilyTabs activeFamily="todos" counts={counts} />
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
+    <!-- Barra de Filtro Rápido Instantâneo -->
+    <div class="mt-4 mb-8 bg-white p-4 rounded-2xl border border-stone-200/90 shadow-2xs flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="relative w-full sm:w-80">
+        <input
+          type="text"
+          id="quick-filter-input"
+          placeholder="Filtrar por nome do instrumento..."
+          class="w-full text-xs font-sans pl-9 pr-3 py-2 bg-stone-50 hover:bg-stone-100/80 focus:bg-white rounded-xl border border-stone-200 focus:outline-none focus:ring-2 focus:ring-[#0A5517]/20 focus:border-[#0A5517] transition-all"
+        />
+        <svg class="w-4 h-4 text-stone-400 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+      </div>
+
+      <div class="flex items-center gap-2 flex-wrap text-xs">
+        <button
+          type="button"
+          class="quick-tag-btn px-3 py-1.5 rounded-full border border-stone-200 bg-stone-100 text-stone-700 font-medium hover:bg-stone-200 transition-colors cursor-pointer active"
+          data-filter="all"
+        >
+          Todos
+        </button>
+        <button
+          type="button"
+          class="quick-tag-btn px-3 py-1.5 rounded-full border border-stone-200 bg-white text-stone-600 font-medium hover:bg-stone-50 transition-colors cursor-pointer"
+          data-filter="audio"
+        >
+          🎵 Com gravações de áudio
+        </button>
+        <button
+          type="button"
+          class="quick-tag-btn px-3 py-1.5 rounded-full border border-stone-200 bg-white text-stone-600 font-medium hover:bg-stone-50 transition-colors cursor-pointer"
+          data-filter="images"
+        >
+          📷 Com fotos históricas
+        </button>
+      </div>
+
+      <div class="text-xs text-stone-500 font-sans shrink-0">
+        Mostrando <strong id="visible-count" class="text-stone-800">{allInstruments.length}</strong> de {allInstruments.length} instrumentos
+      </div>
+    </div>
+
+    <div id="instruments-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mt-6">
       {allInstruments.map(inst => (
         <InstrumentCard instrument={inst} />
       ))}
     </div>
+
+    <div id="no-results-msg" class="hidden text-center py-16">
+      <p class="text-stone-500 font-sans text-sm">Nenhum instrumento encontrado com os filtros selecionados.</p>
+    </div>
   </section>
+
+  <script>
+    const input = document.getElementById('quick-filter-input') as HTMLInputElement;
+    const cards = Array.from(document.querySelectorAll('.instrument-card')) as HTMLElement[];
+    const countEl = document.getElementById('visible-count');
+    const noResults = document.getElementById('no-results-msg');
+    const filterBtns = Array.from(document.querySelectorAll('.quick-tag-btn')) as HTMLElement[];
+
+    let activeFilter = 'all';
+
+    function applyFilters() {
+      const q = (input?.value || '').toLowerCase().trim();
+      let visible = 0;
+
+      cards.forEach(card => {
+        const title = card.getAttribute('data-title') || '';
+        const hasAudio = card.getAttribute('data-has-audio') === 'true';
+        const hasImages = card.getAttribute('data-has-images') === 'true';
+
+        const matchesQuery = !q || title.includes(q);
+        let matchesTag = true;
+        if (activeFilter === 'audio') matchesTag = hasAudio;
+        if (activeFilter === 'images') matchesTag = hasImages;
+
+        if (matchesQuery && matchesTag) {
+          card.style.display = '';
+          visible++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      if (countEl) countEl.textContent = String(visible);
+      if (noResults) {
+        if (visible === 0) noResults.classList.remove('hidden');
+        else noResults.classList.add('hidden');
+      }
+    }
+
+    input?.addEventListener('input', applyFilters);
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-stone-100', 'text-stone-700', 'active');
+          b.classList.add('bg-white', 'text-stone-600');
+        });
+        btn.classList.remove('bg-white', 'text-stone-600');
+        btn.classList.add('bg-stone-100', 'text-stone-700', 'active');
+        activeFilter = btn.getAttribute('data-filter') || 'all';
+        applyFilters();
+      });
+    });
+  </script>
 </BaseLayout>

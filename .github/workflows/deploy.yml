@@ -28,17 +28,32 @@ jobs:
           cache: npm
           cache-dependency-path: web/package.json
 
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Instalar Dependências Python
+        run: pip install -r requirements.txt
+
+      - name: Executar Testes Python (pytest)
+        run: pytest
+
       - name: Instalar Dependências (Strict Lockfile)
         run: cd web && npm ci
 
       - name: Sincronizar Conteúdo
         run: python3 scripts/sync_web_content.py
 
-      - name: Executar Testes Automatizados
+      - name: Executar Testes Unitários Web (Pré-Build)
         run: cd web && npm test
 
       - name: Build do Portal Astro e Pagefind
         run: cd web && npm run build
+
+      - name: Validar Busca Pagefind e Páginas Compiladas (Pós-Build)
+        run: cd web && npm test
 
       - name: Upload do Artefato
         uses: actions/upload-pages-artifact@v3

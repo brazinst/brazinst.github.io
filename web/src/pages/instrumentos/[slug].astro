@@ -26,9 +26,37 @@ const familyNames: Record<string, string> = {
   idiofones: 'Idiofones',
   membranofones: 'Membranofones',
 };
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': ['ScholarlyArticle', 'MusicInstrument'],
+  'name': data.title,
+  'headline': data.title,
+  'description': data.description || `Verbete sobre ${data.title}, instrumento da família dos ${data.family}.`,
+  'instrument': data.title,
+  'category': familyNames[data.family],
+  'identifier': data.mimo_code ? `MIMO ${data.mimo_code}` : undefined,
+  'author': {
+    '@type': 'Person',
+    'name': data.author || 'Equipe LABEET',
+  },
+  'editor': {
+    '@type': 'Person',
+    'name': data.reviewer || 'Alice L. Satomi',
+  },
+  'publisher': {
+    '@type': 'Organization',
+    'name': 'Laboratório de Estudos Etnomusicológicos (LABEET/UFPB)',
+    'url': 'https://brazil-instrumentarium.github.io',
+  },
+  'image': data.images.length > 0 ? `https://brazil-instrumentarium.github.io/${data.images[0].file}` : undefined,
+  'datePublished': data.published_date || undefined,
+  'dateModified': data.modified_date || undefined,
+};
 ---
 
 <BaseLayout title={data.title} description={`Verbete sobre ${data.title}, instrumento da família dos ${data.family} no acervo Brazil Instrumentarium (LABEET/UFPB).`}>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
   <article class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12" data-pagefind-body>
     <!-- Breadcrumbs -->
     <nav class="flex items-center gap-2 text-xs text-stone-500 mb-6 font-sans" data-pagefind-ignore>

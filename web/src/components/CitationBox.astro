@@ -9,33 +9,100 @@ interface Props {
 const { title, author = 'Equipe LABEET', reviewer = 'Alice L. Satomi', slug } = Astro.props;
 const authorDisplay = author || 'Equipe LABEET';
 const currentYear = new Date().getFullYear();
-const citationText = `SATOMI, Alice L. (Coord.); ${authorDisplay}. "${title}". In: Brazil Instrumentarium. Laboratório de Estudos Etnomusicológicos (LABEET/UFPB), ${currentYear}. Disponível em: <https://brazil-instrumentarium.github.io/instrumentos/${slug}>.`;
+const abntCitation = `SATOMI, Alice L. (Coord.); ${authorDisplay}. "${title}". In: Brazil Instrumentarium. Laboratório de Estudos Etnomusicológicos (LABEET/UFPB), ${currentYear}. Disponível em: <https://brazil-instrumentarium.github.io/instrumentos/${slug}>.`;
+
+// BibTeX
+const cleanSlug = slug.replace(/[^a-zA-Z0-9]/g, '_').toLowerCase();
+const bibtexCitation = `@misc{brazinst_${cleanSlug}_${currentYear},
+  author       = {Satomi, Alice Lumi and {${authorDisplay}}},
+  title        = {${title}},
+  howpublished = {Brazil Instrumentarium, Laboratório de Estudos Etnomusicológicos (LABEET/UFPB)},
+  year         = {${currentYear}},
+  url          = {https://brazil-instrumentarium.github.io/instrumentos/${slug}}
+}`;
 ---
 
 <div class="my-10 bg-stone-100/90 rounded-2xl p-6 border border-stone-200">
-  <div class="flex items-center justify-between mb-3">
-    <h4 class="font-sans font-semibold text-xs uppercase tracking-wider text-stone-700 flex items-center gap-2">
-      <span>📚</span> Como citar este verbete (ABNT)
-    </h4>
+  <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-3">
+    <div class="flex items-center gap-3">
+      <h4 class="font-sans font-semibold text-xs uppercase tracking-wider text-stone-700 flex items-center gap-2">
+        <span>📚</span> Como citar este verbete
+      </h4>
+      <div class="inline-flex rounded-lg bg-stone-200 p-0.5 text-[11px] font-medium font-sans">
+        <button
+          type="button"
+          id="tab-abnt-btn"
+          class="px-2.5 py-1 rounded-md bg-white text-stone-800 shadow-xs cursor-pointer active"
+        >
+          ABNT
+        </button>
+        <button
+          type="button"
+          id="tab-bibtex-btn"
+          class="px-2.5 py-1 rounded-md text-stone-600 hover:text-stone-900 cursor-pointer"
+        >
+          BibTeX
+        </button>
+      </div>
+    </div>
+
     <button
       id="copy-citation-btn"
-      data-citation={citationText}
-      class="text-xs px-3 py-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 font-medium transition-colors flex items-center gap-1.5 shadow-sm cursor-pointer"
+      data-current-citation={abntCitation}
+      class="text-xs px-3 py-1.5 rounded-lg bg-white hover:bg-stone-50 border border-stone-300 text-stone-700 font-medium transition-colors flex items-center gap-1.5 shadow-sm cursor-pointer self-start sm:self-auto"
     >
       <svg class="w-3.5 h-3.5 text-stone-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2v-1M8 5a2 2 0 002 2h2a2 2 0 002-2M8 5a2 2 0 012-2h2a2 2 0 012 2m0 0h2a2 2 0 012 2v3m2 4H10m0 0l3-3m-3 3l3 3"></path></svg>
       <span>Copiar Citação</span>
     </button>
   </div>
-  <p class="font-mono text-xs text-stone-700 bg-white p-3.5 rounded-xl border border-stone-200 select-all leading-relaxed">
-    {citationText}
-  </p>
+
+  <div id="citation-box-abnt" class="block">
+    <p class="font-mono text-xs text-stone-700 bg-white p-3.5 rounded-xl border border-stone-200 select-all leading-relaxed">
+      {abntCitation}
+    </p>
+  </div>
+
+  <div id="citation-box-bibtex" class="hidden">
+    <pre class="font-mono text-xs text-stone-700 bg-white p-3.5 rounded-xl border border-stone-200 select-all leading-relaxed overflow-x-auto whitespace-pre-wrap">{bibtexCitation}</pre>
+  </div>
 </div>
 
-<script>
+<script define:vars={{ abntCitation, bibtexCitation }}>
   const btn = document.getElementById('copy-citation-btn');
+  const abntTab = document.getElementById('tab-abnt-btn');
+  const bibtexTab = document.getElementById('tab-bibtex-btn');
+  const abntBox = document.getElementById('citation-box-abnt');
+  const bibtexBox = document.getElementById('citation-box-bibtex');
+
+  let currentFormat = 'abnt';
+
+  function setFormat(format) {
+    currentFormat = format;
+    if (format === 'abnt') {
+      abntBox?.classList.remove('hidden');
+      bibtexBox?.classList.add('hidden');
+      abntTab?.classList.add('bg-white', 'text-stone-800', 'shadow-xs');
+      abntTab?.classList.remove('text-stone-600');
+      bibtexTab?.classList.remove('bg-white', 'text-stone-800', 'shadow-xs');
+      bibtexTab?.classList.add('text-stone-600');
+      btn?.setAttribute('data-current-citation', abntCitation);
+    } else {
+      abntBox?.classList.add('hidden');
+      bibtexBox?.classList.remove('hidden');
+      bibtexTab?.classList.add('bg-white', 'text-stone-800', 'shadow-xs');
+      bibtexTab?.classList.remove('text-stone-600');
+      abntTab?.classList.remove('bg-white', 'text-stone-800', 'shadow-xs');
+      abntTab?.classList.add('text-stone-600');
+      btn?.setAttribute('data-current-citation', bibtexCitation);
+    }
+  }
+
+  abntTab?.addEventListener('click', () => setFormat('abnt'));
+  bibtexTab?.addEventListener('click', () => setFormat('bibtex'));
+
   if (btn) {
     btn.addEventListener('click', async () => {
-      const text = btn.getAttribute('data-citation') || '';
+      const text = btn.getAttribute('data-current-citation') || abntCitation;
       try {
         await navigator.clipboard.writeText(text);
         const span = btn.querySelector('span');
