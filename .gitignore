@@ -4,3 +4,8 @@ __pycache__/
 backup_full/
 content_brazinst/
 .superpowers/
+.DS_Store
+dist/
+.astro/
+node_modules/
+
