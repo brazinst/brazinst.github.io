@@ -107,8 +107,8 @@ class LabeetMirror:
                                 if is_allowed_url(self.base_url, abs_link) and abs_link not in seen:
                                     seen.add(abs_link)
                                     self.queue.append(abs_link)
-                    except Exception:
-                        pass
+                    except Exception as e:
+                        log(f"Aviso ao analisar links locais em {local_path}: {e}", "DEBUG")
                 continue
 
             processed_count += 1

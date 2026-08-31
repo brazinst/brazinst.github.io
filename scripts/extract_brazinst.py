@@ -456,7 +456,7 @@ class BrazinstExtractor:
                                 "original_url": img_url
                             })
                     except Exception as e:
-                        pass
+                        log(f"Falha ao baixar imagem {img_url}: {e}", "WARN")
 
                 frontmatter = {
                     "title": data["title"],

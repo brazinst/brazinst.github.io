@@ -78,19 +78,48 @@
     if (!q || !pagefind || !resultsDiv) return;
 
     const search = await pagefind.search(q);
+    resultsDiv.replaceChildren();
+
     if (!search.results.length) {
-      resultsDiv.innerHTML = `<p class="text-xs text-stone-500 text-center py-8">Nenhum instrumento encontrado para "<strong>${q}</strong>".</p>`;
+      const emptyP = document.createElement('p');
+      emptyP.className = 'text-xs text-stone-500 text-center py-8';
+      emptyP.appendChild(document.createTextNode('Nenhum instrumento encontrado para "'));
+      const strong = document.createElement('strong');
+      strong.textContent = q;
+      emptyP.appendChild(strong);
+      emptyP.appendChild(document.createTextNode('".'));
+      resultsDiv.appendChild(emptyP);
       return;
     }
 
     const five = search.results.slice(0, 5);
     const data = await Promise.all(five.map((r: any) => r.data()));
 
-    resultsDiv.innerHTML = data.map((item: any) => `
-      <a href="${item.url}" class="block p-3 rounded-xl hover:bg-amber-50 transition-colors">
-        <h4 class="font-serif font-bold text-stone-900 text-base mb-1">${item.meta.title || 'Verbete'}</h4>
-        <p class="text-xs text-stone-600 line-clamp-2">${item.excerpt}</p>
-      </a>
-    `).join('');
+    const fragment = document.createDocumentFragment();
+    data.forEach((item: any) => {
+      const card = document.createElement('a');
+      card.href = item.url;
+      card.className = 'block p-3 rounded-xl hover:bg-amber-50 transition-colors';
+
+      const titleH4 = document.createElement('h4');
+      titleH4.className = 'font-serif font-bold text-stone-900 text-base mb-1';
+      titleH4.textContent = item.meta.title || 'Verbete';
+      card.appendChild(titleH4);
+
+      const excerptP = document.createElement('p');
+      excerptP.className = 'text-xs text-stone-600 line-clamp-2';
+      // excerpt do Pagefind pode conter marcas <mark> seguras para destaque de texto
+      // Se contiver tags, sanitizamos ou inserimos de forma segura
+      const tempDiv = document.createElement('div');
+      tempDiv.innerHTML = item.excerpt || '';
+      // Garantir que nenhum elemento perigoso (script, iframe, img, etc) sobreviva no excerpt
+      tempDiv.querySelectorAll('script, iframe, object, embed, img, svg, form').forEach(el => el.remove());
+      excerptP.replaceChildren(...Array.from(tempDiv.childNodes));
+      card.appendChild(excerptP);
+
+      fragment.appendChild(card);
+    });
+
+    resultsDiv.appendChild(fragment);
   });
 </script>

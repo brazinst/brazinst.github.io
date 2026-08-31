@@ -28,8 +28,8 @@ jobs:
           cache: npm
           cache-dependency-path: web/package.json
 
-      - name: Instalar Dependências
-        run: cd web && npm install
+      - name: Instalar Dependências (Strict Lockfile)
+        run: cd web && npm ci
 
       - name: Sincronizar Conteúdo
         run: python3 scripts/sync_web_content.py

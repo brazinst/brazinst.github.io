@@ -56,8 +56,9 @@ def main():
                 for token in [val, clean_val, base_name, unquoted_name]:
                     if token and len(token) > 2:
                         link_index.setdefault(token, []).append(ref_info)
-        except Exception:
-            pass
+        except Exception as e:
+            # Arquivo HTML binário ou ilegível ignorado com aviso
+            print(f"[WARN] Falha ao indexar arquivo {h}: {e}")
 
     # Classificar e mapear cada URL com falha
     report_rows = []
