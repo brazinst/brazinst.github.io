@@ -91,7 +91,7 @@ def test_parse_verbete_html_plone_nitf():
         "http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_of_aerofones/Afofie"
     )
     assert data["title"] == "Afofiê"
-    assert data["slug"] == "Afofie"
+    assert data["slug"] == "afofie"
     assert data["family"] == "aerofones"
     assert data["subtitle"] == "Flauta tradicional"
     assert "Pequena flauta de taquara" in data["description"]

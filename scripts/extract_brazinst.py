@@ -29,6 +29,84 @@ CATEGORY_DIR_MAP = {
     "copy_of_aerofones": "aerofones"
 }
 
+SLUG_OVERRIDES = {
+    # Aerofones
+    ("aerofones", "Afofie"): "afofie",
+    ("aerofones", "Baixao"): "baixao",
+    ("aerofones", "Berrante"): "berrante",
+    ("aerofones", "Bore"): "bore",
+    ("aerofones", "Botuto"): "botuto",
+    ("aerofones", "Buzio"): "buzio",
+    ("aerofones", "Cangoeira"): "cangoeira",
+    ("aerofones", "Charamela"): "charamela",
+    ("aerofones", "Trombeta"): "trombeta",
+    ("aerofones", "copy_of_dasmae"): "matapu",
+    ("aerofones", "copy_of_adjulona-s-m"): "pifano",
+    ("aerofones", "copy_of_tarawi"): "pireu-xixi",
+    ("aerofones", "copy_of_aidje"): "sacabuxa",
+    ("aerofones", "copy_of_takwara"): "talapi",
+    ("aerofones", "copy2_of_takwara"): "tule",
+    ("aerofones", "copy5_of_araue"): "upawa",
+    
+    # Cordofones
+    ("cordofones", "Berimbau-de-boca"): "berimbau-de-boca",
+    ("cordofones", "Berimbau-de-lata"): "berimbau-de-lata",
+    ("cordofones", "copy2_of_gualambo"): "bandolim",
+    ("cordofones", "copy7_of_Viola de 10 cordas"): "cavaquinho",
+    ("cordofones", "copy7_of_Viola%20de%2010%20cordas"): "cavaquinho",
+    ("cordofones", "Marimbau Armorial"): "marimbau-armorial",
+    ("cordofones", "Marimbau%20Armorial"): "marimbau-armorial",
+    ("cordofones", "copy_of_Viola de 10 cordas"): "mbaraka",
+    ("cordofones", "copy_of_Viola%20de%2010%20cordas"): "mbaraka",
+    ("cordofones", "copy3_of_Viola de 10 cordas"): "rave",
+    ("cordofones", "copy3_of_Viola%20de%2010%20cordas"): "rave",
+    ("cordofones", "copy_of_gualambo"): "viola-angrense",
+    ("cordofones", "copy8_of_Viola de 10 cordas"): "viola-de-buriti",
+    ("cordofones", "copy8_of_Viola%20de%2010%20cordas"): "viola-de-buriti",
+    ("cordofones", "copy5_of_Viola de 10 cordas"): "viola-de-cocho",
+    ("cordofones", "copy5_of_Viola%20de%2010%20cordas"): "viola-de-cocho",
+    ("cordofones", "Viola de 10 cordas"): "viola-de-dez-cordas",
+    ("cordofones", "Viola%20de%2010%20cordas"): "viola-de-dez-cordas",
+    ("cordofones", "copy6_of_Viola de 10 cordas"): "viola-dinamica",
+    ("cordofones", "copy6_of_Viola%20de%2010%20cordas"): "viola-dinamica",
+    ("cordofones", "copy4_of_Viola de 10 cordas"): "viola-machete",
+    ("cordofones", "copy4_of_Viola%20de%2010%20cordas"): "viola-machete",
+    ("cordofones", "copy9_of_Viola de 10 cordas"): "violao-de-sete-cordas",
+    ("cordofones", "copy9_of_Viola%20de%2010%20cordas"): "violao-de-sete-cordas",
+    
+    # Idiofones
+    ("idiofones", "copy_of_reco-reco"): "alemao",
+    ("idiofones", "teste 478"): "bastoes-de-maculele",
+    ("idiofones", "teste%20478"): "bastoes-de-maculele",
+    ("idiofones", "copy2_of_araue"): "caixa-de-fosforo",
+    ("idiofones", "copy_of_carutana"): "cajon",
+    ("idiofones", "copy_of_chocalho_fieira"): "chocalho-fieira",
+    ("idiofones", "copy5_of_araue"): "enxada",
+    ("idiofones", "copy_of_araue"): "frigideira",
+    ("idiofones", "guarara"): "guarara-idiofone",
+    ("idiofones", "copy_of_maraca"): "maraca-de-lanca",
+    ("idiofones", "copy_of_zuza"): "matraca-de-procissao",
+    ("idiofones", "copy3_of_ytamyri"): "numiatoto",
+    ("idiofones", "copy_of_paraca"): "pau-de-chuva",
+    ("idiofones", "copy_of_caxixi"): "reco-gogo",
+    ("idiofones", "copy_of_sansa"): "serrote-musical",
+    ("idiofones", "copy_of_trocano"): "tamanco-do-trupe",
+    ("idiofones", "tamaraca"): "tamaraca-idiofone",
+    ("idiofones", "copy_of_triangulo"): "tambor-de-casco-de-tartaruga",
+    ("idiofones", "copy2_of_triangulo"): "tubo-estampado",
+    
+    # Membranofones
+    ("membranofones", "copy2_of_angua"): "andua",
+    ("membranofones", "copy_of_tambor"): "atabaque-de-mina",
+    ("membranofones", "copy_of_caixa"): "caixa-de-marabaixo",
+    ("membranofones", "copy2_of_caixa"): "caixa-quadrada",
+    ("membranofones", "guarara"): "guarara-membranofone",
+    ("membranofones", "copy_of_pandeiro"): "mussum",
+    ("membranofones", "copy3_of_caixa"): "surdo",
+    ("membranofones", "tamaraca"): "tamaraca-membranofone",
+    ("membranofones", "copy2_of_tambor"): "tambor-abata",
+}
+
 
 def clean_text(text: str) -> str:
     return re.sub(r'\s+', ' ', text).strip()
@@ -86,7 +164,8 @@ def parse_verbete_html(html_content: str, source_url: str, local_dir: Optional[P
 
     # Slug
     raw_slug = Path(source_url.rstrip("/")).name
-    slug = urllib.parse.unquote(raw_slug)
+    unquoted_slug = urllib.parse.unquote(raw_slug)
+    slug = SLUG_OVERRIDES.get((family, raw_slug), SLUG_OVERRIDES.get((family, unquoted_slug), unquoted_slug))
 
     # Metadados de autoria e datas
     byline = soup.find("div", class_="documentByLine") or soup.find("div", id="plone-document-byline")
@@ -302,6 +381,10 @@ class BrazinstExtractor:
     def run_offline(self):
         log(f"Iniciando extração OFFLINE do Brazil Instrumentarium a partir de {self.backup_dir}...")
         self.output_dir.mkdir(parents=True, exist_ok=True)
+        inst_dir = self.output_dir / "instruments"
+        if inst_dir.exists():
+            shutil.rmtree(inst_dir)
+        inst_dir.mkdir(parents=True, exist_ok=True)
         catalog = []
 
         total_extracted = 0

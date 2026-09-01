@@ -1,6 +1,6 @@
 ---
 title: Búzio
-slug: Buzio
+slug: buzio
 family: aerofones
 subtitle: null
 description: Instrumento de sopro utilizado no Brasil como buzina, tanto para o sagrado
@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-05-10'
 images:
-- file: media/aerofones/Buzio/img_01.jpeg
+- file: media/aerofones/buzio/img_01.jpeg
   caption: Buzio
   original_file: b9e317c5-3ad2-460e-9f9f-8c6baa755e9c.jpeg
 audio_video_links:

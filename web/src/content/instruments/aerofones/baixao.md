@@ -1,6 +1,6 @@
 ---
 title: Baixão
-slug: Baixao
+slug: baixao
 family: aerofones
 subtitle: null
 description: Instrumento de sopro de sonoridade grave cujo primeiro registros no Brasil
@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-06-13'
 images:
-- file: media/aerofones/Baixao/img_01.jpeg
+- file: media/aerofones/baixao/img_01.jpeg
   caption: Baixao
   original_file: 2a0bc017-3964-4bb8-a262-8cc4bf15a75b.jpeg
 audio_video_links: []

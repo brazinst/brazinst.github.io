@@ -1,6 +1,6 @@
 ---
 title: Arco de boca
-slug: Berimbau-de-boca
+slug: berimbau-de-boca
 family: cordofones
 subtitle: null
 description: O arco de boca é um arco musical (um bastão com as duas extremidades
@@ -14,10 +14,10 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-03-20'
 modified_date: '2021-08-29'
 images:
-- file: media/cordofones/Berimbau-de-boca/img_01.jpeg
+- file: media/cordofones/berimbau-de-boca/img_01.jpeg
   caption: Foto Julien Meyer Arco De Boca Detalhe
   original_file: 767de169-793b-448a-b65c-295394dcd269.jpeg
-- file: media/cordofones/Berimbau-de-boca/img_02.jpeg
+- file: media/cordofones/berimbau-de-boca/img_02.jpeg
   caption: Foto Julien Meyer Arco De Boca
   original_file: dd85e53b-5d5f-4861-aae0-564b08f37fb2.jpeg
 audio_video_links:

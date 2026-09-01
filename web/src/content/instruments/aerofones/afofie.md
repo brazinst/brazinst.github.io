@@ -1,6 +1,6 @@
 ---
 title: Afofie
-slug: Afofie
+slug: afofie
 family: aerofones
 subtitle: null
 description: 'Afofiê: Muito citada por Artur Ramos como uma pequena flauta de taquara
@@ -15,7 +15,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2026-03-11'
 images:
-- file: media/aerofones/Afofie/img_01.jpeg
+- file: media/aerofones/afofie/img_01.jpeg
   caption: Afofie
   original_file: 1c0d4b17-cb85-4215-9b68-28a01816db22.jpeg
 audio_video_links: []

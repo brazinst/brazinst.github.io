@@ -1,6 +1,6 @@
 ---
 title: Berrante
-slug: Berrante
+slug: berrante
 family: aerofones
 subtitle: null
 description: Trompa feita de cornos de boi para se soar à distância, utilizada para
@@ -15,7 +15,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-05-11'
 images:
-- file: media/aerofones/Berrante/img_01.jpeg
+- file: media/aerofones/berrante/img_01.jpeg
   caption: Berrante
   original_file: 24e1d5ae-edae-45a0-a0d1-406b0bd5bed6.jpeg
 audio_video_links: []

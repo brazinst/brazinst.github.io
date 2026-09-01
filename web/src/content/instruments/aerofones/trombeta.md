@@ -1,6 +1,6 @@
 ---
 title: Trombeta
-slug: Trombeta
+slug: trombeta
 family: aerofones
 subtitle: null
 description: Instrumento de sopro, uma das “trombetas de Jurupari”, por ser usada
@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-08-04'
 images:
-- file: media/aerofones/Trombeta/img_01.jpg
+- file: media/aerofones/trombeta/img_01.jpg
   caption: Trombeta
   original_file: original.jpg
 audio_video_links: []

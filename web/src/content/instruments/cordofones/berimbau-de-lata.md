@@ -1,6 +1,6 @@
 ---
 title: Berimbau de lata
-slug: Berimbau-de-lata
+slug: berimbau-de-lata
 family: cordofones
 subtitle: null
 description: O berimbau de lata é um cordofone simples, monocórdio, heterocorde; uma
@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-03-20'
 modified_date: '2021-08-29'
 images:
-- file: media/cordofones/Berimbau-de-lata/img_01.jpeg
+- file: media/cordofones/berimbau-de-lata/img_01.jpeg
   caption: Berimbau De Lata
   original_file: 2dbe7302-270b-494d-aa6d-5d81d65c95e6.jpeg
 audio_video_links:
