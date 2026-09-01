@@ -28,13 +28,37 @@
 <script is:inline type="module">
   let pagefind = null;
   let pagefindLoading = null;
+  let fallbackData = null;
+  let fallbackLoading = null;
+
   const modal = document.getElementById('search-modal');
   const input = document.getElementById('search-input');
   const resultsDiv = document.getElementById('search-results');
   const trigger = document.getElementById('search-trigger');
   const closeBtn = document.getElementById('search-close');
 
-  let pagefindError = null;
+  let activeQueryId = 0;
+  let selectedIndex = -1;
+
+  async function loadFallbackData() {
+    if (fallbackData) return fallbackData;
+    if (fallbackLoading) return fallbackLoading;
+
+    fallbackLoading = (async () => {
+      try {
+        const resp = await fetch('/search-fallback.json');
+        if (resp.ok) {
+          fallbackData = await resp.json();
+          return fallbackData;
+        }
+      } catch (e) {
+        console.warn('Fallback search data unavailable:', e);
+      }
+      return null;
+    })();
+
+    return fallbackLoading;
+  }
 
   async function initPagefind() {
     if (pagefind) return pagefind;
@@ -42,14 +66,14 @@
 
     pagefindLoading = (async () => {
       try {
-        const pf = await import('/pagefind/pagefind.js');
+        const pfPath = '/pagefind/pagefind.js';
+        const pf = await import(/* @vite-ignore */ pfPath);
         await pf.init();
         pagefind = pf;
-        pagefindError = null;
         return pf;
       } catch (e) {
-        console.error('Falha ao carregar Pagefind:', e);
-        pagefindError = e;
+        console.warn('Pagefind principal indisponível, ativando fallback de busca:', e);
+        await loadFallbackData();
         return null;
       } finally {
         pagefindLoading = null;
@@ -58,8 +82,6 @@
 
     return pagefindLoading;
   }
-
-  let selectedIndex = -1;
 
   function updateSelectedCard(items) {
     items.forEach((item, idx) => {
@@ -146,22 +168,15 @@
     }
   });
 
-  input?.addEventListener('input', async (e) => {
-    const q = e.target.value.trim();
-    selectedIndex = -1;
-    if (!q || !resultsDiv) return;
+  function normalize(str) {
+    return (str || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  }
 
-    const pf = await initPagefind();
-    if (!pf || !pagefind) {
-      const errMsg = pagefindError ? String(pagefindError?.message || pagefindError) : 'Índice de busca não carregado.';
-      resultsDiv.innerHTML = `<p class="text-xs text-amber-700 bg-amber-50 p-4 rounded-xl text-center border border-amber-200">Não foi possível carregar a busca no momento.<br><span class="text-[11px] text-stone-500 font-mono mt-1 block">${errMsg}</span></p>`;
-      return;
-    }
-
-    const search = await pagefind.search(q);
+  function renderResults(items, q, queryId) {
+    if (queryId !== activeQueryId) return;
     resultsDiv.replaceChildren();
 
-    if (!search.results.length) {
+    if (!items.length) {
       const emptyP = document.createElement('p');
       emptyP.className = 'text-xs text-stone-500 text-center py-8';
       emptyP.appendChild(document.createTextNode('Nenhum instrumento encontrado para "'));
@@ -173,11 +188,8 @@
       return;
     }
 
-    const five = search.results.slice(0, 5);
-    const data = await Promise.all(five.map((r) => r.data()));
-
     const fragment = document.createDocumentFragment();
-    data.forEach((item, index) => {
+    items.slice(0, 7).forEach((item, index) => {
       const card = document.createElement('a');
       card.href = item.url;
       card.className = 'search-result-card block p-3 rounded-xl border border-transparent hover:bg-amber-50 transition-all cursor-pointer';
@@ -190,22 +202,121 @@
         updateSelectedCard(getResultCards());
       });
 
+      const headerDiv = document.createElement('div');
+      headerDiv.className = 'flex items-center justify-between gap-2 mb-1';
+
       const titleH4 = document.createElement('h4');
-      titleH4.className = 'font-serif font-bold text-stone-900 text-base mb-1';
-      titleH4.textContent = item.meta.title || 'Verbete';
-      card.appendChild(titleH4);
+      titleH4.className = 'font-serif font-bold text-stone-900 text-base';
+      titleH4.textContent = item.title || 'Verbete';
+      headerDiv.appendChild(titleH4);
+
+      if (item.family) {
+        const familySpan = document.createElement('span');
+        familySpan.className = 'text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-emerald-50 text-[#0A5517] border border-emerald-200/60 font-sans';
+        familySpan.textContent = item.family;
+        headerDiv.appendChild(familySpan);
+      }
+      card.appendChild(headerDiv);
 
       const excerptP = document.createElement('p');
-      excerptP.className = 'text-xs text-stone-600 line-clamp-2';
-      const tempDiv = document.createElement('div');
-      tempDiv.innerHTML = item.excerpt || '';
-      tempDiv.querySelectorAll('script, iframe, object, embed, img, svg, form').forEach(el => el.remove());
-      excerptP.replaceChildren(...Array.from(tempDiv.childNodes));
+      excerptP.className = 'text-xs text-stone-600 line-clamp-2 leading-relaxed';
+      
+      if (item.excerptHtml) {
+        const tempDiv = document.createElement('div');
+        tempDiv.innerHTML = item.excerptHtml;
+        tempDiv.querySelectorAll('script, iframe, object, embed, img, svg, form').forEach(el => el.remove());
+        excerptP.replaceChildren(...Array.from(tempDiv.childNodes));
+      } else {
+        excerptP.textContent = item.description || item.snippet || '';
+      }
       card.appendChild(excerptP);
 
       fragment.appendChild(card);
     });
 
     resultsDiv.appendChild(fragment);
+  }
+
+  let debounceTimer = null;
+
+  input?.addEventListener('input', (e) => {
+    const q = e.target.value.trim();
+    selectedIndex = -1;
+
+    if (debounceTimer) clearTimeout(debounceTimer);
+
+    if (!q || !resultsDiv) {
+      if (resultsDiv) {
+        resultsDiv.innerHTML = '<p class="text-xs text-stone-400 text-center py-8">Digite para pesquisar em todos os 165 verbetes e transcrições do acervo...</p>';
+      }
+      return;
+    }
+
+    debounceTimer = setTimeout(async () => {
+      const queryId = ++activeQueryId;
+      const pf = await initPagefind();
+
+      if (pf && pagefind) {
+        try {
+          const search = await pagefind.search(q);
+          if (queryId !== activeQueryId) return;
+
+          const topResults = search.results.slice(0, 7);
+          const data = await Promise.all(topResults.map(r => r.data()));
+          if (queryId !== activeQueryId) return;
+
+          const items = data.map(d => ({
+            url: d.url,
+            title: d.meta?.title || 'Verbete',
+            family: d.meta?.family || '',
+            excerptHtml: d.excerpt || '',
+            description: '',
+            snippet: ''
+          }));
+
+          renderResults(items, q, queryId);
+          return;
+        } catch (searchErr) {
+          console.warn('Erro na busca Pagefind, alternando para fallback:', searchErr);
+        }
+      }
+
+      // Fallback catalog search
+      const catalog = await loadFallbackData();
+      if (queryId !== activeQueryId) return;
+
+      if (catalog && catalog.length > 0) {
+        const nQ = normalize(q);
+        const terms = nQ.split(/\s+/).filter(Boolean);
+
+        const matches = catalog.filter(inst => {
+          const fullText = normalize(`${inst.title} ${inst.family} ${inst.description} ${inst.mimo_code || ''} ${inst.author || ''} ${inst.snippet}`);
+          return terms.every(t => fullText.includes(t));
+        });
+
+        matches.sort((a, b) => {
+          const aTitle = normalize(a.title);
+          const bTitle = normalize(b.title);
+          if (aTitle === nQ) return -1;
+          if (bTitle === nQ) return 1;
+          if (aTitle.startsWith(nQ)) return -1;
+          if (bTitle.startsWith(nQ)) return 1;
+          return 0;
+        });
+
+        const items = matches.map(inst => ({
+          url: inst.url,
+          title: inst.title,
+          family: inst.family,
+          excerptHtml: null,
+          description: inst.description,
+          snippet: inst.snippet
+        }));
+
+        renderResults(items, q, queryId);
+      } else {
+        renderResults([], q, queryId);
+      }
+    }, 120);
   });
 </script>

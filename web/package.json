@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build && pagefind --site dist",
+    "build": "astro build && pagefind --site dist && node -e \"fs.cpSync('dist/pagefind', 'public/pagefind', {recursive: true, force: true})\"",
     "preview": "astro preview",
     "astro": "astro",
     "test": "node --test tests/*.test.mjs || (node tests/content.test.mjs && node tests/layout.test.mjs && node tests/cards.test.mjs && node tests/verbete.test.mjs && node tests/search.test.mjs)"
