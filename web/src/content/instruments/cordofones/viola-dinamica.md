@@ -14,14 +14,14 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-04-20'
 modified_date: '2021-08-26'
 images:
-- file: media/cordofones/viola-dinamica/img_01.jpg
-  caption: Afinaaonatural
+- file: media/cordofones/viola-dinamica/viola-dinamica-afinacao-natural.jpg
+  caption: Partitura e afinação natural da Viola Dinâmica
   original_file: original.jpg
-- file: media/cordofones/viola-dinamica/img_02.jpg
-  caption: Afinaaorioabaixocebolaocompleta
+- file: media/cordofones/viola-dinamica/viola-dinamica-afinacao-rio-abaixo-cebolao.jpg
+  caption: Partitura e afinação Rio Abaixo / Cebolão
   original_file: original.jpg
-- file: media/cordofones/viola-dinamica/img_03.jpeg
-  caption: Viola Dinamica
+- file: media/cordofones/viola-dinamica/viola-dinamica.jpeg
+  caption: Viola Dinâmica
   original_file: aa37665a-c581-4256-8b71-4f9dd2e4977f.jpeg
 audio_video_links:
 - title: Festival Violeiros do Brasil - Adelmo Arco Verde e Laís de Assis tocam viola
@@ -31,6 +31,9 @@ references:
 - 'ASSIS VALERIANO, Laís de. Adelmo Arcoverde e a viola nordestina na música instrumental
   de Recife. Universidade Federal da Paraíba: João Pessoa, 2018.'
 ---
+
+
+
 
 # Viola dinâmica
 

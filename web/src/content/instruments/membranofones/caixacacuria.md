@@ -12,11 +12,11 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-10'
 modified_date: '2019-02-11'
 images:
-- file: media/membranofones/caixacacuria/img_01.png
-  caption: Caixa De Cacuria
+- file: media/membranofones/caixacacuria/caixa-de-cacuria.png
+  caption: Caixa de Cacuriá
   original_file: 03af4d73-8ec5-48f0-839e-cddf541d5212.png
-- file: media/membranofones/caixacacuria/img_02.png
-  caption: Dona Tete Tocando A Caixa De Cacuria
+- file: media/membranofones/caixacacuria/caixa-de-cacuria-dona-tete.png
+  caption: Dona Teté tocando Caixa de Cacuriá
   original_file: c1f94ca9-392a-4a91-93e6-6f2eaaf4487b.png
 audio_video_links: []
 references:
@@ -32,6 +32,8 @@ references:
 - PACHECO, Gustavo; GOUVEIA, Cláudia; ABREU, Maria Clara. Caixeiras do Divino Espírito
   Santo de São Luís do Maranhão. Associação Cultural Caburé, 2005.
 ---
+
+
 
 # Caixa de cacuriá
 

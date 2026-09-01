@@ -12,10 +12,10 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2022-08-31'
 modified_date: '2025-12-11'
 images:
-- file: media/cordofones/viola-angrense/img_01.jpg
-  caption: Quais Sao Os Tipos De Viola Caipira Viola Caicara
+- file: media/cordofones/viola-angrense/viola-angrense-tipos-caipira-caicara.jpg
+  caption: 'Tipos de viola: caipira e caiçara'
   original_file: quais-sao-os-tipos-de-viola-caipira-viola-caicara.jpg
-- file: media/cordofones/viola-angrense/img_02.webp
+- file: media/cordofones/viola-angrense/viola-angrense.webp
   caption: Viola Angrense
   original_file: viola-angrense.webp
 audio_video_links: []
@@ -36,6 +36,8 @@ references:
   em: https://causasecausosangradosreis.blogspot.com/2016/09/a-viola-angrense-unica-no-mundo.html.
   Acesso em: 08 mar. 2022.'
 ---
+
+
 
 # Viola Angrense
 

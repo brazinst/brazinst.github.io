@@ -12,11 +12,11 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-03-20'
 modified_date: '2021-11-04'
 images:
-- file: media/cordofones/marimbau-armorial/img_01.jpeg
+- file: media/cordofones/marimbau-armorial/marimbau-armorial.jpeg
   caption: Marimbau Armorial
   original_file: 209b1e61-d129-46da-b9bf-4d954e366af3.jpeg
-- file: media/cordofones/marimbau-armorial/img_02.jpg
-  caption: Marimbau Em Uso Foto
+- file: media/cordofones/marimbau-armorial/marimbau-armorial-em-uso.jpg
+  caption: Marimbau Armorial em uso
   original_file: original.jpg
 audio_video_links:
 - title: Ficha Catalográfica
@@ -55,6 +55,8 @@ references:
 - Fernando Pintassilgo, documentário
 - Quinteto Armorial, documentário
 ---
+
+
 
 # Marimbau Armorial
 

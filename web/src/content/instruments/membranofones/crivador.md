@@ -12,26 +12,26 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2019-07-15'
 images:
-- file: media/membranofones/crivador/img_01.jpeg
-  caption: Crivador
+- file: media/membranofones/crivador/crivador.jpeg
+  caption: Tambor Crivador
   original_file: 2ab49737-89de-4251-aa84-7425d361e682.jpeg
-- file: media/membranofones/crivador/img_02.jpeg
-  caption: Crivador 2
+- file: media/membranofones/crivador/crivador-detalhe.jpeg
+  caption: Crivador em detalhe
   original_file: 91c083a1-9986-4ce1-8dd4-b8e2088955bc.jpeg
-- file: media/membranofones/crivador/img_03.png
-  caption: Crivador.Png
+- file: media/membranofones/crivador/crivador-esquema.png
+  caption: Esquema do Crivador
   original_file: 91aac4f8-adc3-4c3c-9cc0-70112f362e2a.png
-- file: media/membranofones/crivador/img_04.jpeg
-  caption: Grupo De Tambor De Crioula
+- file: media/membranofones/crivador/crivador-grupo-tambor-de-crioula.jpeg
+  caption: Grupo de Tambor de Crioula
   original_file: e111dac4-7a61-4f31-94d5-b25402a20c4b.jpeg
-- file: media/membranofones/crivador/img_05.jpeg
-  caption: Grupo De Tambor De Crioula2
+- file: media/membranofones/crivador/crivador-grupo-tambor-de-crioula-02.jpeg
+  caption: Tambor de Crioula em celebração
   original_file: d4949bb3-441c-4a30-82c9-29fe67fe5f87.jpeg
-- file: media/membranofones/crivador/img_06.jpeg
-  caption: Tambores
+- file: media/membranofones/crivador/crivador-conjunto-tambores.jpeg
+  caption: Conjunto de Tambores de Crioula
   original_file: 4ff0dd6f-7d4f-48e5-a053-fd0c42295f93.jpeg
-- file: media/membranofones/crivador/img_07.jpeg
-  caption: Tocadores Tambor De Crioula
+- file: media/membranofones/crivador/crivador-tocadores.jpeg
+  caption: Tocadores de Tambor de Crioula
   original_file: 3a365c82-4cbe-438a-b6c0-dce202c047f5.jpeg
 audio_video_links:
 - title: https://www.youtube.com/watch?v=2Sb9sozxxBY
@@ -55,6 +55,13 @@ references:
 - 'Disponível em: <https://www.youtube.com/watch?v=tUVeuYvscvA>. Acesso em 15 jul
   2019.'
 ---
+
+
+
+
+
+
+
 
 # Crivador
 

@@ -12,14 +12,14 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2019-02-19'
 images:
-- file: media/membranofones/bexiga/img_01.png
-  caption: Bastiao Tocando A Bexiga
+- file: media/membranofones/bexiga/bexiga-bastiao-tocando.png
+  caption: Bastião tocando a Bexiga (Cavalo Marinho)
   original_file: 176cc7e2-2f9e-4bf1-b050-ee4c6f53100c.png
-- file: media/membranofones/bexiga/img_02.png
+- file: media/membranofones/bexiga/bexiga.png
   caption: Bexigas
   original_file: 7538d34d-05a6-4a2a-bd9e-6da36542afae.png
-- file: media/membranofones/bexiga/img_03.png
-  caption: Mateus Tocando A Bexiga
+- file: media/membranofones/bexiga/bexiga-mateus-tocando.png
+  caption: Mateus tocando a Bexiga
   original_file: be4fbf01-09d9-4504-a1c5-04e2b303bf08.png
 audio_video_links: []
 references:
@@ -38,6 +38,9 @@ references:
 - Cavalo Marinho Boi Pintado - Mestre Grimário <https://youtu.be/S1d7VsGv2bw> Acessado
   em 19/02/2019
 ---
+
+
+
 
 # Bexiga
 

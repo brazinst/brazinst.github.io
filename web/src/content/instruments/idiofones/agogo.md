@@ -14,14 +14,14 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2019-07-08'
 images:
-- file: media/idiofones/agogo/img_01.jpeg
-  caption: Agogo 2
+- file: media/idiofones/agogo/agogo-duplo.jpeg
+  caption: Agogô duplo tradicional
   original_file: bddfd57e-d9b3-4fda-9444-70c0c699988d.jpeg
-- file: media/idiofones/agogo/img_02.jpeg
-  caption: Agogo 3
+- file: media/idiofones/agogo/agogo-triplo.jpeg
+  caption: Agogô triplo
   original_file: 0151b6ae-c353-4515-9496-a2f7866491be.jpeg
-- file: media/idiofones/agogo/img_03.jpeg
-  caption: Agogo
+- file: media/idiofones/agogo/agogo.jpeg
+  caption: Agogô de ferro
   original_file: 7fc82c2d-ea23-46b8-934c-05ca1d321eb0.jpeg
 audio_video_links:
 - title: https://www.youtube.com/watch?v=_kQIk1jJb9c
@@ -54,6 +54,9 @@ references:
 - '¹ Disponível em: <http://www.todosinstrumentosmusicais.com.br/conheca-o-instrumento-agogo.html>
   Acesso em: 5 fev 2017'
 ---
+
+
+
 
 # Agogô
 

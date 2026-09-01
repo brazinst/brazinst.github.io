@@ -15,11 +15,11 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-12'
 modified_date: '2018-11-05'
 images:
-- file: media/membranofones/cuica/img_01.jpeg
-  caption: Cuica 1
+- file: media/membranofones/cuica/cuica-aberta.jpeg
+  caption: Cuíca - vista do corpo
   original_file: 264f3359-01d3-4886-a2f2-125e407d522a.jpeg
-- file: media/membranofones/cuica/img_02.jpeg
-  caption: Cuica 2
+- file: media/membranofones/cuica/cuica.jpeg
+  caption: Cuíca tradicional
   original_file: f4ddf2a9-207d-4b11-aeba-751c6a5a5749.jpeg
 audio_video_links: []
 references:
@@ -34,6 +34,8 @@ references:
 - '¹ Disponível em: <http://www.todosinstrumentosmusicais.com.br/imagens-do-instrumento-cuica.html>
   Acesso em: 5 set 2016'
 ---
+
+
 
 # Cuíca
 

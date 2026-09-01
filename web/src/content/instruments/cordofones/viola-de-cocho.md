@@ -13,14 +13,14 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-04-20'
 modified_date: '2021-08-30'
 images:
-- file: media/cordofones/viola-de-cocho/img_01.jpeg
-  caption: Afinacao Cocho
+- file: media/cordofones/viola-de-cocho/viola-de-cocho-afinacao.jpeg
+  caption: Diagrama de afinação da Viola de Cocho
   original_file: 5ac8f108-25af-4770-9043-d33c7d3a1bd4.jpeg
-- file: media/cordofones/viola-de-cocho/img_02.jpeg
-  caption: Viola De Cocho
+- file: media/cordofones/viola-de-cocho/viola-de-cocho-corpo.jpeg
+  caption: Viola de Cocho em detalhe
   original_file: 5e85cc8b-82f9-490f-a4f4-d6649706f746.jpeg
-- file: media/cordofones/viola-de-cocho/img_03.jpeg
-  caption: Viola De Cocho 1
+- file: media/cordofones/viola-de-cocho/viola-de-cocho.jpeg
+  caption: Viola de Cocho tradicional
   original_file: f00ccb37-ed3e-48d6-abb6-7b53d231f86a.jpeg
 audio_video_links:
 - title: Poconé - Viola de Cocho, Cururu e Siriri
@@ -36,6 +36,9 @@ references:
 - 'BRASIL. Dossiê IPHAN 8: Modo de Fazer Viola-de-Cocho. Disponível em <http://portal.iphan.gov.br/uploads/ckfinder/arquivos/Dossie_modo_fazer_viola_cocho.pdf>
   Acessado em 30/08/2021.'
 ---
+
+
+
 
 # Viola de cocho
 

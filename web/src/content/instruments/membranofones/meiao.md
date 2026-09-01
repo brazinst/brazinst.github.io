@@ -12,26 +12,26 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2019-07-15'
 images:
-- file: media/membranofones/meiao/img_01.jpeg
-  caption: Grupo De Tambor De Crioula
+- file: media/membranofones/meiao/meiao-grupo-tambor-de-crioula.jpeg
+  caption: Grupo de Tambor de Crioula com Meião
   original_file: bb6d43e2-5174-4bfa-bf14-32e8e5ade486.jpeg
-- file: media/membranofones/meiao/img_02.jpeg
-  caption: Grupo De Tambor De Crioula2
+- file: media/membranofones/meiao/meiao-grupo-tambor-de-crioula-02.jpeg
+  caption: Tambor de Crioula em apresentação
   original_file: 85079880-8d0c-409d-b8ca-1b6be3617cf3.jpeg
-- file: media/membranofones/meiao/img_03.jpeg
-  caption: Meiao
+- file: media/membranofones/meiao/meiao.jpeg
+  caption: Tambor Meião
   original_file: 2823f4c7-62f3-4d5a-8537-984f7603f02e.jpeg
-- file: media/membranofones/meiao/img_04.jpeg
-  caption: Meiao 2
+- file: media/membranofones/meiao/meiao-detalhe.jpeg
+  caption: Meião em detalhe
   original_file: 71aabebf-d801-4f23-81c9-d36f3196a7a9.jpeg
-- file: media/membranofones/meiao/img_05.png
-  caption: Meiao.Png
+- file: media/membranofones/meiao/meiao-esquema.png
+  caption: Esquema estrutural do Meião
   original_file: 3fa08d18-bb83-4773-b363-91099223505a.png
-- file: media/membranofones/meiao/img_06.jpeg
-  caption: Tambor Grande Meiao E Crivador
+- file: media/membranofones/meiao/meiao-tambor-grande-crivador.jpeg
+  caption: Tambor Grande, Meião e Crivador juntos
   original_file: 0a8bb105-8a4e-4a63-a7be-81845df10c61.jpeg
-- file: media/membranofones/meiao/img_07.jpeg
-  caption: Tocadores Tambor De Crioula
+- file: media/membranofones/meiao/meiao-tocadores.jpeg
+  caption: Tocadores de Meião no Tambor de Crioula
   original_file: 8b9b8bab-a164-457b-b4bd-9d30cd01f57c.jpeg
 audio_video_links:
 - title: https://www.youtube.com/watch?v=2Sb9sozxxBY
@@ -50,6 +50,13 @@ references:
   DE MEMÓRIA, RITUAL E ESPETÁCULO. UNIRIO. Disponível em: < http://www3.ufrb.edu.br/ebecult/wp-content/uploads/2012/04/A-punga-do-tambor-de-crioula-no-Maranh%C2%8Bo-e-spac%C3%8C%C2%A7o-de-memo%C3%83%C3%85ria-ritual-e-espeta%C3%83%C3%85culo.pdf
   >. v. 83, p. C3. 2012.'
 ---
+
+
+
+
+
+
+
 
 # Meião
 

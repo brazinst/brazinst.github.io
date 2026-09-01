@@ -13,38 +13,38 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-03-20'
 modified_date: '2021-08-30'
 images:
-- file: media/cordofones/viola-de-dez-cordas/img_01.jpg
-  caption: Almir Sater Tocando Viola
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-almir-sater.jpg
+  caption: Almir Sater tocando Viola de dez cordas
   original_file: original.jpg
-- file: media/cordofones/viola-de-dez-cordas/img_02.jpeg
-  caption: Foto Machete
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-machete.jpeg
+  caption: Viola Machete
   original_file: a7af5d5a-afa3-475b-ace2-6b0dd76cbbce.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_03.jpeg
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-comum.jpeg
   caption: Viola Comum
   original_file: 170dc8b9-e2ed-4e8a-8f3d-87d49acc1241.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_04.jpeg
-  caption: Viola De Buriti
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-buriti.jpeg
+  caption: Viola de Buriti
   original_file: 7b64ffcf-2fd4-488f-9301-992cd08665bd.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_05.jpeg
-  caption: Viola De Cabaca
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-cabaca.jpeg
+  caption: Viola de Cabaça
   original_file: fc1d2733-873d-4c81-a9ec-f934557ba412.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_06.jpeg
-  caption: Viola De Cocho
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-cocho.jpeg
+  caption: Viola de Cocho
   original_file: 9cd08f16-c1d1-49f9-8d05-1ae172b55454.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_07.jpeg
-  caption: Viola De Fandango
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-fandango.jpeg
+  caption: Viola de Fandango
   original_file: b27967d8-9a20-4ca1-b1b9-222450de4895.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_08.jpeg
-  caption: Viola De Queluz
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-queluz.jpeg
+  caption: Viola de Queluz
   original_file: 5f59558a-a600-4860-9957-cbb873433cc3.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_09.jpeg
-  caption: Viola Dinamica
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-dinamica.jpeg
+  caption: Viola Dinâmica
   original_file: b51b66e2-7a03-478b-9b45-c5ab1f6c5343.jpeg
-- file: media/cordofones/viola-de-dez-cordas/img_10.jpg
-  caption: Violadinamicaaartedepontear
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-arte-de-pontear.jpg
+  caption: 'Viola dinâmica: A arte de pontear'
   original_file: original.jpg
-- file: media/cordofones/viola-de-dez-cordas/img_11.jpeg
-  caption: Violeiro De Repente No Espaco.Jpeg
+- file: media/cordofones/viola-de-dez-cordas/viola-de-dez-cordas-violeiro-de-repente.jpeg
+  caption: Violeiro de repente
   original_file: ba3f0d2e-62e2-49d3-8282-99adeb3ebced.jpeg
 audio_video_links:
 - title: Ficha Catalográfica
@@ -98,6 +98,17 @@ references:
 - https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tribunaribeirao.com.br%2Fsite%2Falmir-sater-e-a-viola-de-10-cordas%2F&psig=AOvVaw3djC7Tj4XXFxzdHeP5zUJ4&ust=1623447871647000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCsvfqEjvECFQAAAAAdAAAAABAD
 - https://paraiba.pb.gov.br/noticias/projeto-2018de-repente-no-espaco2019-apresenta-afonso-pequeno-e-miro-pereira
 ---
+
+
+
+
+
+
+
+
+
+
+
 
 # Viola de dez cordas
 

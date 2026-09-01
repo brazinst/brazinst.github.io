@@ -13,11 +13,11 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-12'
 modified_date: '2018-11-05'
 images:
-- file: media/membranofones/atabaque/img_01.jpeg
-  caption: Atabaque 1
+- file: media/membranofones/atabaque/atabaque-rum.jpeg
+  caption: Atabaque Rum
   original_file: a5f1eca9-a09b-4cc5-b9d0-e11880de5dbc.jpeg
-- file: media/membranofones/atabaque/img_02.jpeg
-  caption: Atabaque 2
+- file: media/membranofones/atabaque/atabaque.jpeg
+  caption: Atabaque tradicional
   original_file: 6aac651c-c387-4192-890b-bcf748c6c226.jpeg
 audio_video_links:
 - title: https://www.youtube.com/watch?v=J16C1jfEqYc
@@ -40,6 +40,8 @@ references:
 - '² Disponível em: <http://filhoscomfe.blogspot.com.br/2011/05/ogan-e-atabaques-rum-rumpi-le.html>
   Acesso em: 12 set 2016'
 ---
+
+
 
 # Atabaque
 

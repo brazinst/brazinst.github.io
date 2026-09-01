@@ -14,11 +14,11 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2018-11-05'
 images:
-- file: media/membranofones/adufe/img_01.jpeg
-  caption: Adufe 1
+- file: media/membranofones/adufe/adufe-frente.jpeg
+  caption: Adufe tradicional quadrado
   original_file: 93db4fb4-ce69-40f1-8e9b-e1d2558943df.jpeg
-- file: media/membranofones/adufe/img_02.jpeg
-  caption: Adufe 2
+- file: media/membranofones/adufe/adufe.jpeg
+  caption: Adufe
   original_file: 70b7e534-3789-426f-af31-8933e712580c.jpeg
 audio_video_links: []
 references:
@@ -38,6 +38,8 @@ references:
 - '² <https://cadernosdedanca.wordpress.com/2010/11/23/adufe/> Acesso em: 30 maio
   2016.'
 ---
+
+
 
 # Adufe
 
