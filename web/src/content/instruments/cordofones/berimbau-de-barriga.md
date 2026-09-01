@@ -12,14 +12,14 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-03-20'
 modified_date: '2022-01-20'
 images:
+- file: media/cordofones/berimbau-de-barriga/berimbau-mestre-pastinha.jpg
+  caption: Mestre Pastinha tocando berimbau
+  original_file: original.jpg
 - file: media/cordofones/berimbau-de-barriga/berimbau-quilombo-das-camelias.jpg
   caption: Berimbau e Caxixi (Quilombo das Camélias)
   original_file: original.jpg
 - file: media/cordofones/berimbau-de-barriga/berimbau-trio-gunga-medio-viola.jpg
   caption: Trio de berimbaus (Gunga, Médio e Viola)
-  original_file: original.jpg
-- file: media/cordofones/berimbau-de-barriga/berimbau-mestre-pastinha.jpg
-  caption: Mestre Pastinha tocando berimbau
   original_file: original.jpg
 audio_video_links:
 - title: Ficha Catalográfica
@@ -62,6 +62,7 @@ references:
 - <https://pt.wikipedia.org/wiki/Berimbau>
 - https://www.greenme.com.br/viver/esporte-e-tempo-livre/65706-capoeira-de-angola-berimbau-e-o-gingado-de-um-povo-que-se-defende-dancando/
 ---
+
 
 
 

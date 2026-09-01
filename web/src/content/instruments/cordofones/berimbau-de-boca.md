@@ -14,12 +14,12 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-03-20'
 modified_date: '2021-08-29'
 images:
-- file: media/cordofones/berimbau-de-boca/arco-de-boca-detalhe.jpeg
-  caption: 'Detalhe da palheta do Arco de Boca (Foto: Julien Meyer)'
-  original_file: 767de169-793b-448a-b65c-295394dcd269.jpeg
 - file: media/cordofones/berimbau-de-boca/arco-de-boca-julien-meyer.jpeg
   caption: 'Arco de Boca (Foto: Julien Meyer)'
   original_file: dd85e53b-5d5f-4861-aae0-564b08f37fb2.jpeg
+- file: media/cordofones/berimbau-de-boca/arco-de-boca-detalhe.jpeg
+  caption: 'Detalhe da palheta do Arco de Boca (Foto: Julien Meyer)'
+  original_file: 767de169-793b-448a-b65c-295394dcd269.jpeg
 audio_video_links:
 - title: Ficha Catalográfica
   url: https://docs.google.com/document/d/1lGgzFZwrslo-R9TdduR4xgXWd9DbZD0N/edit?usp=sharing&ouid=112458477419022859701&rtpof=true&sd=true
@@ -45,6 +45,7 @@ references:
   indígena. São Paulo: Peirópolis, 2017.'
 - 'SHAFFER, Kay. O Berimbau de barriga e seus toques. Rio de Janeiro: MEC, 1977.'
 ---
+
 
 
 

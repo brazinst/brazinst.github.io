@@ -12,15 +12,15 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2019-07-15'
 images:
+- file: media/membranofones/meiao/meiao.jpeg
+  caption: Tambor Meião
+  original_file: 2823f4c7-62f3-4d5a-8537-984f7603f02e.jpeg
 - file: media/membranofones/meiao/meiao-grupo-tambor-de-crioula.jpeg
   caption: Grupo de Tambor de Crioula com Meião
   original_file: bb6d43e2-5174-4bfa-bf14-32e8e5ade486.jpeg
 - file: media/membranofones/meiao/meiao-grupo-tambor-de-crioula-02.jpeg
   caption: Tambor de Crioula em apresentação
   original_file: 85079880-8d0c-409d-b8ca-1b6be3617cf3.jpeg
-- file: media/membranofones/meiao/meiao.jpeg
-  caption: Tambor Meião
-  original_file: 2823f4c7-62f3-4d5a-8537-984f7603f02e.jpeg
 - file: media/membranofones/meiao/meiao-detalhe.jpeg
   caption: Meião em detalhe
   original_file: 71aabebf-d801-4f23-81c9-d36f3196a7a9.jpeg
@@ -50,6 +50,7 @@ references:
   DE MEMÓRIA, RITUAL E ESPETÁCULO. UNIRIO. Disponível em: < http://www3.ufrb.edu.br/ebecult/wp-content/uploads/2012/04/A-punga-do-tambor-de-crioula-no-Maranh%C2%8Bo-e-spac%C3%8C%C2%A7o-de-memo%C3%83%C3%85ria-ritual-e-espeta%C3%83%C3%85culo.pdf
   >. v. 83, p. C3. 2012.'
 ---
+
 
 
 
