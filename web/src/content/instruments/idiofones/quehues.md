@@ -15,13 +15,18 @@ images: []
 audio_video_links: []
 references:
 - ALMEIDA Renato. História da música brasileira. 1942.
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Quehues
 
 > Instrumento idiofônico percutido indiretamente e suspenso por cordas "1.1.2.1.1.1." (HORNBOSTEL; SACHS, 1914)
 
-Quehues s.m. instrumento indígena, que segundo Barbosa Rodrigues (apud ALMEIDA, 1942, p. 38) "os quehues usados pelos Ipurucotó, os da tribu dos Corichaná, que sã chocalhos feitos de tecido de palha cheio de seixos, como guizos, 'que trazem pendentes de uma corda cujas extremidades seguram simultâneamente com ambas as mãos' ". Ver maracá.
+Quehues s.m. instrumento indígena, que segundo Barbosa Rodrigues (apud ALMEIDA, 1942, p. 38) "os quehues usados pelos Ipurucotó, os da tribu dos Corichaná, que sã chocalhos feitos de tecido de palha cheio de seixos, como guizos, 'que trazem pendentes de uma corda cujas extremidades seguram simultâneamente com ambas as mãos' ". Ver [maracá](/instrumentos/maraca).
 
 Lucas B. Potiguara
 

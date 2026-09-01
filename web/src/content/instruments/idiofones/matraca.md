@@ -40,6 +40,11 @@ references:
   2019'
 - 'Disponível em: <https://www.youtube.com/watch?v=eLfL7ckaLoo>. Acesso em 08 jul
   2019'
+related_instruments:
+- slug: tambor_grande
+  title: Tambor grande
+  family: membranofones
+  relation: Contexto / Naipe
 ---
 
 

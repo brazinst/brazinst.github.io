@@ -28,6 +28,11 @@ references:
 - '¹ Fontes consultadas por Helza Camêu:'
 - Izikowitz, K. G. Musical and other sound Instruments of the South American Indians.
 - Silva, A. Bruzzi Alves da. A Civilização Indígena do Uaupês.
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 
@@ -35,7 +40,7 @@ references:
 
 > Seria um idiofone percutido indiretamente, agitado e com forma recipiente ( quando os objetos sonoros se entrechocam contra a parede de um recipiente, como uma cabaça seca, Cucurbita Lagenaria, com sementes). Dessa forma, é classificado como 112.13.
 
-Yaxsã-ga s.m. Seria um idiofone percutido indiretamente, agitado e com forma recipiente ( quando os objetos sonoros se entrechocam contra a parede de um recipiente, como uma cabaça seca, Cucurbita Lagenaria, com sementes). Dessa forma, é classificado como 112.13. Deise Montardo e Helza Camêu descrevem como um chocalho globular. Seria uma variação do chocalho mais conhecido da cultura indígena. Ver maracá.
+Yaxsã-ga s.m. Seria um idiofone percutido indiretamente, agitado e com forma recipiente ( quando os objetos sonoros se entrechocam contra a parede de um recipiente, como uma cabaça seca, Cucurbita Lagenaria, com sementes). Dessa forma, é classificado como 112.13. Deise Montardo e Helza Camêu descrevem como um chocalho globular. Seria uma variação do chocalho mais conhecido da cultura indígena. Ver [maracá](/instrumentos/maraca).
 
 O instrumento foi registrado por Helza Camêu (1979:10) a partir das amostras da Biblioteca Nacional. O exemplar foi recolhido da coleção Marechal Rondon (1929), dos índios TUKANA, da região do Rio Tiquiê, no estado do Amazonas.
 

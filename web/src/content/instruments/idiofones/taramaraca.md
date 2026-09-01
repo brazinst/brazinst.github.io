@@ -15,13 +15,18 @@ images: []
 audio_video_links: []
 references:
 - ALMEIDA Renato. História da música brasileira. 1942.
+related_instruments:
+- slug: bastoes-de-ritmo
+  title: Bastões de Ritmo
+  family: idiofones
+  relation: Remissão / Similar
 ---
 
 # Tará-maracá
 
 > Instrumento idiofônico, um tipo de bastão de ritmo "1.1.1.2.3.2." (HORNBOSTEL; SACHS, 1914)
 
-Tará-maracá s.m. instrumento indígena, que segundo Barbosa Rodrigues (apud ALMEIDA, 1942, p. 40) "é um toré, tendo no centro uma rede, terminada em guizos da mesma fruta, (Thevetia neriifolia Jus) que, ao passo que toca, batido no chão, marca o compasso". Ver bastões de ritmo.
+Tará-maracá s.m. instrumento indígena, que segundo Barbosa Rodrigues (apud ALMEIDA, 1942, p. 40) "é um toré, tendo no centro uma rede, terminada em guizos da mesma fruta, (Thevetia neriifolia Jus) que, ao passo que toca, batido no chão, marca o compasso". Ver [bastões de ritmo](/instrumentos/bastoes-de-ritmo).
 
 Lucas B. Potiguara
 

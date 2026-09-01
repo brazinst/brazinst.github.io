@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: aiapa
+  title: Aiapá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Botory ou Boturi
 
 > Instrumento idiofônico percutido indiretamente e suspenso por cordas "1.1.2.1.1.1." (HORNBOSTEL; SACHS, 1914)
 
-Botory ou Boturi s.m. um instrumento idiofônico, um tipo de chocalho e segundo o Frei Pedro Sinzig (1976, p. 110), este é "conjunto de seixos, sementes, conchas, dentes, presos em fibras e atados nos tornozelos dos dançarinos, para marcar o compasso das danças". Ver aiapá.
+Botory ou Boturi s.m. um instrumento idiofônico, um tipo de chocalho e segundo o Frei Pedro Sinzig (1976, p. 110), este é "conjunto de seixos, sementes, conchas, dentes, presos em fibras e atados nos tornozelos dos dançarinos, para marcar o compasso das danças". Ver [aiapá](/instrumentos/aiapa).
 
 Lucas B. Potiguara
 

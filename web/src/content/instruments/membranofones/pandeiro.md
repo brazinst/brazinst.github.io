@@ -36,6 +36,11 @@ references:
   2017'
 - '²Disponível em: <http://www.nscottrobinson.com/framedrums.php> Acesso em: 5 fev
   2017'
+related_instruments:
+- slug: caixa-de-marabaixo
+  title: Caixa de Marabaixo
+  family: membranofones
+  relation: Contexto / Marabaixo
 ---
 
 
@@ -51,7 +56,7 @@ Desta forma, o pandeiro pode ser classificado como idiofone percutido indiretame
 
 Dada a versatilidade do pandeiro, ele pode ser encontrado nos mais diversos contextos musicais brasileiros, desde os mais difundidos até os mais peculiares. O pandeiro é imprescindível “no acompanhamento de música popular brasileira, desde suas primeiras manifestações urbanas” (de Melo, 1977). Desta forma, é habitual seu uso em rodas de samba, chorinho, nas escolas de samba dos carnavais, principalmente na região sudeste do nosso país.
 
-No nordeste, o pandeiro é também instrumento bastante usado nos mais variados gêneros musicais e manifestações culturais, como forró e frevo. É notório também seu uso no coco de embolada, ou embolada. Azevêdo (1996), classifica a embolada como “um sistema literário popular complexo e rico”. Ainda segundo ele, a embolada é cantada em duplas e o acompanhamento é feito, na maioria das vezes, no pandeiro — sendo o ganzá, ocasionalmente utilizado. Os emboladores se apresentam em locais públicos, como feiras, ruas, parques, praças, comícios, entre outros. Mário de Andrade (1982: 381) registra usos do pandeiro nos Cucumbis dos negros baianos, nos pastoris e nas folias do Divino cariocas. Também encontramos o pandeiro no norte do Brasil inserido no ciclo do Marabaixo*, possui um tamanho bem maior que os tradicionais sendo assim chamado de pandeirão, mas mantém as características organológicas do pandeiro. Ciclo do Marabaixo é um período festivo católico iniciado no sábado de aleluia, prosseguindo até o dia de Corpus Christi na capital amapaense, Macapá, em devoção ao Divino Espírito Santo e à Santíssima Trindade. (ver Caixa de Marabaixo)
+No nordeste, o pandeiro é também instrumento bastante usado nos mais variados gêneros musicais e manifestações culturais, como forró e frevo. É notório também seu uso no coco de embolada, ou embolada. Azevêdo (1996), classifica a embolada como “um sistema literário popular complexo e rico”. Ainda segundo ele, a embolada é cantada em duplas e o acompanhamento é feito, na maioria das vezes, no pandeiro — sendo o ganzá, ocasionalmente utilizado. Os emboladores se apresentam em locais públicos, como feiras, ruas, parques, praças, comícios, entre outros. Mário de Andrade (1982: 381) registra usos do pandeiro nos Cucumbis dos negros baianos, nos pastoris e nas folias do Divino cariocas. Também encontramos o pandeiro no norte do Brasil inserido no ciclo do Marabaixo*, possui um tamanho bem maior que os tradicionais sendo assim chamado de pandeirão, mas mantém as características organológicas do pandeiro. Ciclo do Marabaixo é um período festivo católico iniciado no sábado de aleluia, prosseguindo até o dia de Corpus Christi na capital amapaense, Macapá, em devoção ao Divino Espírito Santo e à Santíssima Trindade. (ver [Caixa de Marabaixo](/instrumentos/caixa-de-marabaixo))
 
 
 ### Referências

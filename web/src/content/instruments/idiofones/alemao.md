@@ -18,14 +18,19 @@ images:
 audio_video_links: []
 references:
 - ANDRADE, Mário de. 1982. Dicionário Musical Brasileiro. São Paulo.
+related_instruments:
+- slug: reco-reco
+  title: Reco-reco
+  family: idiofones
+  relation: Similar / Variante
 ---
 
 
 # Alemão
 
-> Instrumento idiofônico encontrado no nordeste do Brasil, similar ao reco-reco "1.1.2.2.2." (HORNBOSTEL; SACHS, 1914)
+> Instrumento idiofônico encontrado no nordeste do Brasil, similar ao [reco-reco](/instrumentos/reco-reco) "1.1.2.2.2." (HORNBOSTEL; SACHS, 1914)
 
-Alemão s.m. idiofone encontrado na região nordeste do Brasil, que é idêntico ao reco-reco. Mário de Andrade (1982, p. 16) descreve este como sendo um instrumento "composto de cápsulas de garrafa de cerveja em vários fios de arame presos numa prancha de madeira. Se toca batendo ou esfregando a mão direita nas cápsulas".
+Alemão s.m. idiofone encontrado na região nordeste do Brasil, que é idêntico ao [reco-reco](/instrumentos/reco-reco). Mário de Andrade (1982, p. 16) descreve este como sendo um instrumento "composto de cápsulas de garrafa de cerveja em vários fios de arame presos numa prancha de madeira. Se toca batendo ou esfregando a mão direita nas cápsulas".
 
 Lucas B. Potiguara
 

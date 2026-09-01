@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: itamaracamirim
+  title: Itamaracá-mirim
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Tamaracá mirim
 
 > Instrumento idiofônico, tipo de sino "1.1.1.2.4.4.1." (HORNBOSTEL; SACHS, 1914)
 
-Tamaracá mirim s.f. ver itamaracá-mirim.
+Tamaracá mirim s.f. ver [itamaracá-mirim](/instrumentos/itamaracamirim).
 
 Lucas B. Potiguara
 

@@ -34,6 +34,11 @@ references:
 - '¹ <https://pt.wikipedia.org/wiki/Ganz%C3%A1> Acesso em: 6 jun 2016'
 - '² <http://www.clednews.com/2010/09/chico-antonio-o-mestre-do-ganza.html> Acesso
   em: 6 jun 2016'
+related_instruments:
+- slug: caixa-de-marabaixo
+  title: Caixa de Marabaixo
+  family: membranofones
+  relation: Contexto / Remissão
 ---
 
 
@@ -49,7 +54,7 @@ Tratando do ganzá mais popular, como o da imagem 1, é um instrumento cilíndri
 
 Quanto a forma de tocar, o instrumento é segurado horizontalmente, podendo utilizar até as duas mãos, à depender do comprimento do ganzá. É, então, agitado para frente e para trás, movimento que faz com que o conteúdo interno se mova e provoque o som, semelhante ao de um chocalho.
 
-A utilização do ganzá alcança contextos muito amplos. Está presente em vários gêneros musicais, como o samba, sendo inclusive um dos instrumentos que fazem parte das baterias de escolas de samba. Presente também no axé, pagode, ijexá, candomblé, choro, maracatu, marabaixo (ver Caixa de Marabaixo), cirandas e cocos. Inclusive, no coco de embolada, o ganzá foi imortalizado por Mário de Andrade no texto Na pancada do ganzá que entrevista o embolador de coco Chico Antônio (figura 2).
+A utilização do ganzá alcança contextos muito amplos. Está presente em vários gêneros musicais, como o samba, sendo inclusive um dos instrumentos que fazem parte das baterias de escolas de samba. Presente também no axé, pagode, ijexá, candomblé, choro, maracatu, marabaixo (ver [Caixa de Marabaixo](/instrumentos/caixa-de-marabaixo)), cirandas e cocos. Inclusive, no coco de embolada, o ganzá foi imortalizado por Mário de Andrade no texto Na pancada do ganzá que entrevista o embolador de coco Chico Antônio (figura 2).
 
 
 ### Referências

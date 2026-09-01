@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Xuatê
 
 > Instrumento idiofônico indígena, espécie de maracá "1.1.2.1.3." (HORNBOSTEL; SACHS, 1914)
 
-Xuatê s.f. instrumento idiofônico, que segundo Frei Pedro Sinzig (1976), é uma "cabaça cheia de pedrinhas ou sementes, espécie de maracá, usada pelos índios brasileiros". Ver maracá.
+Xuatê s.f. instrumento idiofônico, que segundo Frei Pedro Sinzig (1976), é uma "cabaça cheia de pedrinhas ou sementes, espécie de maracá, usada pelos índios brasileiros". Ver [maracá](/instrumentos/maraca).
 
 Lucas B. Potiguara
 

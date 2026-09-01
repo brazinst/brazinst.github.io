@@ -100,6 +100,39 @@ const jsonLd = {
     <MediaGallery images={data.images} instrumentTitle={data.title} />
     <AudioPlayer links={data.audio_video_links} />
 
+    <!-- Instrumentos Relacionados e Remissões -->
+    {data.related_instruments && data.related_instruments.length > 0 && (
+      <section class="my-10 p-6 bg-emerald-50/40 rounded-2xl border border-emerald-200/60">
+        <h3 class="font-serif font-bold text-lg text-stone-900 mb-4 flex items-center gap-2">
+          <span>🔗</span> Instrumentos Relacionados / Remissões
+        </h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+          {data.related_instruments.map((item) => (
+            <a
+              href={`/instrumentos/${item.slug}`}
+              class="flex flex-col p-3.5 rounded-xl bg-white border border-stone-200 hover:border-[#0A5517] hover:shadow-sm transition-all group"
+            >
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="font-semibold text-stone-900 group-hover:text-[#0A5517] text-sm transition-colors">
+                  {item.title}
+                </span>
+                {item.family && (
+                  <span class="text-[10px] uppercase font-bold px-1.5 py-0.5 rounded bg-stone-100 text-stone-600 border border-stone-200">
+                    {familyNames[item.family] || item.family}
+                  </span>
+                )}
+              </div>
+              {item.relation && (
+                <span class="text-xs text-stone-500 font-sans">
+                  {item.relation}
+                </span>
+              )}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
     <!-- Referências Bibliográficas -->
     {data.references.length > 0 && (
       <section class="my-10 p-6 bg-stone-50 rounded-2xl border border-stone-200">

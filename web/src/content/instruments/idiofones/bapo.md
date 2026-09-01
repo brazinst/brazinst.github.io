@@ -26,6 +26,11 @@ references:
   4).'
 - Izikowitz, K. G. Musical and other sound Instruments of the South American Indians.
   Götenborg, Elender Boktryckery Aktiebolag, 1935.
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Família
 ---
 
 
@@ -33,7 +38,7 @@ references:
 
 > Seria um idiofone percutido indiretamente, agitado e com forma recipiente, quando os objetos sonoros se entrechocam e contra a parede de um recipiente, sendo assim, 112.13.
 
-Bapo s.m. Seria um idiofone percutido indiretamente, agitado e com forma recipiente, quando os objetos sonoros se entrechocam e contra a parede de um recipiente, sendo assim, 112.13. O instrumento enquadra-se nos classificados pela musicóloga Helza Camêu como chocalhos globulares (ver maracá).
+Bapo s.m. Seria um idiofone percutido indiretamente, agitado e com forma recipiente, quando os objetos sonoros se entrechocam e contra a parede de um recipiente, sendo assim, 112.13. O instrumento enquadra-se nos classificados pela musicóloga Helza Camêu como chocalhos globulares (ver [maracá](/instrumentos/maraca)).
 
 Segundo Helza Camêu (1979:19), o bapo é feito do fruto da Cucurbita Lagenaria, popularmente conhecida por cabaça. Ela é enchida por grãos, porém não é perfurada. A cabaça do bapo apresenta cobertura de penas e dispõe de punho curto. “Essa cobertura corresponde, de acordo com a coloração e as combinações de matrizes, à vinculação com determinado clã.”
 

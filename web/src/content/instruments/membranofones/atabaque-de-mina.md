@@ -18,14 +18,19 @@ images:
   original_file: 7f2924f7-202a-4f93-953a-da4b6c3567e7.jpeg
 audio_video_links: []
 references: []
+related_instruments:
+- slug: atabaque
+  title: Atabaque
+  family: membranofones
+  relation: Similar / Variante
 ---
 
 
 # Atabaque de Mina
 
-> Atabaque de mina jeje s. m. Membranofone utilizado na manifestação tambor de mina. Toca-se golpeando com as mãos, geralmente. Similar ao atabaque utilizado na capoeira e rituais do candomblé.
+> Atabaque de mina jeje s. m. Membranofone utilizado na manifestação tambor de mina. Toca-se golpeando com as mãos, geralmente. Similar ao [atabaque](/instrumentos/atabaque) utilizado na capoeira e rituais do candomblé.
 
-Atabaque de mina jeje s. m. Membranofone utilizado na manifestação tambor de mina. Toca-se golpeando com as mãos, geralmente. Similar ao atabaque utilizado na capoeira e rituais do candomblé.
+Atabaque de mina jeje s. m. Membranofone utilizado na manifestação tambor de mina. Toca-se golpeando com as mãos, geralmente. Similar ao [atabaque](/instrumentos/atabaque) utilizado na capoeira e rituais do candomblé.
 
 O atabaque de mina jeje pode ser classificado como um membranofone (2) pois o som do instrumento é obtido através de uma membrana de pele animal, 2.1 percutidos, 2.1.1 sendo percutido diretamente pelo instrumentista através da mão ou de uma baqueta, 2.1.1.1 corpo de formato semiesférico e abaulado, 2.1.1.2.1.1.1. Aberto, pois a extremidade oposta a membrana é aberta, 2.1.1.2.2. Tendo o diâmetro no meio do corpo é maior que nas extremidades, de acordo com classificação organológica de Hornbostel Sachs atualizada por Montagu.
 

@@ -20,14 +20,19 @@ images:
   original_file: 154cfa6f-5c90-4ff1-ba99-ac68d8c5203a.jpeg
 audio_video_links: []
 references: []
+related_instruments:
+- slug: viola-de-dez-cordas
+  title: Viola de dez cordas
+  family: cordofones
+  relation: Família / Remissão
 ---
 
 
 # Viola machete
 
-> É um tipo de viola de 10 cordas; trata-se de um cordofone com 5 ordens de cordas utilizado no samba de roda do Reconcavo Baiano. Cordofone composto, com o suporte das cordas e o ressonador formando um todo indissociável; consiste num alaúde com braço colado, ou seja, o braço é acoplado ao ressonador em forma de caixa, sendo uma viola com braço.
+> É um tipo de [viola de dez cordas](/instrumentos/viola-de-dez-cordas); trata-se de um cordofone com 5 ordens de cordas utilizado no samba de roda do Reconcavo Baiano. Cordofone composto, com o suporte das cordas e o ressonador formando um todo indissociável; consiste num alaúde com braço colado, ou seja, o braço é acoplado ao ressonador em forma de caixa, sendo uma viola com braço.
 
-Viola machete s. f. É uma variante de menor dimensao da viola de 10 cordas. Trata-se de um cordofone com 5 pares de cordas utilizado no samba de roda ou samba rural do Reconcavo Baiano. Podemos classificá-la como 3.2.1.3.2.2 dentro do sistema de classificação atualizado por Montagu (2011). Essa classificaçao aponta que é um cordofone composto, com o suporte das cordas e o ressonador formando um todo indissociável. Consiste num alaúde com braço colado, ou seja, este é acoplado ao ressonador que possui formato de caixa.
+Viola machete s. f. É uma variante de menor dimensao da [viola de dez cordas](/instrumentos/viola-de-dez-cordas). Trata-se de um cordofone com 5 pares de cordas utilizado no samba de roda ou samba rural do Reconcavo Baiano. Podemos classificá-la como 3.2.1.3.2.2 dentro do sistema de classificação atualizado por Montagu (2011). Essa classificaçao aponta que é um cordofone composto, com o suporte das cordas e o ressonador formando um todo indissociável. Consiste num alaúde com braço colado, ou seja, este é acoplado ao ressonador que possui formato de caixa.
 
 Segundo a pesquisa da etnomusicóloga Nina Graeff, a viola machete apresenta diferentes técnicas de execuçao no samba baiano, de acordo com o contexto cultural do grupo que a toca, o que também acontece com os outros instrumentos de cordas utilizados nessa manifestaçao cultural, como o violao e o cavaquinho. Existe a técnica polegar-indicador, que faz uso desses dois dedos para executar padroes rítmicos dedilhados. Muitos dos violeiros atuais tocam a viola com um plectro ou palheta, o que diminui a complexidade dos toques, uma vez que quebra a independencia entre os dedos no momento do dedilhado. Existe também a técnica que confere um tratamento acórdico ao som, na qual as notas sao rasgadas na formaçao de acordes, e nao pontilhadas na formaçao de melodias. (GRAEFF, 2015, p.93-94) Quanto à técnica polegar-indicador, Samuel Araújo observou que alguns cavaquinistas brasileiros preservam a herança africana dos tocadores de cordofones com braço. (apud SATOMI, 2005)
 

@@ -15,13 +15,18 @@ images: []
 audio_video_links: []
 references:
 - ALMEIDA Renato. História da música brasileira. 1942.
+related_instruments:
+- slug: aiapa
+  title: Aiapá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Auáiú
 
 > Instrumento idiofônico percutido indiretamente e suspenso por cordas "1.1.2.1.1.1." (HORNBOSTEL; SACHS, 1914)
 
-Auáiú s.m. instrumento idiofônico indígena, segundo Renato Almeida (1942, p. 37) utilizado pelos Tambê que "os colocavam acima dos tornozelos, na forma de ligas com guizos de piquiá". Almeida ainda acrescenta que "os Bororô também os usavam nos tornozelos ou nos joelhos". Ver aiapá.
+Auáiú s.m. instrumento idiofônico indígena, segundo Renato Almeida (1942, p. 37) utilizado pelos Tambê que "os colocavam acima dos tornozelos, na forma de ligas com guizos de piquiá". Almeida ainda acrescenta que "os Bororô também os usavam nos tornozelos ou nos joelhos". Ver [aiapá](/instrumentos/aiapa).
 
 Lucas B. Potiguara
 

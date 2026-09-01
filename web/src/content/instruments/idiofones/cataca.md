@@ -18,6 +18,15 @@ images:
 audio_video_links: []
 references:
 - ALMEIDA, Renato. História da música brasileira. 1942.
+related_instruments:
+- slug: reco-reco
+  title: Reco-reco
+  family: idiofones
+  relation: Similar / Variante
+- slug: caracalho
+  title: Caracalho
+  family: idiofones
+  relation: Mesmo tipo
 ---
 
 
@@ -27,7 +36,7 @@ references:
 
 Catacá s.m é um idiofone raspado que, segundo Stradelli (apud ALMEIDA, 1942 p. 36) “consiste em dois pedaços de tábua, ou mais comumente de taboca, um dentado e outro não, que o tocador toca fazendo passar mais ou menos rapidamente e com mais ou menos força o pedaço liso sobre o dentado. Apesar da habilidade do tocador, o efeito, está claro, não pode ser grande coisa; todavia no meio dos outros instrumentos primitivos, tocado por quem sabe marcar o tempo, nem sempre destoa”.
 
-Pode-se entender que o catacá é um instrumento variante do reco-reco, Renato Almeida (1942) ainda afirma que este é do mesmo tipo do Caracalho, originário dos També do rio do Capim no Pará, consistindo num bambú, com uma das faces aberta em duas incisões e outra denticulada.
+Pode-se entender que o catacá é um instrumento variante do [reco-reco](/instrumentos/reco-reco), Renato Almeida (1942) ainda afirma que este é do mesmo tipo do [Caracalho](/instrumentos/caracalho), originário dos També do rio do Capim no Pará, consistindo num bambú, com uma das faces aberta em duas incisões e outra denticulada.
 
 Lucas B. Potiguara
 

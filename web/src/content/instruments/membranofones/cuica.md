@@ -33,6 +33,19 @@ references:
 - _______________________________________________________
 - '¹ Disponível em: <http://www.todosinstrumentosmusicais.com.br/imagens-do-instrumento-cuica.html>
   Acesso em: 5 set 2016'
+related_instruments:
+- slug: caixa
+  title: Caixa
+  family: membranofones
+  relation: Contexto / Sambas Rurais
+- slug: reco-reco
+  title: Reco-reco
+  family: idiofones
+  relation: Contexto / Sambas Rurais
+- slug: tamborim
+  title: Tamborim
+  family: membranofones
+  relation: Contexto / Sambas Rurais
 ---
 
 
@@ -41,7 +54,7 @@ references:
 
 > Também chamada de puíta. Tambor de fricção, com uma baqueta de madeira interna e fixa, que é esfregada por panos úmidos ou dedos molhados provocando singulares intervalos de alturas para um membranofone. Seu nome coincide com um instrumento congo-angolano (ver Alvarenga 213), mas sua origem é difícil de determinar. Sua classificação seria 2.2.1.1.1. (Hornbostel; Sachs, 1914).
 
-Cuíca s.f. Também chamada de puíta. Tambor de fricção, com uma baqueta de madeira interna e fixa, que é esfregada por panos úmidos ou dedos molhados provocando singulares intervalos de alturas para um membranofone, "2.2.1.1.1." (Hornbostel; Sachs, 1914). Seu nome coincide com um instrumento congo-angolano (ver Alvarenga 213), mas sua origem é difícil de determinar. Há uma versão que sustenta que foram trazidos pelos escravos bantu. Mukuna observa que a cuíca é morfologicamente próxima à “kinfwiti”, usada entre os Bakongo (povo congolense), mas não preserva a mesma função de entretenimento e simbolismo ritual “o leopardo, o leão e as vozes ancestrais” (Mukuna 2010:87). A cuíca é usada extensivamente com instrumentos de percussão em escolas de samba, especialmente na região do sudeste brasileiro. É também usada para acompanhar números folclóricos e danças urbanas populares, por exemplo, pode fazer parte do conjunto instrumental para dança de Santa Cruz (derivada da tradição Ibérica), ou para o maracatu nordestino, e para danças dramáticas moçambique (bailado) em Minas Gerais, onde os outros instrumentos são a caixa, reco-reco e o xique-xique. É frequentemente usado com outros instrumentos em performances de sambas rurais (ver também KWTTA) — tanto como umbigada (uma variação do samba), com bombo, caixa, tamborim, reco-reco e guaiá (raspado) — ou samba de morro, uma dança de roda onde a música se alterna entre chamadas e respostas, é tocada com pandeiro, tamborim, surdo, caixa e agogô (ver Behágue, 1999). Os outros nomes da cuíca são: ronca; puíta, no Nordeste; omelê, no Rio de Janeiro; adufo, em Alagoas; tambor-onça, no Maranhão; onça, no meio do rio São Francisco; roncador, fungador e socador, no Maranhão e no Pará.
+Cuíca s.f. Também chamada de puíta. Tambor de fricção, com uma baqueta de madeira interna e fixa, que é esfregada por panos úmidos ou dedos molhados provocando singulares intervalos de alturas para um membranofone, "2.2.1.1.1." (Hornbostel; Sachs, 1914). Seu nome coincide com um instrumento congo-angolano (ver Alvarenga 213), mas sua origem é difícil de determinar. Há uma versão que sustenta que foram trazidos pelos escravos bantu. Mukuna observa que a cuíca é morfologicamente próxima à “kinfwiti”, usada entre os Bakongo (povo congolense), mas não preserva a mesma função de entretenimento e simbolismo ritual “o leopardo, o leão e as vozes ancestrais” (Mukuna 2010:87). A cuíca é usada extensivamente com instrumentos de percussão em escolas de samba, especialmente na região do sudeste brasileiro. É também usada para acompanhar números folclóricos e danças urbanas populares, por exemplo, pode fazer parte do conjunto instrumental para dança de Santa Cruz (derivada da tradição Ibérica), ou para o maracatu nordestino, e para danças dramáticas moçambique (bailado) em Minas Gerais, onde os outros instrumentos são a [caixa](/instrumentos/caixa), [reco-reco](/instrumentos/reco-reco) e o xique-xique. É frequentemente usado com outros instrumentos em performances de sambas rurais (ver também KWTTA) — tanto como umbigada (uma variação do samba), com bombo, [caixa](/instrumentos/caixa), [tamborim](/instrumentos/tamborim), [reco-reco](/instrumentos/reco-reco) e guaiá (raspado) — ou samba de morro, uma dança de roda onde a música se alterna entre chamadas e respostas, é tocada com pandeiro, tamborim, surdo, caixa e agogô (ver Behágue, 1999). Os outros nomes da cuíca são: ronca; puíta, no Nordeste; omelê, no Rio de Janeiro; adufo, em Alagoas; tambor-onça, no Maranhão; onça, no meio do rio São Francisco; roncador, fungador e socador, no Maranhão e no Pará.
 
 John M. Schechter; Alice L. Satomi
 

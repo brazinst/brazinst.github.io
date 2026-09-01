@@ -16,11 +16,16 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: adufe
+  title: Adufe
+  family: membranofones
+  relation: Similar / Variante
 ---
 
 # Anguá-miri
 
-> Instrumento membranofônico, similar ao adufe. " 2.1.1.3.1.2." (HORNBOSTEL; SACHS, 1914)
+> Instrumento membranofônico, similar ao [adufe](/instrumentos/adufe). " 2.1.1.3.1.2." (HORNBOSTEL; SACHS, 1914)
 
 Anguá-miri s.m como coloca Gondim (apud SINZIG, 1976 p. 37) este é o mesmo que "adufe, pandeiro português ou espanhol".
 

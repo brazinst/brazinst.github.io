@@ -36,6 +36,11 @@ references:
 - ¹ <http://concepto.de/triangulo/> Acesso em 6 jun 2016
 - ² <http://www3.folhape.com.br/cms/opencms/folhape/pt/Hotsite-LuizG/Gonzaga_Musico/Luiz_Gonzaga_eleva_baixo_ao_seu_estxgio_mais_nobre.html>
   Acesso em 6 jun 2016
+related_instruments:
+- slug: zabumba
+  title: Zabumba
+  family: membranofones
+  relation: Contexto / Forró
 ---
 
 
@@ -47,7 +52,7 @@ Triângulo s.m. Idiofone, percutido diretamente por um bastão (geralmente de fe
 
 Possui timbre brilhante, médio agudo, e seu som é emitido pelas vibrações que são provocadas pelo bastão (ou baqueta), feita do mesmo material do triângulo. O tamanho da baqueta pode variar de tamanho, diâmetro e peso, conforme necessidade sonora.
 
-O triângulo é utilizado em contextos variados. Alvarenga (1977:761) assinala o uso na Folia-do-Divino onde os foliões consideram-no “um instrumento sagrado: [que] tem três lados porque representa a Santíssima Trindade.” No meio popular, seu uso mais conhecido é visto nos gêneros regionais, principalmente nordestinos. Seja no baião, xote, arrasta-pé, xaxado, ele está presente, quase sempre acompanhado do zabumba e da sanfona, instrumentos característicos do conhecido forró pé-de-serra.
+O triângulo é utilizado em contextos variados. Alvarenga (1977:761) assinala o uso na Folia-do-Divino onde os foliões consideram-no “um instrumento sagrado: [que] tem três lados porque representa a Santíssima Trindade.” No meio popular, seu uso mais conhecido é visto nos gêneros regionais, principalmente nordestinos. Seja no baião, xote, arrasta-pé, xaxado, ele está presente, quase sempre acompanhado do [zabumba](/instrumentos/zabumba) e da sanfona, instrumentos característicos do conhecido forró pé-de-serra.
 
 Nas orquestras, o triângulo foi inserido por Mozart a partir do século XVIII. Na época, era utilizado apenas para efeitos especiais totalmente excepcionais. Hoje, seu uso é comum nos naipes de percussão, sendo o menor dos instrumentos nas orquestras. Nesse meio, normalmente, o percussionista não segura o triângulo com a mão. Ele fica amarrado por tiras onde se coloca a mão do instrumentista. Desta forma, não há interferência no som quando ele é provocado.
 

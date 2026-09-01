@@ -30,6 +30,12 @@ const instruments = defineCollection({
       access_date: z.string().optional(),
     })).default([]),
     references: z.array(z.string()).default([]),
+    related_instruments: z.array(z.object({
+      title: z.string(),
+      slug: z.string(),
+      family: z.string().optional(),
+      relation: z.string().optional(),
+    })).default([]),
   }),
 });
 

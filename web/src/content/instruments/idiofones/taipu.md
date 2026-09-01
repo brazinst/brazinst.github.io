@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: itaipu
+  title: Itaipu
+  family: idiofones
+  relation: Remissão / Similar
 ---
 
 # Taipu
 
 > Seria um instrumento idiofônico, tipo um sino "1.1.1.2.4.4.1." (HORNBOSTEL; SACHS, 1914)
 
-Taipu s.m ver Itaipu.
+Taipu s.m ver [Itaipu](/instrumentos/itaipu).
 
 Lucas B. Potiguara
 

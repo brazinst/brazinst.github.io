@@ -25,6 +25,11 @@ references:
 - 'PUCCI, Magda; ALMEIDA, Berenice. Cantos da floresta: iniciação ao universo musical
   indígena. São Paulo: Peirópolis, 2017.'
 - Disco Ñande Reko Arandu - (2000) Memória Viva Guarani
+related_instruments:
+- slug: rabeca
+  title: Rabeca
+  family: cordofones
+  relation: Similar
 ---
 
 
@@ -34,7 +39,7 @@ references:
 
 > Cordofone composto do tipo alaúde, com braço colado e ressonador em forma de caixa.
 
-Ravé s. f. Instrumento tricórdio, similar à rabeca, utilizado pelos Guarani. Atualmente, é amplamente utilizado pelos Guarani Mbya, tendo relação com a dança dos xondaros; além disso, é encontrado, em registros históricos e etnológicos, entre os Kaiowá, os Ñandeva, e entre os bolivianos Guarayó e Chiriguano.
+Ravé s. f. Instrumento tricórdio, similar à [rabeca](/instrumentos/rabeca), utilizado pelos Guarani. Atualmente, é amplamente utilizado pelos Guarani Mbya, tendo relação com a dança dos xondaros; além disso, é encontrado, em registros históricos e etnológicos, entre os Kaiowá, os Ñandeva, e entre os bolivianos Guarayó e Chiriguano.
 
 É um cordofone composto do tipo alaúde, com braço colado e ressonador em forma de caixa, com fundo levemente côncavo, correspondendo à classificação 321.322, dentro do sistema de classificação de Hornbostel-Sachs, conforme estabelecido por Montagu et al. (2011) e atualizado pelo projeto MIMO - Musical Instruments Museums Online.
 

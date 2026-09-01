@@ -17,13 +17,18 @@ audio_video_links: []
 references:
 - 'CASCUDO, Luís da Câmara. Dicionário do Folclore Brasileiro. 10. ed. Rio de Janeiro:
   Ediouro, 1999.'
+related_instruments:
+- slug: bastoes-de-ritmo
+  title: Bastões de Ritmo
+  family: idiofones
+  relation: Remissão / Similar
 ---
 
 # Tacapu
 
 > Instrumento idiofônico indígena, percutido diretamente, em forma de bastão agrupado, tendo dois ou mais bastões sendo assim, classificado como "1.1.1.2.1.1." (HORNBOSTEL; SACHS, 1914)
 
-Tacapu s.m. ver bastões de ritmo.
+Tacapu s.m. ver [bastões de ritmo](/instrumentos/bastoes-de-ritmo).
 
 Lucas B. Potiguara
 

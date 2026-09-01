@@ -64,14 +64,19 @@ references:
 - Como tocar a caixa de marabaixo - https://www.youtube.com/watch?app=desktop&v=GJNaCJYMOUc
 - Ensaio | Patrícia Bastos | 08/06/2013 - https://www.youtube.com/watch?v=P9ap-LitB28&t=507s
 - Percursos da Tradição - Dança do Marabaixo - https://www.youtube.com/watch?v=Wmud0XEqN4s
+related_instruments:
+- slug: caixa
+  title: Caixa
+  family: membranofones
+  relation: Tipo / Variante
 ---
 
 
 # Caixa de Marabaixo
 
-> Caixa de Marabaixo s. f. ou caixa guerreira é um tipo de caixa artesanal. A caixa de marabaixo do estado do Amapá é feita com madeira cavada ou materiais recicláveis e é o principal instrumento que guia, dá ritmo e sonoridade na tradição do Marabaixo.
+> Caixa de Marabaixo s. f. ou caixa guerreira é um tipo de [caixa](/instrumentos/caixa) artesanal. A caixa de marabaixo do estado do Amapá é feita com madeira cavada ou materiais recicláveis e é o principal instrumento que guia, dá ritmo e sonoridade na tradição do Marabaixo.
 
-Caixa de Marabaixo s. f. ou caixa guerreira é um tipo de caixa artesanal constituída de duas peles, sendo uma delas a de resposta, pois quando a membrana superior é percutida, faz com que vibre a inferior que possui tiras ou esteiras. A caixa de marabaixo no estado do Amapá é feita com madeira cavada ou materiais recicláveis e é o principal instrumento que guia, dá ritmo e sonoridade na tradição do Marabaixo.
+Caixa de Marabaixo s. f. ou caixa guerreira é um tipo de [caixa](/instrumentos/caixa) artesanal constituída de duas peles, sendo uma delas a de resposta, pois quando a membrana superior é percutida, faz com que vibre a inferior que possui tiras ou esteiras. A caixa de marabaixo no estado do Amapá é feita com madeira cavada ou materiais recicláveis e é o principal instrumento que guia, dá ritmo e sonoridade na tradição do Marabaixo.
 
 A caixa de Marabaixo é feita, tradicionalmente, de macacaúba (Platymiscium trinitatis), uma madeira nobre, também pode ser feita de metal e madeira reciclada. Na sistematização organológica sua estrutura física e modo de tocar se encaixaria na classificação 2.1.1.2.1.2.1. (ver MONTAGU 2011, p. 4), pois trata-se de um membranofone percutido diretamente, sua caixa de ressonância possui formato tubular, cilíndrico, com membrana dupla, duas peles afixadas nas extremidades e tensionadas por meio de aros feitos de madeira flexível e é tocada de forma individual. É considerada de membrana dupla porque suas duas peles vibram. Segundo Weleda Freitas, essas membranas, tradicionalmente, são de couro, podendo ser de nylon.
 

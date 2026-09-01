@@ -17,13 +17,18 @@ audio_video_links: []
 references:
 - 'CASCUDO, Luís da Câmara. Dicionário do Folclore Brasileiro. 10. ed. Rio de Janeiro:
   Ediouro, 1999.'
+related_instruments:
+- slug: bastoes-de-ritmo
+  title: Bastões de Ritmo
+  family: idiofones
+  relation: Remissão / Similar
 ---
 
 # Carutana
 
 > Instrumento idiofônico indígena, percutido diretamente, em forma de bastão agrupado, tendo dois ou mais bastões sendo assim, classificado como "1.1.1.2.3.2." (HORNBOSTEL; SACHS, 1914)
 
-Carutana s.f. ver bastões de ritmo. Câmara Cascudo (1999, p. 253) aponta como sendo um tipo semelhante ao bastão de ritmo.
+Carutana s.f. ver [bastões de ritmo](/instrumentos/bastoes-de-ritmo). Câmara Cascudo (1999, p. 253) aponta como sendo um tipo semelhante ao bastão de ritmo.
 
 Lucas B. Potiguara
 

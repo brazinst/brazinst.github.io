@@ -30,6 +30,19 @@ references:
 - '¹ Ver <http://www.youtube.com/watch?v=MBGT2vv5xLw> Acesso em: 18 jun 2019.'
 - ² É uma dança/cortejo/procissão que retrata a coroação dos reis na tradição carnavalesca
   das nações.
+related_instruments:
+- slug: cuica
+  title: Cuíca
+  family: membranofones
+  relation: Mesmo princípio / Remissão
+- slug: gongue
+  title: Gonguê
+  family: idiofones
+  relation: Contexto / Maracatu Rural
+- slug: caixa
+  title: Caixa
+  family: membranofones
+  relation: Contexto / Maracatu Rural
 ---
 
 
@@ -37,9 +50,9 @@ references:
 
 > Instrumento com o mesmo princípio da cuíca, então sua classificação seria "2.2.1.1.1." (Hornbostel; Sachs, 1914).
 
-Onça s.f. (ver Cuíca), tambor friccionado brasileiro. Encontrado nas margens do meio do Rio São Francisco e nos folguedos, ou nas danças do bumba-meu-boi e boi de zabumba (danças relacionadas com a restauração), no Maranhão, e em toda a região nordeste do Brasil, onde este instrumento é conhecido como tambor-onça (ver ALVARENGA, 1997, p. 213 e CHAVES, 2007).
+Onça s.f. (ver [Cuíca](/instrumentos/cuica)), tambor friccionado brasileiro. Encontrado nas margens do meio do Rio São Francisco e nos folguedos, ou nas danças do bumba-meu-boi e boi de zabumba (danças relacionadas com a restauração), no Maranhão, e em toda a região nordeste do Brasil, onde este instrumento é conhecido como tambor-onça (ver ALVARENGA, 1997, p. 213 e CHAVES, 2007).
 
-Em um registro feito em Pernambuco no ano de 1934, a onça é, às vezes, incluída em conjuntos musicais “compostos de violões, violas de cinco cordas duplas, cavaquinho de quarto cordas, clarinete e flauta de imbaúba”, em que os músicos “tocam músicas com o coração” (ANDRADE, 1989, p. 369). A onça também é considerada um instrumento da cultura Kalunga na cidade de Cavalcante em Goiás . Outros nomes para a onça são: quica ou puíta [Pwita angolana] no nordeste, omelê no Rio de Janeiro, adufo em Alagoas, roncador, fungador, ou socador no Maranhão e no Pará, (ALVARENGA, ibid.). De acordo com Santos (2005, p. 31), em Pernambuco é conhecida como porca ou póica, utilizada em algumas nações de maracatu de baque solto², também chamado de maracatu rural (quase todos os 110 grupos de maracatu estão ligados as plantações de cana-de-açúcar), que tem sua instrumentação formada no terno – composto de gonguê, e tambores chamados mineiro [o tambor maior], tarol (ver caixa), bombo [o tambor menor] e porca – instrumentos de metais (trombone e trompete de pisto), vocais (solo e coro), o apito do mestre, chocalhos e sinos (de dentro das roupas dos guerreiros de sertão com lanças, chamados de caboclo de lança), e os chicotes de pequenas mulas”. Às vezes os nomes africanos de vu e vuvu¸ ou o nome português como ronca são usados (CRUZ & CONCEIÇÃO, 2010).
+Em um registro feito em Pernambuco no ano de 1934, a onça é, às vezes, incluída em conjuntos musicais “compostos de violões, violas de cinco cordas duplas, cavaquinho de quarto cordas, clarinete e flauta de imbaúba”, em que os músicos “tocam músicas com o coração” (ANDRADE, 1989, p. 369). A onça também é considerada um instrumento da cultura Kalunga na cidade de Cavalcante em Goiás . Outros nomes para a onça são: quica ou puíta [Pwita angolana] no nordeste, omelê no Rio de Janeiro, adufo em Alagoas, roncador, fungador, ou socador no Maranhão e no Pará, (ALVARENGA, ibid.). De acordo com Santos (2005, p. 31), em Pernambuco é conhecida como porca ou póica, utilizada em algumas nações de maracatu de baque solto², também chamado de maracatu rural (quase todos os 110 grupos de maracatu estão ligados as plantações de cana-de-açúcar), que tem sua instrumentação formada no terno – composto de [gonguê](/instrumentos/gongue), e tambores chamados mineiro [o tambor maior], tarol (ver [caixa](/instrumentos/caixa)), bombo [o tambor menor] e porca – instrumentos de metais (trombone e trompete de pisto), vocais (solo e coro), o apito do mestre, chocalhos e sinos (de dentro das roupas dos guerreiros de sertão com lanças, chamados de caboclo de lança), e os chicotes de pequenas mulas”. Às vezes os nomes africanos de vu e vuvu¸ ou o nome português como ronca são usados (CRUZ & CONCEIÇÃO, 2010).
 
 Variando entre as notas agudas e graves, o som do ronco ou estrondo da onça é obtido esfregando um bambu interno ou um bastão de madeira fixo com um pano ou dedos molhados, enquanto um dedo da outra mão pressiona uma membrana externa, onde está fixado o bambu. As notas ficam mais agudas quando pressionados mais perto do centro da membrana.
 

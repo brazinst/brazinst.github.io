@@ -39,6 +39,19 @@ references:
   Acesso em: 12 set 2016'
 - '² Disponível em: <http://filhoscomfe.blogspot.com.br/2011/05/ogan-e-atabaques-rum-rumpi-le.html>
   Acesso em: 12 set 2016'
+related_instruments:
+- slug: reco-reco
+  title: Reco-reco
+  family: idiofones
+  relation: Contexto / Congadas
+- slug: adufe
+  title: Adufe
+  family: membranofones
+  relation: Contexto / Congadas
+- slug: zabumba
+  title: Zabumba
+  family: membranofones
+  relation: Contexto / Congadas
 ---
 
 

@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: aiapa
+  title: Aiapá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Nequambo-purú
 
 > Instrumento idiofônico, semelhante ao aiapá "1.1.2.1.1.1." (HORNBOSTEL; SACHS, 1914)
 
-Nequambo-purú s.m. é um instrumento idiofônico, que como descreve Gondim (apud SINZIG 1976, p. 394) este seria "castanhetas com que os índios acompanhavam os cantos e as danças; eram comumente de cascas secas de frutos, sendo amarradas nos tornozelos, principalmente os caroços de piqui". Ver aiapá.
+Nequambo-purú s.m. é um instrumento idiofônico, que como descreve Gondim (apud SINZIG 1976, p. 394) este seria "castanhetas com que os índios acompanhavam os cantos e as danças; eram comumente de cascas secas de frutos, sendo amarradas nos tornozelos, principalmente os caroços de piqui". Ver [aiapá](/instrumentos/aiapa).
 
 Lucas B. Potiguara
 

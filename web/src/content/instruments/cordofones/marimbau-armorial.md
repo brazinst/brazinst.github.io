@@ -54,6 +54,15 @@ references:
 - Toque para marimbau e orquestra, Quinteto armorial
 - Fernando Pintassilgo, documentário
 - Quinteto Armorial, documentário
+related_instruments:
+- slug: rabeca
+  title: Rabeca
+  family: cordofones
+  relation: Similar / Técnica
+- slug: berimbau-de-lata
+  title: Berimbau de lata
+  family: cordofones
+  relation: Variante
 ---
 
 
@@ -68,9 +77,9 @@ Após contar sobre o instrumento que inspirou a criação do marimbau armorial -
 
 Para atender o “propósito armorial de recriar temas populares em uma ambiência de música de câmara, se equiparando às qualidades e potências sonoras do violino, da flauta transversal, violão e viola nordestina” (Satomi, 2020), a tarefa de potencializar as propriedades acústicas do berimbau-de-lata através da construção de um novo design para reinventar o marimbau armorial coube “ao luthier João Batista Lima (1931-2017) [...]. [O instrumento] perdera as duas latas, mas ganhava uma caixa de ressonância de madeira e mais uma corda extra[3] para ampliar as possibilidades musicais” (Barbosa, 2018).
 
-Provavelmente, para realizar o pedal característico da música nordestina, sobretudo da cantoria. A caixa retangular teve as arestas abrandadas por uma linha sinuosa que se estreita de um lado, para a caixa de cravelhas e termina com uma voluta semelhante à da rabeca. Para a extremidade oposta, completando a simetria, termina afunilado para acoplar o suporte da alça tiracolo. (Satomi, 2020, ibid.)
+Provavelmente, para realizar o pedal característico da música nordestina, sobretudo da cantoria. A caixa retangular teve as arestas abrandadas por uma linha sinuosa que se estreita de um lado, para a caixa de cravelhas e termina com uma voluta semelhante à da [rabeca](/instrumentos/rabeca). Para a extremidade oposta, completando a simetria, termina afunilado para acoplar o suporte da alça tiracolo. (Satomi, 2020, ibid.)
 
-Considerando que o marimbau armorial já tem quase cinquenta anos, poderia ser classificado como variante do berimbau de lata: um cordofone simples – ou seja, um instrumento que permite que uma ou mais cordas sejam estendidas entre pontos fixos – bicórdio, composto de um fio de arame de aço duro afinado, geralmente em ré3, e uma corda ré, afinada em ré2 do violoncelo. Nas subcategorias pode ser considerado como cítara pranchiforme real, pois o suporte de cordas é rígido e o plano das cordas segue paralelo ao suporte das cordas. Por fim, apresenta um ressonador em forma de caixa. Sendo assim, sua classificação equivale a 314.122, de acordo com o sistema atualizado pelo projeto MIMO (Montagu, 2014, p. 12-13).
+Considerando que o marimbau armorial já tem quase cinquenta anos, poderia ser classificado como variante do [berimbau de lata](/instrumentos/berimbau-de-lata): um cordofone simples – ou seja, um instrumento que permite que uma ou mais cordas sejam estendidas entre pontos fixos – bicórdio, composto de um fio de arame de aço duro afinado, geralmente em ré3, e uma corda ré, afinada em ré2 do violoncelo. Nas subcategorias pode ser considerado como cítara pranchiforme real, pois o suporte de cordas é rígido e o plano das cordas segue paralelo ao suporte das cordas. Por fim, apresenta um ressonador em forma de caixa. Sendo assim, sua classificação equivale a 314.122, de acordo com o sistema atualizado pelo projeto MIMO (Montagu, 2014, p. 12-13).
 
 A diferença entre o marimbau armorial e o berimbau de lata (ou berimbau de bacia), reside na ressonância, que neste ocorre com dois ressonadores tubulares (as latas), enquanto que, naquele, temos uma caixa de ressonância de madeira incorporada ao instrumento, além de apresentar uma corda extra e afinadores. A maneira de tocar se manteve.
 

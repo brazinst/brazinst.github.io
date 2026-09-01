@@ -29,6 +29,27 @@ references:
 - _________________________________________________
 - '¹ Disponível em: <https://pt.wikipedia.org/wiki/Caixa_(instrumento_musical)> Acesso
   em: 10 out 2016'
+related_instruments:
+- slug: zabumba
+  title: Zabumba
+  family: membranofones
+  relation: Contexto / Maracatu e Sambas Rurais
+- slug: cuica
+  title: Cuíca
+  family: membranofones
+  relation: Contexto / Sambas Rurais
+- slug: tamborim
+  title: Tamborim
+  family: membranofones
+  relation: Contexto / Sambas Rurais
+- slug: reco-reco
+  title: Reco-reco
+  family: idiofones
+  relation: Contexto / Sambas Rurais
+- slug: ganza
+  title: Ganzá
+  family: idiofones
+  relation: Contexto / Sambas Rurais
 ---
 
 

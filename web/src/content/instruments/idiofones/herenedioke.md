@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: aiapa
+  title: Aiapá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Herenedioke
 
 > Instrumento idiofônico, semelhante ao aiapá "1.1.2.1.1.1." (HORNBOSTEL; SACHS, 1914)
 
-Herenedioke s.m. idiofone parecido com o aiapá, como afirma Dias (apud SINZIG, 1976, p. 288) "instrumento de que se servem os camacans para marcar o compasso da dança, feito de unhas de tapir, presas em dois molhos; é instrumento que dá um som forte, quando agitado. Ver aiapá.
+Herenedioke s.m. idiofone parecido com o aiapá, como afirma Dias (apud SINZIG, 1976, p. 288) "instrumento de que se servem os camacans para marcar o compasso da dança, feito de unhas de tapir, presas em dois molhos; é instrumento que dá um som forte, quando agitado. Ver [aiapá](/instrumentos/aiapa).
 
 Lucas B. Potiguara
 

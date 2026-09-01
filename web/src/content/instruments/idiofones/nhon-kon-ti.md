@@ -26,14 +26,19 @@ references:
 - Turner, T. Nothern Cayapó music and its social and cerimonial context. (comunicação
   ao M.N. do RJ).
 - Gabriel da Rosa Seixas
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Família
 ---
 
 
 # Nhon-kon-ti
 
-> É um dentre os vários chocalhos globulares indígenas (ver Maracá). Seria um idiofone percutido indiretamente, agitado e com forma recipiente (quando os objetos sonoros se entrechocam contra a parede de um recipiente). Dessa forma, é classificado como 112.13.
+> É um dentre os vários chocalhos globulares indígenas (ver [Maracá](/instrumentos/maraca)). Seria um idiofone percutido indiretamente, agitado e com forma recipiente (quando os objetos sonoros se entrechocam contra a parede de um recipiente). Dessa forma, é classificado como 112.13.
 
-Nhon-kon-ti s.m. É um dentre os vários chocalhos globulares indígenas (ver Maracá). Seria um idiofone percutido indiretamente, agitado e com forma recipiente (quando os objetos sonoros se entrechocam contra a parede de um recipiente). Dessa forma, é classificado como 112.13.
+Nhon-kon-ti s.m. É um dentre os vários chocalhos globulares indígenas (ver [Maracá](/instrumentos/maraca)). Seria um idiofone percutido indiretamente, agitado e com forma recipiente (quando os objetos sonoros se entrechocam contra a parede de um recipiente). Dessa forma, é classificado como 112.13.
 
 No caso específico do Nhon-kon-ti, é construído a partir do fruto da Crescentia Cujete, mais conhecida como cuité, coité, cuieira, entre outros. O fruto dessa árvore, quando maduro, é utilizado também para fazer vasilhas, panelas, e na fabricação de vários instrumentos, como a caixa de ressonância dos berimbaus.
 

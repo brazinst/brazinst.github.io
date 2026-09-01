@@ -15,13 +15,18 @@ audio_video_links: []
 references:
 - 'CASCUDO, Luís da Câmara. Dicionário do Folclore Brasileiro. 10. ed. Rio de Janeiro:
   Ediouro, 1999.'
+related_instruments:
+- slug: tamaraca-idiofone
+  title: Tamaracá ou itamaracá
+  family: idiofones
+  relation: Homônimo
 ---
 
 # Tamaracá
 
 > Instrumento de percussão, tambor " 2.1.1.2.1." (HORNBOSTEL; SACHS, 1914)
 
-Tamaracá s.m. instrumento membranofônico, que segundo Luis da Câmara Cascudo (1999, p. 850) "tambor de tronco escavado com uma pele esticada numa extremidade". Ver verbete do tamaracá na seção dos idiofones.
+Tamaracá s.m. instrumento membranofônico, que segundo Luis da Câmara Cascudo (1999, p. 850) "tambor de tronco escavado com uma pele esticada numa extremidade". Ver verbete do [Tamaracá (idiofone)](/instrumentos/tamaraca-idiofone) na seção dos idiofones.
 
 Lucas B. Potiguara
 

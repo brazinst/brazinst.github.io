@@ -54,6 +54,11 @@ references:
   2019.'
 - 'Disponível em: <https://www.youtube.com/watch?v=tUVeuYvscvA>. Acesso em 15 jul
   2019.'
+related_instruments:
+- slug: meiao
+  title: Meião
+  family: membranofones
+  relation: Naipe / Fandango
 ---
 
 

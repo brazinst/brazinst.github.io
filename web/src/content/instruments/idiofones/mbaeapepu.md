@@ -16,6 +16,11 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: matraca
+  title: Matraca Maranhense
+  family: idiofones
+  relation: Remissão / Similar
 ---
 
 # Mbae-apepú

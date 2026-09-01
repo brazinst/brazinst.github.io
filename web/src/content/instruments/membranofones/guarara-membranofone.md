@@ -15,13 +15,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: guarara-idiofone
+  title: Guarará (Idiofone)
+  family: idiofones
+  relation: Homônimo
 ---
 
 # Guarará
 
 > Instrumento de percussão " 2.1.1.2.1." (HORNBOSTEL; SACHS, 1914)
 
-Guarará s.m. segundo Faria (apud SINZIG, 1976, p. 281) este seria um "tambor". Gondim (apud SINZIG, 1976, p. 281) acrescenta que este "era o nome que vulgarmente davam aos tambores europeus". Ver verbete do guarará na seção de idiofones.
+Guarará s.m. segundo Faria (apud SINZIG, 1976, p. 281) este seria um "tambor". Gondim (apud SINZIG, 1976, p. 281) acrescenta que este "era o nome que vulgarmente davam aos tambores europeus". Ver verbete do [Guarará (idiofone)](/instrumentos/guarara-idiofone) na seção de idiofones.
 
 Lucas B. Potiguara
 

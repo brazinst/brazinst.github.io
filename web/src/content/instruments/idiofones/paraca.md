@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Similar
 ---
 
 # Para-cá
 
 > Instrumento idiofônico indígena, semelhante ao maracá "1.1.2.1.3." (HORNBOSTEL; SACHS, 1914)
 
-Para-cá s.m. instrumento idiofônico, que segundo Sinzig (1976) seria idêntico com o maracá. Ver maracá.
+Para-cá s.m. instrumento idiofônico, que segundo Sinzig (1976) seria idêntico com o [maracá](/instrumentos/maraca). Ver [maracá](/instrumentos/maraca).
 
 Lucas B. Potiguara
 

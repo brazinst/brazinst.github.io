@@ -27,6 +27,11 @@ references:
   Götenborg, Elender Boktryckery Aktiebolag, 1935.
 - Krause, Fritz. In Wildnissen Brasilien. Leipzig, Voitländer Verlag, 1911.
 - Machado, Otto. Os Carajás. Rio de Janeiro, Impr. Nacional, 1947.
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Família
 ---
 
 
@@ -34,7 +39,7 @@ references:
 
 > Seria um idiofone percutido indiretamente, agitado e com forma recipiente, quando os objetos sonoros internos se entrechocam e estes mesmos se chocam contra a parede de um recipiente. Classificado então como 112.13.
 
-I-u-e-ru s.m. Seria um idiofone percutido indiretamente, agitado e com forma recipiente, quando os objetos sonoros internos se entrechocam e estes mesmos se chocam contra a parede de um recipiente. Classificado então como 112.13. A musicóloga Helza Camêu, registra dois exemplares deste chocalho globular (ver maracá). O primeiro pertence aos índios Karajá. Já o segundo, pertence aos índios Javajé.
+I-u-e-ru s.m. Seria um idiofone percutido indiretamente, agitado e com forma recipiente, quando os objetos sonoros internos se entrechocam e estes mesmos se chocam contra a parede de um recipiente. Classificado então como 112.13. A musicóloga Helza Camêu, registra dois exemplares deste chocalho globular (ver [maracá](/instrumentos/maraca)). O primeiro pertence aos índios Karajá. Já o segundo, pertence aos índios Javajé.
 
 Ambos são feitos a partir do fruto da Crescentia Cujete, popularmente conhecida como cuitezeiro. Falando especificamente do i-u-e-ru dos índios Karajá, contém grãos em seu bojo e seu chocalho apresenta as clássicas aberturas no corpo da peça. O que chama atenção, porém, é que tais aberturas obedecem a um risco planejado e, ainda, marcado a fogo. O instrumento, assim como a maioria dos chocalhos globulares indígenas, é utilizado na marcação rítmica de danças e cantos (Camêu, 1979:15).
 

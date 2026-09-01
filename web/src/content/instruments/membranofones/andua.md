@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: angua
+  title: Anguá
+  family: membranofones
+  relation: Similar / Remissão
 ---
 
 # Andua
 
-> Idêntico ao anguá, um instrumento membranofônico, um tipo de tambor. "2.1.1.2.1.1.2" (HORNBOSTEL; SACHS, 1914)
+> Idêntico ao [anguá](/instrumentos/angua), um instrumento membranofônico, um tipo de tambor. "2.1.1.2.1.1.2" (HORNBOSTEL; SACHS, 1914)
 
-Andua s.m ver anguá
+Andua s.m ver [anguá](/instrumentos/angua)
 
 Lucas B. Potiguara
 

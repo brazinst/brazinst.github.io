@@ -44,6 +44,15 @@ references:
   2019'
 - 'Disponível em: <https://www.youtube.com/watch?v=Vni13FtHRh0>. Acesso em 08 jul
   2019'
+related_instruments:
+- slug: agogo
+  title: Agogô
+  family: idiofones
+  relation: Similar / Contexto
+- slug: adja
+  title: Adjá
+  family: idiofones
+  relation: Similar / Contexto
 ---
 
 

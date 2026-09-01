@@ -16,13 +16,18 @@ audio_video_links: []
 references:
 - 'SINZIG, Frei Pedro. Dicionário musical. 2. ed. São Paulo, Rio de Janeiro, Porto
   Alegre: Livraria Kosmos Editora, 1976'
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Variante
 ---
 
 # Mbaracá
 
 > Nome dado pelo Padre Montoya para o maracá "1.1.2.1.3." (HORNBOSTEL; SACHS, 1914)
 
-Mbaracá s.m. como afirma Gondim (apud SINZIG, 1976, p. 361) "o Padre Montoya escreve desta maneira o maracá". Ver maracá
+Mbaracá s.m. como afirma Gondim (apud SINZIG, 1976, p. 361) "o Padre Montoya escreve desta maneira o maracá". Ver [maracá](/instrumentos/maraca)
 
 Lucas B. Potiguara
 

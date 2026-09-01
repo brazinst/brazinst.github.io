@@ -31,6 +31,27 @@ references:
   2016'
 - '² Disponível em: <https://www.youtube.com/watch?v=RiDM2jZ1SF8> Acesso em 15 ago
   2016'
+related_instruments:
+- slug: triangulo
+  title: Triângulo
+  family: idiofones
+  relation: Contexto / Trio de Forró
+- slug: cuica
+  title: Cuíca
+  family: membranofones
+  relation: Contexto / Sambas Rurais
+- slug: caixa
+  title: Caixa
+  family: membranofones
+  relation: Contexto / Sambas Rurais
+- slug: tamborim
+  title: Tamborim
+  family: membranofones
+  relation: Contexto / Sambas Rurais
+- slug: reco-reco
+  title: Reco-reco
+  family: idiofones
+  relation: Contexto / Sambas Rurais
 ---
 
 
@@ -46,9 +67,9 @@ O bumbo zabumba industrial utilizado nas fanfarras, bandas marciais e militares 
 
 O zabumba artesanal faz parte de dois conjuntos ou gêneros musicais emblemáticos do nordeste brasileiro: a banda de pífanos e o baião – que hoje se utiliza do zabumba industrial, às vezes com corpo de madeira. A execução desses ritmos apresenta a peculiaridade do uso da baqueta bacalhau – “uma vareta fina, de aproximadamente 35 cm, feita de galho de árvores, bambu, palitos de palha de coqueiro ou material sintético (nylon ou plástico)” (Dantas) – que percute a membrana inferior, mais aguda, com a mão esquerda.
 
-O zabumba tornou-se conhecido em outras regiões do Brasil, inicialmente, através do baião e, posteriormente, do trio de forró incluindo xote, o xaxado, o arrasta-pé ou marcha. O trio instrumental do baião, constituído por sanfona, triângulo e zabumba, foi consagrado por Luiz Gonzaga que afirma ter incorporado o membranofone inspirado na banda de pífanos. O zabumba é o instrumento responsável pela marcação do ritmo nos trios de forró. Ele é o único responsável pela base de sustentação do pulso, por possuir um som grave e profundo.
+O zabumba tornou-se conhecido em outras regiões do Brasil, inicialmente, através do baião e, posteriormente, do trio de forró incluindo xote, o xaxado, o arrasta-pé ou marcha. O trio instrumental do baião, constituído por sanfona, [triângulo](/instrumentos/triangulo) e zabumba, foi consagrado por Luiz Gonzaga que afirma ter incorporado o membranofone inspirado na banda de pífanos. O zabumba é o instrumento responsável pela marcação do ritmo nos trios de forró. Ele é o único responsável pela base de sustentação do pulso, por possuir um som grave e profundo.
 
-Os zabumbas artesanais são utilizados, ainda, em diversas manifestações da cultura oral usados para acompanhar o maracatu ou cambinda, uma dança que retrata a coroação de reis e está associada à carnavais de Pernambuco e Paraíba. O conjunto instrumental é composto pelo idiofone gonguê e outros membranofones tais como tarol, caixa de guerra, porca, 12 ou mais zabumbas (também chamadas de alfaias ou bumbo com três diferentes tamanhos). Nestes dois estados nordestinos, o zabumba marca os passos do coco, dança com textos em desafio, satíricos, cômicos ou eróticos. Em certas congadas - danças dramáticas ou bailados com cenas de conversão - em São Paulo, o zabumba é tocado com os membranofones adufe, pandeiro, e atabaque. Bombo é usado também em sambas rurais como umbigada com os outros tambores: cuíca, caixa e tamborim, reco-reco e guaiá (chocalho).
+Os zabumbas artesanais são utilizados, ainda, em diversas manifestações da cultura oral usados para acompanhar o maracatu ou cambinda, uma dança que retrata a coroação de reis e está associada à carnavais de Pernambuco e Paraíba. O conjunto instrumental é composto pelo idiofone gonguê e outros membranofones tais como tarol, caixa de guerra, porca, 12 ou mais zabumbas (também chamadas de alfaias ou bumbo com três diferentes tamanhos). Nestes dois estados nordestinos, o zabumba marca os passos do coco, dança com textos em desafio, satíricos, cômicos ou eróticos. Em certas congadas - danças dramáticas ou bailados com cenas de conversão - em São Paulo, o zabumba é tocado com os membranofones adufe, pandeiro, e atabaque. Bombo é usado também em sambas rurais como umbigada com os outros tambores: [cuíca](/instrumentos/cuica), [caixa](/instrumentos/caixa) e [tamborim](/instrumentos/tamborim), [reco-reco](/instrumentos/reco-reco) e guaiá (chocalho).
 
 Vídeo do Brazil Instrumentarium sobre zabumba:
 

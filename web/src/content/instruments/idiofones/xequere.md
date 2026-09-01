@@ -17,13 +17,18 @@ audio_video_links: []
 references:
 - Cupudunepá, Maria Alice de Souza. Arte Umutina. 2002. Mato Grosso.
 - Gabriel da Rosa Seixas
+related_instruments:
+- slug: maraca
+  title: Maracá
+  family: idiofones
+  relation: Remissão / Família
 ---
 
 # Poári
 
 > Idiofone percutido indiretamente, agitado e com forma recipiente — quando os objetos sonoros se entrechocam e contra a parede de um recipiente, sendo assim, 112.13. O instrumento enquadra-se nos classificados como chocalhos globulares.
 
-Poári s.m. Idiofone percutido indiretamente, agitado e com forma recipiente — quando os objetos sonoros se entrechocam e contra a parede de um recipiente, sendo assim, 112.13. O instrumento enquadra-se nos classificados como chocalhos globulares (ver maracá).
+Poári s.m. Idiofone percutido indiretamente, agitado e com forma recipiente — quando os objetos sonoros se entrechocam e contra a parede de um recipiente, sendo assim, 112.13. O instrumento enquadra-se nos classificados como chocalhos globulares (ver [maracá](/instrumentos/maraca)).
 
 O instrumento pertence aos Umutina, que segundo M. Alice Cupudunepá (2002: 4), é um grupo indígena cujas terras estão localizadas na área de confluência dos rios Paraguai e Bugres, no Município de Barra do Bugres (Mato Grosso), numa faixa de transição entre a Amazônia e o Pantanal. Falam uma língua do tronco linguisticoMacro-Jê.
 
