@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2018-04-17'
 images:
-- file: media/membranofones/ta-pa-de/img_01.jpeg
+- file: media/membranofones/ta-pa-de/ta-pa-de.jpeg
   caption: Ta Pa De
   original_file: 3d79cf66-073b-485c-835c-7590d05d678b.jpeg
 audio_video_links: []
@@ -20,6 +20,7 @@ references:
 - 'Camêu, Helza. Instrumentos musicais dos indígenas brasileiros (catálogo da exposição).
   Rio de Janeiro: Biblioteca Nacional, Funarte. 1979.'
 ---
+
 
 # Ta-pa-dê
 

@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-03-20'
 modified_date: '2025-11-11'
 images:
-- file: media/cordofones/violao-de-sete-cordas/img_01.png
+- file: media/cordofones/violao-de-sete-cordas/violao-de-sete-cordas.png
   caption: Viola 7.Png
   original_file: 9d6412f1-bf05-49c9-9d15-d16a2a59f630.png
 audio_video_links:
@@ -47,6 +47,7 @@ references:
 - 'Tinhorão, J.R. 2005. Os sons que vêm da rua. Pequena história da música popular
   brasileira. São Paulo: Ari; Ed. 34.'
 ---
+
 
 # Violão de sete cordas
 

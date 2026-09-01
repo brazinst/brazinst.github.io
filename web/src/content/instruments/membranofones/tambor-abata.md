@@ -13,12 +13,13 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2024-10-13'
 modified_date: '2025-02-06'
 images:
-- file: media/membranofones/tambor-abata/img_01.png
+- file: media/membranofones/tambor-abata/tambor-abata.png
   caption: Gdghghf.Png
   original_file: 75b94e73-05bc-4f99-991f-0cef83fd6695.png
 audio_video_links: []
 references: []
 ---
+
 
 # Tambor Abatá
 

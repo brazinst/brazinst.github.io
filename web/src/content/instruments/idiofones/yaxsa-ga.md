@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2018-04-14'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/yaxsa-ga/img_01.jpeg
+- file: media/idiofones/yaxsa-ga/yaxsa-ga.jpeg
   caption: Yaxsa Ga.Jpeg
   original_file: 27a7686e-6ed9-45f8-8ed6-00f21d3263eb.jpeg
 audio_video_links: []
@@ -29,6 +29,7 @@ references:
 - Izikowitz, K. G. Musical and other sound Instruments of the South American Indians.
 - Silva, A. Bruzzi Alves da. A Civilização Indígena do Uaupês.
 ---
+
 
 # Yaxsã-ga
 

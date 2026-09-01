@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2018-11-05'
 images:
-- file: media/membranofones/alfaia/img_01.png
+- file: media/membranofones/alfaia/alfaia.png
   caption: Alfaia.Png
   original_file: 7e64f956-d2b9-43dd-a090-b11ab46fe75d.png
 audio_video_links: []
@@ -30,6 +30,7 @@ references:
 - '¹ <https://eternalheta.files.wordpress.com/2013/03/alfaias-por-daniel-avelar.jpg?w=650>
   Acesso em: 30 maio 2016.'
 ---
+
 
 # Alfaia
 

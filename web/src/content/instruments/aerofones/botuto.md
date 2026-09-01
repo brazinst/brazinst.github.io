@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-07-14'
 images:
-- file: media/aerofones/botuto/img_01.jpeg
+- file: media/aerofones/botuto/botuto.jpeg
   caption: Botuto
   original_file: c2f985af-3866-4ab2-bfd8-5d3217ed296f.jpeg
 audio_video_links: []
@@ -23,6 +23,7 @@ references:
 - 'Cameu, Helza¹. 1979. Instrumentos musicais dos indígenas brasileiros (catálogo
   da exposição). Rio de Janeiro: Biblioteca Nacional, Funarte.'
 ---
+
 
 # Botuto
 

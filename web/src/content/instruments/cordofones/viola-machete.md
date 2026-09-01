@@ -15,12 +15,13 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-04-20'
 modified_date: '2021-07-08'
 images:
-- file: media/cordofones/viola-machete/img_01.jpeg
+- file: media/cordofones/viola-machete/viola-machete.jpeg
   caption: Foto Machete
   original_file: 154cfa6f-5c90-4ff1-ba99-ac68d8c5203a.jpeg
 audio_video_links: []
 references: []
 ---
+
 
 # Viola machete
 

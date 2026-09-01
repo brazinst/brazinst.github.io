@@ -11,7 +11,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-07-14'
 images:
-- file: media/aerofones/bore/img_01.jpeg
+- file: media/aerofones/bore/bore.jpeg
   caption: Hohibor
   original_file: 957fd85b-01e7-4aad-ae73-8f7b9331cfb2.jpeg
 audio_video_links: []
@@ -26,6 +26,7 @@ references:
   Garnier.'
 - 'Spix, Johan B. V.; Martius, Karl F. P. 1834. Reise in Brasilien; München: M. Lindauer.'
 ---
+
 
 # Boré
 

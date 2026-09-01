@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/dopa/img_01.jpeg
+- file: media/idiofones/dopa/dopa.jpeg
   caption: Dopa
   original_file: a88d0a52-6abf-42fb-a164-a9cff0b068f5.jpeg
 audio_video_links: []
@@ -26,6 +26,7 @@ references:
 - '¹ Fontes consultadas por Helza Camêu:'
 - Izikowitz, K. G. Musical and other sound Instruments of the South American Indians.
 ---
+
 
 # Dopa
 

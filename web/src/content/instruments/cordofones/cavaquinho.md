@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2022-01-17'
 modified_date: '2022-04-27'
 images:
-- file: media/cordofones/cavaquinho/img_01.jpeg
+- file: media/cordofones/cavaquinho/cavaquinho.jpeg
   caption: Jb Cavaquinho
   original_file: c27e15b0-a405-4af0-9e11-7b5bff809010.jpeg
 audio_video_links:
@@ -41,6 +41,7 @@ references:
   instruments. MIMO Consortium. 2011. Disponível em http://www.mimointernational.com.
   Acesso em 19/12/2019.
 ---
+
 
 # Cavaquinho
 

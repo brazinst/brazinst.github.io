@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-10'
 modified_date: '2021-09-08'
 images:
-- file: media/membranofones/caixa-quadrada/img_01.jpeg
+- file: media/membranofones/caixa-quadrada/caixa-quadrada.jpeg
   caption: Caixaquadrada
   original_file: b8a949db-a6fa-4a8d-902f-694686c884be.jpeg
 audio_video_links: []
@@ -22,6 +22,7 @@ references:
   um Mestre e seus tambores. PPGAS-UFSC. p. 197. Florianópolis. 2012.'
 - Eraldo Kelvin Brasil de Azevedo
 ---
+
 
 # Caixa Quadrada
 

@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-12'
 modified_date: '2021-08-19'
 images:
-- file: media/idiofones/matraca/img_01.png
+- file: media/idiofones/matraca/matraca.png
   caption: Matracas
   original_file: 2277ca04-06a8-4b88-b410-46e8547fa615.png
 audio_video_links:
@@ -41,6 +41,7 @@ references:
 - 'Disponível em: <https://www.youtube.com/watch?v=eLfL7ckaLoo>. Acesso em 08 jul
   2019'
 ---
+
 
 # Matraca Maranhense
 

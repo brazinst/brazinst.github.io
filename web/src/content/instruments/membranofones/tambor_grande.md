@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2019-07-15'
 images:
-- file: media/membranofones/tambor_grande/img_01.png
+- file: media/membranofones/tambor_grande/tambor_grande.png
   caption: Tambor Grande
   original_file: 4de2439a-67fd-48aa-8e1a-a0f0564173b0.png
 audio_video_links:
@@ -30,6 +30,7 @@ references:
   Renata dos Reis. COSTA, Sislene. MENDONÇA, Bartolomeu. MOTA, Chistiane de Fátima
   Silva. Os tambores da ilha. Brasília: IPHAN, 2006.'
 ---
+
 
 # Tambor grande
 

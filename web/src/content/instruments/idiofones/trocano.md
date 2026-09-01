@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/trocano/img_01.jpeg
+- file: media/idiofones/trocano/trocano.jpeg
   caption: Trocano1
   original_file: 4ac8977d-d40c-4eeb-9f53-05b8fbdd9a5f.jpeg
 audio_video_links: []
@@ -26,6 +26,7 @@ references:
 - ² Disponível em <https://pib.socioambiental.org/pt/povo/etnias-do-rio-negro/1525>
   Acesso em 13 jun 2016
 ---
+
 
 # Trocano
 

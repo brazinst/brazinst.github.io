@@ -16,7 +16,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-10'
 modified_date: '2018-11-27'
 images:
-- file: media/membranofones/caixa/img_01.jpeg
+- file: media/membranofones/caixa/caixa.jpeg
   caption: Caixa_De_Samba
   original_file: 011074fc-e38f-4a42-930a-b5433b93cb05.jpeg
 audio_video_links: []
@@ -30,6 +30,7 @@ references:
 - '¹ Disponível em: <https://pt.wikipedia.org/wiki/Caixa_(instrumento_musical)> Acesso
   em: 10 out 2016'
 ---
+
 
 # Caixa
 

@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-11-28'
 modified_date: '2023-07-21'
 images:
-- file: media/aerofones/aidje/img_01.jpeg
+- file: media/aerofones/aidje/aidje.jpeg
   caption: Imagem.Bmp
   original_file: f2ceb550-a429-4dde-b679-6e699e3f29ef.jpeg
 audio_video_links: []
@@ -23,6 +23,7 @@ references:
 - 'Cameu, Helza. 1979. Instrumentos musicais dos indígenas brasileiros: catálogo da
   exposição. Rio de Janeiro: Biblioteca Nacional; Funarte.'
 ---
+
 
 # Aidjê
 

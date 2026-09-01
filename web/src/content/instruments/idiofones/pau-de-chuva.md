@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2025-06-16'
 images:
-- file: media/idiofones/pau-de-chuva/img_01.jpeg
+- file: media/idiofones/pau-de-chuva/pau-de-chuva.jpeg
   caption: Pau De Chuva Gdm
   original_file: 01d6b666-e920-40bc-8a69-c8ff617538e3.jpeg
 audio_video_links: []
@@ -22,6 +22,7 @@ references:
 - 'Culturas Indígenas. Instrumentos musicais, 2013. Disponível em: https://culturasindigenasdobrasil.blogspot.com.
   Acesso em: 20 jan. 2025.'
 ---
+
 
 # Pau-de-chuva
 

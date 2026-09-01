@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2021-04-27'
 images:
-- file: media/idiofones/tubo-estampado/img_01.jpeg
+- file: media/idiofones/tubo-estampado/tubo-estampado.jpeg
   caption: Tuboestampado
   original_file: bb41b9f7-46a5-41c3-8edd-a8e6adcf91cd.jpeg
 audio_video_links: []
@@ -22,6 +22,7 @@ references:
 - Eraldo Kelvin Brasil de Azevedo
 - Traduzido por Eraldo K. B. Azevedo
 ---
+
 
 # Tubo Estampado
 

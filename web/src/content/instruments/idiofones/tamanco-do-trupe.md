@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2021-04-25'
 images:
-- file: media/idiofones/tamanco-do-trupe/img_01.jpeg
+- file: media/idiofones/tamanco-do-trupe/tamanco-do-trupe.jpeg
   caption: Trupe
   original_file: 392b215a-eaa9-4e06-b9d3-95add0eba079.jpeg
 audio_video_links: []
@@ -21,6 +21,7 @@ references:
   Acesso em: 13 mar. 2021.'
 - Eraldo Kelvin Brasil de Azevedo
 ---
+
 
 # Tamanco do Trupé
 

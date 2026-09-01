@@ -11,7 +11,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2019-07-08'
 images:
-- file: media/idiofones/berimbau_de_boca/img_01.jpeg
+- file: media/idiofones/berimbau_de_boca/berimbau_de_boca.jpeg
   caption: Berimbau_De_Boca
   original_file: 6459addb-4ca2-4e84-a0c4-6dd480f400d1.jpeg
 audio_video_links:
@@ -23,6 +23,7 @@ references:
 - 'Disponível em: <https://www.youtube.com/watch?v=KaXx0DAK4S8>. Acesso em 08 jul
   2019'
 ---
+
 
 # Berimbau-de-boca
 

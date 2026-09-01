@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-12'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/reco-reco/img_01.jpeg
+- file: media/idiofones/reco-reco/reco-reco.jpeg
   caption: Reco Reco
   original_file: 5c8fcf79-1983-486c-916e-24cd2be5493f.jpeg
 audio_video_links: []
@@ -27,6 +27,7 @@ references:
 - '¹ Disponível em: <http://www.todosinstrumentosmusicais.com.br/imagens-do-instrumento-reco-reco.html>
   Acesso em: 12 set 2016'
 ---
+
 
 # Reco-reco
 

@@ -15,7 +15,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2026-03-11'
 images:
-- file: media/aerofones/afofie/img_01.jpeg
+- file: media/aerofones/afofie/afofie.jpeg
   caption: Afofie
   original_file: 1c0d4b17-cb85-4215-9b68-28a01816db22.jpeg
 audio_video_links: []
@@ -23,6 +23,7 @@ references:
 - CASCUDO, Câmara. Dicionário do Folclore Brasileiro. 10ª ed. Ediouro, Rio de Janeiro.
 - DE ANDRADE, Mário. Dicionário Musical Brasileiro. Itatiaia/USP, 1989.
 ---
+
 
 # Afofie
 

@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-12'
 modified_date: '2019-07-08'
 images:
-- file: media/idiofones/gongue/img_01.png
+- file: media/idiofones/gongue/gongue.png
   caption: Gongue Baque Virado
   original_file: fc18593b-696f-40d5-888d-887426b0fb65.png
 audio_video_links:
@@ -45,6 +45,7 @@ references:
 - 'Disponível em: <https://www.youtube.com/watch?v=Vni13FtHRh0>. Acesso em 08 jul
   2019'
 ---
+
 
 # Gonguê
 

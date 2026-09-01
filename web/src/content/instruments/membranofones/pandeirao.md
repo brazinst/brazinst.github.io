@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-08-15'
 modified_date: '2018-11-29'
 images:
-- file: media/membranofones/pandeirao/img_01.png
+- file: media/membranofones/pandeirao/pandeirao.png
   caption: Pandeirao
   original_file: c4a7dcfb-f6a5-40e0-81ad-eb1f866d8b39.png
 audio_video_links: []
@@ -28,6 +28,7 @@ references:
 - 'Dossiê do Registro do Complexo Cultural do Bumba-meu-boi do Maranhão. São Luís:
   Instituto do Patrimônio Histórico e Artístico Nacional, 2011. In Site: www.iphan.gov.br'
 ---
+
 
 # Pandeirão
 

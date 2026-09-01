@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-08-04'
 images:
-- file: media/aerofones/trombeta/img_01.jpg
+- file: media/aerofones/trombeta/trombeta.jpg
   caption: Trombeta
   original_file: original.jpg
 audio_video_links: []
@@ -23,6 +23,7 @@ references:
   Oneida. Belo Horizonte; Brasília; São Paulo: Itatiaia; Ministério da Cultura e Universidade
   de São Paulo'
 ---
+
 
 # Trombeta
 

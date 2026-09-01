@@ -11,7 +11,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-08-15'
 modified_date: '2019-02-25'
 images:
-- file: media/membranofones/zabumba/img_01.jpeg
+- file: media/membranofones/zabumba/zabumba.jpeg
   caption: Zabumba Artesanal
   original_file: cbef3352-80e1-49bc-8d0e-a393f1d0e7a6.jpeg
 audio_video_links:
@@ -32,6 +32,7 @@ references:
 - '² Disponível em: <https://www.youtube.com/watch?v=RiDM2jZ1SF8> Acesso em 15 ago
   2016'
 ---
+
 
 # Zabumba
 

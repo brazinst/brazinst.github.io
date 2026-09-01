@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2021-08-26'
 images:
-- file: media/idiofones/ganza/img_01.png
+- file: media/idiofones/ganza/ganza.png
   caption: Ganza 1 1.Png
   original_file: bfcb7303-9399-409f-9998-cb96afa2bfbe.png
 audio_video_links:
@@ -35,6 +35,7 @@ references:
 - '² <http://www.clednews.com/2010/09/chico-antonio-o-mestre-do-ganza.html> Acesso
   em: 6 jun 2016'
 ---
+
 
 # Ganzá
 

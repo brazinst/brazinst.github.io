@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-23'
 modified_date: '2026-01-26'
 images:
-- file: media/idiofones/adja/img_01.jpeg
+- file: media/idiofones/adja/adja.jpeg
   caption: Adja
   original_file: 3dff6dda-be67-424d-991f-e839642ea2e7.jpeg
 audio_video_links: []
@@ -35,6 +35,7 @@ references:
 - '¹ Foto: < http://afrobrasileirismo.blogspot.com.br/2013/10/adja.html > Acesso em:
   30 maio 2016.'
 ---
+
 
 # Adjá
 

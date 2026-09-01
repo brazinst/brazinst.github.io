@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-20'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/muruku/img_01.jpeg
+- file: media/idiofones/muruku/muruku.jpeg
   caption: Muruku Pibic
   original_file: 172c4802-25b6-4a48-8605-54bf19db6a46.jpeg
 audio_video_links: []
@@ -30,6 +30,7 @@ references:
   Cia. Ed. Nacional, 1939 (Bibl. pedagógica brasileira, série Iniciação científica,
   17).
 ---
+
 
 # Muruku
 

@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-08-01'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/macumba/img_01.jpeg
+- file: media/idiofones/macumba/macumba.jpeg
   caption: Macumba Instrumento
   original_file: 21085428-42f3-4a81-8a3c-4167cd4899f6.jpeg
 audio_video_links: []
@@ -28,6 +28,7 @@ references:
 - '¹ Disponível em: <http://poterrio.blogspot.com.br/2012/05/saravamacumba-e-preto-velho.html>
   Acesso em: 31 jul 2016'
 ---
+
 
 # Macumba
 

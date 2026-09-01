@@ -15,7 +15,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-20'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/mutombure/img_01.jpeg
+- file: media/idiofones/mutombure/mutombure.jpeg
   caption: Mutombure
   original_file: 17cafa0d-11a8-4363-83f9-45c053c324b0.jpeg
 audio_video_links: []
@@ -28,6 +28,7 @@ references:
 - Schultz, H. Vinte e três índios resistem à civilização. São Paulo, Melhoramentos,
   1954.
 ---
+
 
 # Mutomburé
 

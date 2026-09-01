@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2025-10-29'
 images:
-- file: media/idiofones/serrote-musical/img_01.jpeg
+- file: media/idiofones/serrote-musical/serrote-musical.jpeg
   caption: Serrote Musi
   original_file: 27260542-1824-47ab-a20e-664507d5415e.jpeg
 audio_video_links:
@@ -35,6 +35,7 @@ references:
 - Disponível em:<https://www.youtube.com/watch?v=1P8thZd1-N4&list=RD1P8thZd1-N4&start_radio=1&pp=ygUaYW50w7psaW8gbWFkdXJlaXJhIHNlcnJvdGWgBwE%3D
   > Acesso em, 24 de março. 2025
 ---
+
 
 # Serrote Musical
 

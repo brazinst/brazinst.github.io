@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2026-02-05'
 images:
-- file: media/idiofones/cajon/img_01.jpeg
+- file: media/idiofones/cajon/cajon.jpeg
   caption: Whatsapp Image 2024 11 14 At 21 01 45.Jpeg
   original_file: c4c93651-d237-4890-b9b3-bd206c269a6e.jpeg
 audio_video_links:
@@ -38,6 +38,7 @@ references:
 - 'Disponível em: https://youtu.be/S6fLObIZqYg?si=m_KfjW-8P6bQLSuf'
 - 'Disponível em: https://youtu.be/1TyPbEDozwY?si=91tfCQU1DsxW7Uz0'
 ---
+
 
 # Cajón
 

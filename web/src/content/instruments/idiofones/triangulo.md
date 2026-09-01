@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/triangulo/img_01.png
+- file: media/idiofones/triangulo/triangulo.png
   caption: Triangulo 2.Png
   original_file: 73878f2d-6c6b-49bb-817e-474e948ed40b.png
 audio_video_links:
@@ -37,6 +37,7 @@ references:
 - ² <http://www3.folhape.com.br/cms/opencms/folhape/pt/Hotsite-LuizG/Gonzaga_Musico/Luiz_Gonzaga_eleva_baixo_ao_seu_estxgio_mais_nobre.html>
   Acesso em 6 jun 2016
 ---
+
 
 # Triângulo
 

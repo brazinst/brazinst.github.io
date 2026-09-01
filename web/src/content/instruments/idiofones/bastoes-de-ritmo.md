@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-07-18'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/bastoes-de-ritmo/img_01.jpeg
+- file: media/idiofones/bastoes-de-ritmo/bastoes-de-ritmo.jpeg
   caption: Bastoes De Ritmo
   original_file: 75892607-5009-429f-a6fd-e3bbd71db99b.jpeg
 audio_video_links: []
@@ -32,6 +32,7 @@ references:
 - '¹ Disponível em: <http://www.maimuseu.com.br/#!musicais/v076o> Acesso em: 22 jun
   2016'
 ---
+
 
 # Bastões de Ritmo
 

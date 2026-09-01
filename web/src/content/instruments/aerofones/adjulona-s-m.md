@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-26'
 modified_date: '2026-03-11'
 images:
-- file: media/aerofones/adjulona-s-m/img_01.png
+- file: media/aerofones/adjulona-s-m/adjulona-s-m.png
   caption: Adjulona.Png
   original_file: 9b2314e4-5aa5-4951-8453-1ea3f334a6e5.png
 audio_video_links:
@@ -33,6 +33,7 @@ references:
   Dictionary of Musical Instruments.<http://www.oxfordmusiconline.com/subscriber/article/grove/music/L2261097>.
   Acesso em 12 de set. 2016.
 ---
+
 
 # Adjulona
 

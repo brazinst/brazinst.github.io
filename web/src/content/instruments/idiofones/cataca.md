@@ -12,13 +12,14 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2019-04-22'
 modified_date: '2025-03-12'
 images:
-- file: media/idiofones/cataca/img_01.png
+- file: media/idiofones/cataca/cataca.png
   caption: Cataca_Brasil Musis
   original_file: cf7cfb49-0933-49ab-ae7e-ff652d482981.png
 audio_video_links: []
 references:
 - ALMEIDA, Renato. História da música brasileira. 1942.
 ---
+
 
 # Catacá
 

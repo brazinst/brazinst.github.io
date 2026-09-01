@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2019-07-08'
 images:
-- file: media/idiofones/maraca/img_01.jpeg
+- file: media/idiofones/maraca/maraca.jpeg
   caption: Maraca 1
   original_file: 79fb6383-bfd8-48a8-b5ec-41e4dd160299.jpeg
 audio_video_links:
@@ -33,6 +33,7 @@ references:
 - ² Disponível em <http://blog.cortel.com.br/wp-content/uploads/2011/08/kuarup2.jpg>
   Acesso em 12 jun 2016
 ---
+
 
 # Maracá
 

@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-07-21'
 images:
-- file: media/aerofones/arandi/img_01.jpeg
+- file: media/aerofones/arandi/arandi.jpeg
   caption: Arandi
   original_file: 6e72367f-cf57-47dc-a51a-982ca40eef16.jpeg
 audio_video_links: []
@@ -20,6 +20,7 @@ references:
 - 'Almeida, Renato C. 1942. História da Música Brasileira. 2. ed. Rio de Janeiro:
   Briguiet.'
 ---
+
 
 # Arandi
 

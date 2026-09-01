@@ -11,12 +11,13 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-07-25'
 modified_date: '2018-04-17'
 images:
-- file: media/cordofones/udecra/img_01.jpeg
+- file: media/cordofones/udecra/udecra.jpeg
   caption: Sem Imagem
   original_file: a74f5e97-d7f8-434c-add1-2954494f51cd.jpeg
 audio_video_links: []
 references: []
 ---
+
 
 # Udecrá
 

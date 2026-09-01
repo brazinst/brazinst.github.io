@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-07-25'
 modified_date: '2025-11-11'
 images:
-- file: media/cordofones/bandolim/img_01.jpg
+- file: media/cordofones/bandolim/bandolim.jpg
   caption: Jacob Bandol Img
   original_file: original.jpg
 audio_video_links:
@@ -56,6 +56,7 @@ references:
 - Receita de samba
 - Único vídeo de Jacob do bandolim tocando ao vivo.
 ---
+
 
 # Bandolim
 

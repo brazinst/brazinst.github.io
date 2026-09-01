@@ -13,12 +13,13 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-23'
 modified_date: '2019-02-25'
 images:
-- file: media/membranofones/berra-boi-s-m/img_01.jpeg
+- file: media/membranofones/berra-boi-s-m/berra-boi-s-m.jpeg
   caption: Roi Roi
   original_file: 8902e45b-b045-47e2-96c9-29542ab4c5d0.jpeg
 audio_video_links: []
 references: []
 ---
+
 
 # Berra Boi
 

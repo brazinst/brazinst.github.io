@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-06'
 modified_date: '2023-07-14'
 images:
-- file: media/aerofones/cidupu/img_01.jpeg
+- file: media/aerofones/cidupu/cidupu.jpeg
   caption: Cidupu
   original_file: 5d595a51-41e7-460a-b318-72c04bbef8ab.jpeg
 audio_video_links: []
@@ -21,6 +21,7 @@ references:
 - 'Cameu, Helza. 1979. Instrumentos musicais dos indígenas brasileiros: catálogo da
   exposição. Rio de Janeiro: Biblioteca Nacional; Funarte.'
 ---
+
 
 # Cidupu
 

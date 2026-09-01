@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2024-04-29'
 images:
-- file: media/idiofones/frigideira/img_01.png
+- file: media/idiofones/frigideira/frigideira.png
   caption: Robertim.Png
   original_file: cb0c0f85-6af6-4a17-a85f-80b0f65c1ba1.png
 audio_video_links:
@@ -36,6 +36,7 @@ references:
 - O toque da frigideira
 - Vídeo aula com Robertinho Silva, percussionista
 ---
+
 
 # Frigideira
 

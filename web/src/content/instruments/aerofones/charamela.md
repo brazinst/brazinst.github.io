@@ -16,7 +16,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-04-27'
 images:
-- file: media/aerofones/charamela/img_01.jpeg
+- file: media/aerofones/charamela/charamela.jpeg
   caption: Ciaramella_Cannaecampanaincigliegio
   original_file: 2a5692f3-4764-4d78-9997-de318fa863d1.jpeg
 audio_video_links:
@@ -48,6 +48,7 @@ references:
 - Toscano, Alfonso. s.d. Planta da ciaramella. Disponível em http://www.alfonsotoscano.it/-ciaramella.htm
   Acesso em 02/12/2023.
 ---
+
 
 # Charamela
 

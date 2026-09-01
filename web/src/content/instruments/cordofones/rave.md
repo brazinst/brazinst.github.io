@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-04-20'
 modified_date: '2021-08-29'
 images:
-- file: media/cordofones/rave/img_01.jpeg
+- file: media/cordofones/rave/rave.jpeg
   caption: Foto Rave Rabeca Guarani 1
   original_file: cb194c01-cdf1-49e7-816f-6c71cd9789bf.jpeg
 audio_video_links:
@@ -26,6 +26,7 @@ references:
   indígena. São Paulo: Peirópolis, 2017.'
 - Disco Ñande Reko Arandu - (2000) Memória Viva Guarani
 ---
+
 
 # Ravé
 

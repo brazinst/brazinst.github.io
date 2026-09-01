@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-10'
 modified_date: '2021-08-19'
 images:
-- file: media/membranofones/caixa-de-marabaixo/img_01.jpeg
+- file: media/membranofones/caixa-de-marabaixo/caixa-de-marabaixo.jpeg
   caption: Caixa De Marabaixo
   original_file: 9a637697-2e12-4916-aa6b-eb50a79c914a.jpeg
 audio_video_links:
@@ -65,6 +65,7 @@ references:
 - Ensaio | Patrícia Bastos | 08/06/2013 - https://www.youtube.com/watch?v=P9ap-LitB28&t=507s
 - Percursos da Tradição - Dança do Marabaixo - https://www.youtube.com/watch?v=Wmud0XEqN4s
 ---
+
 
 # Caixa de Marabaixo
 

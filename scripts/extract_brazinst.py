@@ -430,7 +430,10 @@ class BrazinstExtractor:
                     src_file = item["path"]
                     # Sanitizar nome da imagem
                     ext = src_file.suffix or ".jpg"
-                    img_filename = f"img_{idx:02d}{ext}"
+                    if len(disk_imgs) == 1:
+                        img_filename = f"{slug}{ext}"
+                    else:
+                        img_filename = f"img_{idx:02d}{ext}"
                     dest_file = inst_media_dir / img_filename
                     try:
                         shutil.copy2(str(src_file), str(dest_file))

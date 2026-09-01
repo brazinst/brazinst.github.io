@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-12'
 modified_date: '2019-06-18'
 images:
-- file: media/membranofones/onca/img_01.png
+- file: media/membranofones/onca/onca.png
   caption: Onca
   original_file: 56a61ace-c14f-4b17-96cb-8e4a856c499e.png
 audio_video_links:
@@ -31,6 +31,7 @@ references:
 - ² É uma dança/cortejo/procissão que retrata a coroação dos reis na tradição carnavalesca
   das nações.
 ---
+
 
 # Onça
 

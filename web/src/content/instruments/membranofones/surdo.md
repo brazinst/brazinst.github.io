@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-10'
 modified_date: '2022-08-31'
 images:
-- file: media/membranofones/surdo/img_01.jpeg
+- file: media/membranofones/surdo/surdo.jpeg
   caption: Caixa De Marabaixo
   original_file: 5aaa6e7d-c108-4c2b-b15c-e9bd199520bc.jpeg
 audio_video_links: []
@@ -59,6 +59,7 @@ references:
   editora, 2019. Disponível em: https://anppom.org.br/anais/anaiscongresso_anppom_2019/5977/public/5977-20681-1-PB.pdf.
   Acesso em: 21 fev.'
 ---
+
 
 # Surdo
 

@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-05-11'
 images:
-- file: media/aerofones/cangoeira/img_01.jpeg
+- file: media/aerofones/cangoeira/cangoeira.jpeg
   caption: Cangoeira 2.Jpeg
   original_file: 040bdfbc-0332-436c-804a-dea9b3336786.jpeg
 audio_video_links: []
@@ -24,6 +24,7 @@ references:
 - 'S. Reily. 2000. “Brazil: Central and Southern areas”. The Garland handbook of Latin
   American music. Olsen & Sheehy ed.: Garland. Pp. 250-71'
 ---
+
 
 # Cangoeira
 

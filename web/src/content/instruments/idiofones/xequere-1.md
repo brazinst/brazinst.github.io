@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-03-27'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/xequere-1/img_01.jpeg
+- file: media/idiofones/xequere-1/xequere-1.jpeg
   caption: Xequere 1
   original_file: 6735de73-3abc-4a0e-901a-b65baec14c54.jpeg
 audio_video_links:
@@ -29,6 +29,7 @@ references:
 - ² Disponível em <http://www.todosinstrumentosmusicais.com.br/fotos-do-instrumento-xequere.html>
 - 'Acesso: 27 mar 2017'
 ---
+
 
 # Xequerê
 

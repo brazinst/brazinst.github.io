@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/i-u-e-ru/img_01.jpeg
+- file: media/idiofones/i-u-e-ru/i-u-e-ru.jpeg
   caption: I U E Ru 1
   original_file: bb020e20-3028-4f26-a30c-29674d60e6e2.jpeg
 audio_video_links: []
@@ -28,6 +28,7 @@ references:
 - Krause, Fritz. In Wildnissen Brasilien. Leipzig, Voitländer Verlag, 1911.
 - Machado, Otto. Os Carajás. Rio de Janeiro, Impr. Nacional, 1947.
 ---
+
 
 # I-u-e-ru
 

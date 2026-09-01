@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-03-06'
 modified_date: '2023-07-21'
 images:
-- file: media/aerofones/apieti-amu/img_01.jpeg
+- file: media/aerofones/apieti-amu/apieti-amu.jpeg
   caption: Apietiamu
   original_file: b30333c3-0604-4f97-99f8-af09d3aa28a0.jpeg
 audio_video_links: []
@@ -20,6 +20,7 @@ references:
 - 'Cameu, Helza. 1979. Instrumentos musicais dos indígenas brasileiros: catálogo da
   exposição. Rio de Janeiro: Biblioteca Nacional; Funarte.'
 ---
+
 
 # Apieti-Amu
 

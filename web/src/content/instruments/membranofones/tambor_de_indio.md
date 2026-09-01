@@ -12,12 +12,13 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-08-15'
 modified_date: '2018-10-15'
 images:
-- file: media/membranofones/tambor_de_indio/img_01.jpeg
+- file: media/membranofones/tambor_de_indio/tambor_de_indio.jpeg
   caption: Tambordendio
   original_file: b45edca7-290b-448f-8177-322c603896eb.jpeg
 audio_video_links: []
 references: []
 ---
+
 
 # Tambor de índios ou de caboclinhos
 

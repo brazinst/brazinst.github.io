@@ -12,13 +12,14 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-09-12'
 modified_date: '2024-05-06'
 images:
-- file: media/idiofones/alemao/img_01.jpeg
+- file: media/idiofones/alemao/alemao.jpeg
   caption: Alemao
   original_file: 9311481c-2ab7-4f57-8952-d30cb3d2bb9b.jpeg
 audio_video_links: []
 references:
 - ANDRADE, Mário de. 1982. Dicionário Musical Brasileiro. São Paulo.
 ---
+
 
 # Alemão
 

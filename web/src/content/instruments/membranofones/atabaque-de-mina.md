@@ -13,12 +13,13 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2024-10-13'
 modified_date: '2025-02-06'
 images:
-- file: media/membranofones/atabaque-de-mina/img_01.jpeg
+- file: media/membranofones/atabaque-de-mina/atabaque-de-mina.jpeg
   caption: Atabaque_In_The_Street
   original_file: 7f2924f7-202a-4f93-953a-da4b6c3567e7.jpeg
 audio_video_links: []
 references: []
 ---
+
 
 # Atabaque de Mina
 

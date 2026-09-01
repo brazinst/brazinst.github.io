@@ -11,7 +11,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-07-25'
 modified_date: '2021-03-20'
 images:
-- file: media/cordofones/gualambo/img_01.jpeg
+- file: media/cordofones/gualambo/gualambo.jpeg
   caption: Sem Imagem 1
   original_file: 9daa0cc1-0c7c-49c1-81aa-f71b20ce4e9d.jpeg
 audio_video_links: []
@@ -26,6 +26,7 @@ references:
   Acessado em 22/02/2016.
 - Helayne Cristini da Silva Borba / Alice Satomi / Maria Luiza Garcia Caldas
 ---
+
 
 # Gualambo
 

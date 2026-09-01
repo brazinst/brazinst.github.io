@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-11-28'
 modified_date: '2019-07-08'
 images:
-- file: media/idiofones/preaca-flecha-de-indio/img_01.jpeg
+- file: media/idiofones/preaca-flecha-de-indio/preaca-flecha-de-indio.jpeg
   caption: Preaca
   original_file: 58d4e634-a247-4e54-99a1-2d707ff676b3.jpeg
 audio_video_links:
@@ -21,6 +21,7 @@ audio_video_links:
   url: https://www.youtube.com/watch?v=XqwOqAuwDFk
 references: []
 ---
+
 
 # Preaca (Flecha de índio)
 

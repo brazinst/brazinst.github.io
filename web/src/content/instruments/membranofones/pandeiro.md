@@ -16,7 +16,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2021-08-26'
 images:
-- file: media/membranofones/pandeiro/img_01.jpeg
+- file: media/membranofones/pandeiro/pandeiro.jpeg
   caption: Pandeiro
   original_file: e559947b-6605-4bf1-8b6c-0c016e1e8f3e.jpeg
 audio_video_links: []
@@ -37,6 +37,7 @@ references:
 - '²Disponível em: <http://www.nscottrobinson.com/framedrums.php> Acesso em: 5 fev
   2017'
 ---
+
 
 # Pandeiro
 

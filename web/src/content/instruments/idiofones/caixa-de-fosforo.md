@@ -15,7 +15,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2024-04-25'
 modified_date: '2024-04-25'
 images:
-- file: media/idiofones/caixa-de-fosforo/img_01.png
+- file: media/idiofones/caixa-de-fosforo/caixa-de-fosforo.png
   caption: Caiax De Fosforo.Png
   original_file: e251ef8b-832a-437d-a267-c8fd2a4f06d7.png
 audio_video_links:
@@ -40,6 +40,7 @@ references:
   e Trio Madeira Brasil. Uso da caixa de fósforo em gravação de CD.
 - https://www.youtube.com/watch?v=K5UMXFgyQJc - Ubirany e sua caixinha de fósforo
 ---
+
 
 # Caixa de Fosfóro
 

@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2018-04-17'
 images:
-- file: media/cordofones/ka-txo-tse/img_01.jpeg
+- file: media/cordofones/ka-txo-tse/ka-txo-tse.jpeg
   caption: Ka Txo Tse
   original_file: bcaf4628-6ec0-4c7a-8eec-d5b9006c7730.jpeg
 audio_video_links: []
@@ -25,6 +25,7 @@ references:
   2011.
 - Helayne Cristini Barbosa da Silva / Alice Satomi
 ---
+
 
 # Ka-txo-tsê
 

@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2021-09-08'
 images:
-- file: media/membranofones/mussum/img_01.jpeg
+- file: media/membranofones/mussum/mussum.jpeg
   caption: Mussum
   original_file: 478a9067-be22-458e-8754-d96ad0ae214c.jpeg
 audio_video_links: []
@@ -21,6 +21,7 @@ references:
 - 'COELHO, Letícia. Do cerrado ao Ministério da Cultura: trânsitos e construções de
   um Mestre e seus tambores. PPGAS-UFSC. p. 188, 189. Florianópolis. 2012.'
 ---
+
 
 # Mussum
 

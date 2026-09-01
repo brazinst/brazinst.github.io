@@ -11,7 +11,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2019-06-24'
 modified_date: '2019-07-21'
 images:
-- file: media/aerofones/urua/img_01.jpeg
+- file: media/aerofones/urua/urua.jpeg
   caption: Urua
   original_file: 8bdaf388-2301-4349-b9e1-258bfaab54dd.jpeg
 audio_video_links: []
@@ -22,6 +22,7 @@ references:
   em: <https://commons.wikimedia.org/wiki/File:Ift00054vb00.jpg>. Acesso em: 24 jun.
   2019.'
 ---
+
 
 # Uruá
 

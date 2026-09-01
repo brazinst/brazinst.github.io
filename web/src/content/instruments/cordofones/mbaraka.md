@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2021-04-20'
 modified_date: '2021-08-29'
 images:
-- file: media/cordofones/mbaraka/img_01.jpeg
+- file: media/cordofones/mbaraka/mbaraka.jpeg
   caption: Mbaraka Violao Guarani Foto
   original_file: 1e3b1726-55c1-4847-b34e-e71f1c6fabd4.jpeg
 audio_video_links:
@@ -26,6 +26,7 @@ references:
   indígena. São Paulo: Peirópolis, 2017.'
 - Disco Ñande Reko Arandu - (2000) Memória Viva Guarani
 ---
+
 
 # Mbaraka
 

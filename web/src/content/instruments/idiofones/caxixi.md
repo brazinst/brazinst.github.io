@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2019-07-08'
 images:
-- file: media/idiofones/caxixi/img_01.jpeg
+- file: media/idiofones/caxixi/caxixi.jpeg
   caption: Caxixi
   original_file: b74a02cb-13b6-4fb4-99d5-8e9e0c1dede3.jpeg
 audio_video_links:
@@ -38,6 +38,7 @@ references:
 - ¹ Disponível em <https://capoeiraaltoastral.wordpress.com/sobre-capoeira/caixixi-reco-reco-e-agogo/>
 - 'Acesso em: 13 jun 2016'
 ---
+
 
 # Caxixi
 

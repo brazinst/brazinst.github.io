@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-02-05'
 modified_date: '2018-11-05'
 images:
-- file: media/membranofones/tambor/img_01.jpeg
+- file: media/membranofones/tambor/tambor.jpeg
   caption: Jurandir Bombo.Bmp
   original_file: 7fecdf75-a4a9-4702-9f94-192df80c7262.jpeg
 audio_video_links: []
@@ -24,6 +24,7 @@ references:
   instrumentos, toques e cantos populares. Apostila datilografada não publicada. Brasília:
   Conselho Nacional de Pequisa – CNPq.'
 ---
+
 
 # Tambor
 

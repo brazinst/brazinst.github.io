@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-10'
 modified_date: '2018-04-17'
 images:
-- file: media/membranofones/tamborim/img_01.jpeg
+- file: media/membranofones/tamborim/tamborim.jpeg
   caption: Tamborim 4
   original_file: b25fcf72-7613-45dc-952f-cecba63a998f.jpeg
 audio_video_links: []
@@ -24,6 +24,7 @@ references:
 - '¹ Disponível em: <http://www.todosinstrumentosmusicais.com.br/imagens-do-instrumento-tamborim.html>
   Acesso em: 10 out 2016'
 ---
+
 
 # Tamborim
 

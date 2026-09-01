@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2022-01-17'
 modified_date: '2022-08-31'
 images:
-- file: media/cordofones/viola-de-buriti/img_01.jpeg
+- file: media/cordofones/viola-de-buriti/viola-de-buriti.jpeg
   caption: Violadeburiti.Jfif
   original_file: eae2cbd8-11b5-4ad8-89a2-37a10330c654.jpeg
 audio_video_links:
@@ -43,6 +43,7 @@ references:
   Breno Bardo, 2022. Disponível em: https://www.youtube.com/watch?v=AxPeTzRcZVs'
 - Sonoridades:Websérie como fazer violaA viola de BuritiMestre Lira
 ---
+
 
 # Viola de buriti
 

@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2022-01-13'
 modified_date: '2022-08-31'
 images:
-- file: media/idiofones/matraca-de-procissao/img_01.jpeg
+- file: media/idiofones/matraca-de-procissao/matraca-de-procissao.jpeg
   caption: Foto Matraca
   original_file: 0727d409-75f2-48c0-8b6d-af30b190f2bf.jpeg
 audio_video_links:
@@ -26,6 +26,7 @@ references:
   em: <https://cleofas.com.br/por-que-o-silencio-dos-sinos-e-o-ruido-das-matracas/>.
   Acesso em: 06/12/2021.'
 ---
+
 
 # Matraca de procissão
 

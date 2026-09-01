@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2019-07-08'
 images:
-- file: media/idiofones/maraca-de-lanca/img_01.png
+- file: media/idiofones/maraca-de-lanca/maraca-de-lanca.png
   caption: Lanadepontes.Png
   original_file: 620dc5e6-4e57-47a6-a26b-75b313f84c9a.png
 audio_video_links:
@@ -24,6 +24,7 @@ references:
 - 'SATOMI, Alice; Duarte, Mariana. 2010. “Os pontões de Pombal”. Anais do II Encontro
   da ABET Regional Nordeste. João Pessoa: Universidade Federal da Paraíba'
 ---
+
 
 # Lança dos (es)pontões ou Maracá de lança
 

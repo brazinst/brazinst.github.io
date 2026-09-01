@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-10'
 modified_date: '2018-11-05'
 images:
-- file: media/membranofones/cabulete/img_01.jpeg
+- file: media/membranofones/cabulete/cabulete.jpeg
   caption: Cabulete
   original_file: 92fcfe39-32f5-4c4a-93bc-a6b99ea3e8dd.jpeg
 audio_video_links:
@@ -27,6 +27,7 @@ references:
 - '¹Disponível em: <http://pontosolidario.org.br/loja/o-que-e/musicais/cabulete/>
   Acesso em: 10 out 2016.'
 ---
+
 
 # Cabuletê
 

@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/cutoe/img_01.jpeg
+- file: media/idiofones/cutoe/cutoe.jpeg
   caption: Cutoe
   original_file: fe2c7ab2-ad37-464a-8788-e1320b7a0074.jpeg
 audio_video_links: []
@@ -29,6 +29,7 @@ references:
 - Nimuendaju, C. The Eastern Timbira. Los Angeles, Univ. da Califórnia, 1946 (Tomo
   XLI).
 ---
+
 
 # Cutõe
 

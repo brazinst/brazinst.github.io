@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-21'
 modified_date: '2018-04-17'
 images:
-- file: media/idiofones/nhon-kon-ti/img_01.jpeg
+- file: media/idiofones/nhon-kon-ti/nhon-kon-ti.jpeg
   caption: Nhon Kon Ti
   original_file: 4b5234e5-0620-4158-b081-e2a851f5b5b9.jpeg
 audio_video_links: []
@@ -27,6 +27,7 @@ references:
   ao M.N. do RJ).
 - Gabriel da Rosa Seixas
 ---
+
 
 # Nhon-kon-ti
 

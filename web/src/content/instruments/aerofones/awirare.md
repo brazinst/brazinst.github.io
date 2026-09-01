@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-10-03'
 modified_date: '2018-04-17'
 images:
-- file: media/aerofones/awirare/img_01.jpeg
+- file: media/aerofones/awirare/awirare.jpeg
   caption: Image
   original_file: a034c225-12de-49bd-94ae-f729a9049bee.jpeg
 audio_video_links: []
@@ -30,6 +30,7 @@ references:
 - 'Izikowitz, K. G. 1935. Musical and Other Sound Instruments of the South American
   Indians: Gothenburg.'
 ---
+
 
 # Awirare
 

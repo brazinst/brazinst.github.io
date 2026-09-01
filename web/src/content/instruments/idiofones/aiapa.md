@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2019-04-22'
 modified_date: '2019-04-22'
 images:
-- file: media/idiofones/aiapa/img_01.jpeg
+- file: media/idiofones/aiapa/aiapa.jpeg
   caption: Aiapa
   original_file: 00d0f7ef-2bdf-4cca-8faa-32762b339e3b.jpeg
 audio_video_links: []
@@ -21,6 +21,7 @@ references:
 - ANDRADE, Mário de. Dicionário musical brasileiro. Editora da Universidade de São
   Paulo, 1989.
 ---
+
 
 # Aiapá
 

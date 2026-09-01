@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2025-10-29'
 images:
-- file: media/aerofones/upawa/img_01.jpeg
+- file: media/aerofones/upawa/upawa.jpeg
   caption: Img Upawa.Jpeg
   original_file: f515dbab-99e3-4253-bb75-1653754365f0.jpeg
 audio_video_links:
@@ -26,6 +26,7 @@ references:
   Disponível em https://www1.folha.uol.com.br/fsp/1994/9/05/folhateen/14.html acesso
   em 3 de julho de 2025.
 ---
+
 
 # Upawã
 

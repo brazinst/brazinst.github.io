@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-11-28'
 modified_date: '2022-08-31'
 images:
-- file: media/aerofones/sacabuxa/img_01.jpeg
+- file: media/aerofones/sacabuxa/sacabuxa.jpeg
   caption: Imagem.Bmp
   original_file: 3867908d-4b9b-4167-9dbd-a9625c1d9fd4.jpeg
 audio_video_links:
@@ -54,6 +54,7 @@ references:
 - 'Para conhecer mais:'
 - Sacabuxa
 ---
+
 
 # Sacabuxa
 

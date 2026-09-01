@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2019-04-06'
 modified_date: '2019-07-31'
 images:
-- file: media/cordofones/rabeca/img_01.jpeg
+- file: media/cordofones/rabeca/rabeca.jpeg
   caption: Luizpaixocomrabecadeantniomerengue2014
   original_file: bb631fe6-275d-4a92-b1ea-0df4242f2fa0.jpeg
 audio_video_links: []
@@ -30,6 +30,7 @@ references:
 - 'Marcondes, Marcos Antônio. Enciclopédia da Música Brasileira: Erudita, folclórica,
   popular. 1977.'
 ---
+
 
 # Rabeca
 

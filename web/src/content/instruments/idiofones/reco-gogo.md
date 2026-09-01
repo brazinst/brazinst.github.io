@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2021-04-25'
 images:
-- file: media/idiofones/reco-gogo/img_01.jpeg
+- file: media/idiofones/reco-gogo/reco-gogo.jpeg
   caption: Recogog
   original_file: 63df3300-15c5-4799-83dc-93ad89f17db9.jpeg
 audio_video_links: []
@@ -21,6 +21,7 @@ references:
   um Mestre e seus tambores. PPGAS-UFSC. Florianópolis. 2012.'
 - Eraldo Kelvin Brasil de Azevedo
 ---
+
 
 # Reco-gogô
 

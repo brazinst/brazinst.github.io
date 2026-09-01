@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2021-05-06'
 images:
-- file: media/idiofones/chocalho-fieira/img_01.jpeg
+- file: media/idiofones/chocalho-fieira/chocalho-fieira.jpeg
   caption: Chocalhotornozeleira
   original_file: 877735d9-ddd2-46ed-9a11-9357fc03b5e0.jpeg
 audio_video_links: []
@@ -21,6 +21,7 @@ references:
 - 'Pucci, Magda; Almeida, Berenice. Cantos da floresta: iniciação ao universo musical
   indígena. São Paulo: Peirópolis, p. 160-162. 2017.'
 ---
+
 
 # Chocalho Fieira
 

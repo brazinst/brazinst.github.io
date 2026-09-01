@@ -14,7 +14,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-06-13'
 modified_date: '2026-06-15'
 images:
-- file: media/idiofones/enxada/img_01.png
+- file: media/idiofones/enxada/enxada.png
   caption: Robertim.Png
   original_file: e48a09b1-b178-4dcd-8835-521af3340a78.png
 audio_video_links: []
@@ -37,6 +37,7 @@ references:
   Acessado em 05/11/2025.
 - Deise de Jesus Marques
 ---
+
 
 # Enxada
 

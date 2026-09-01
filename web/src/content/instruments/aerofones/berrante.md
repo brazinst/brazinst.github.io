@@ -15,7 +15,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-08-17'
 modified_date: '2023-05-11'
 images:
-- file: media/aerofones/berrante/img_01.jpeg
+- file: media/aerofones/berrante/berrante.jpeg
   caption: Berrante
   original_file: 24e1d5ae-edae-45a0-a0d1-406b0bd5bed6.jpeg
 audio_video_links: []
@@ -27,6 +27,7 @@ references:
 - 'Andrade, Mário de. 1989. Dicionário musical brasileiro. Belo Horizonte; Brasília;
   São Paulo: Itatiaia; Ministério da Cultura e Universidade de São Paulo.'
 ---
+
 
 # Berrante
 

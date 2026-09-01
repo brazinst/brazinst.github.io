@@ -12,7 +12,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2017-03-27'
 modified_date: '2023-07-21'
 images:
-- file: media/aerofones/awa-tukaniwar/img_01.jpeg
+- file: media/aerofones/awa-tukaniwar/awa-tukaniwar.jpeg
   caption: Awa
   original_file: ad517136-94ac-400d-b346-4ad0bb52b5df.jpeg
 audio_video_links: []
@@ -20,6 +20,7 @@ references:
 - 'Cameu, Helza. 1979. Instrumentos musicais dos indígenas brasileiros: catálogo da
   exposição. Rio de Janeiro: Biblioteca Nacional; Funarte.'
 ---
+
 
 # Awa-Tukaniwar
 

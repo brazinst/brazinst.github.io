@@ -13,7 +13,7 @@ source_url: http://150.165.254.38/labeet/contents/paginas/acervo-brazinst/copy_o
 published_date: '2016-05-18'
 modified_date: '2021-04-25'
 images:
-- file: media/idiofones/tambor-de-casco-de-tartaruga/img_01.jpeg
+- file: media/idiofones/tambor-de-casco-de-tartaruga/tambor-de-casco-de-tartaruga.jpeg
   caption: Tambordecascodetartaruga
   original_file: 50d8e39b-166e-4443-965b-97d0964cca70.jpeg
 audio_video_links: []
@@ -25,6 +25,7 @@ references:
 - Eraldo Kelvin Brasil de Azevedo
 - Traduzido por Eraldo K. B. Azevedo
 ---
+
 
 # Tambor de Casco de Tartaruga
 
