@@ -8,6 +8,7 @@
     "build": "astro build && pagefind --site dist && node -e \"fs.cpSync('dist/pagefind', 'public/pagefind', {recursive: true, force: true})\"",
     "preview": "astro preview",
     "astro": "astro",
+    "validate": "python3 ../scripts/validate_contribution.py",
     "test": "node --test tests/*.test.mjs || (node tests/content.test.mjs && node tests/layout.test.mjs && node tests/cards.test.mjs && node tests/verbete.test.mjs && node tests/search.test.mjs)"
   },
   "dependencies": {

@@ -103,11 +103,12 @@ SOBRENOME, Nome. Ano. Título da obra. Local: Editora.
 
 ### 5. Valide e Submeta
 ```bash
-# 1. Verifique se o build compila sem erros
-npm --prefix web run build
+# 1. Valide a integridade do verbete e mídias
+python3 scripts/validate_contribution.py
 
-# 2. Execute os testes automatizados
+# 2. Verifique os testes e o build
 npm --prefix web test
+npm --prefix web run build
 
 # 3. Crie um branch e abra um Pull Request
 git checkout -b add-instrumento-nome
