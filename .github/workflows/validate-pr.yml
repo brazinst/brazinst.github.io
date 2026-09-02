@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   validate-content:
-    name: 🌿 Validação do Acervo e Metadados
+    name: Validação do Acervo e Metadados
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do Repositório
@@ -33,7 +33,7 @@ jobs:
         run: pytest
 
   build-check:
-    name: 🏗️ Testes e Compilação Web (Astro & Pagefind)
+    name: Testes e Compilação Web (Astro e Pagefind)
     runs-on: ubuntu-latest
     needs: validate-content
     steps:

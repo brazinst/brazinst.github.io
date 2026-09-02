@@ -1,36 +1,33 @@
 # Brazil Instrumentarium (LABEET / UFPB)
 
-> Acervo digital e catálogo etnomusicológico dos instrumentos musicais da diversidade brasileira, desenvolvido pelo **Laboratório de Estudos Etnomusicológicos (LABEET / CCTA / UFPB)** sob coordenação da **Profª. Drª. Alice Lumi Satomi**.
+Acervo digital e catálogo etnomusicológico dos instrumentos musicais da diversidade brasileira, desenvolvido pelo Laboratório de Estudos Etnomusicológicos (LABEET / CCTA / UFPB) sob coordenação da Profª. Drª. Alice Lumi Satomi.
 
-O portal reúne mais de 165 verbetes com classificação organológica Hornbostel-Sachs (MIMO), registros iconográficos, transcrições, fonografia e remissões tipológicas.
+O portal cataloga 165+ verbetes com classificação organológica Hornbostel-Sachs (MIMO), registros iconográficos, transcrições, fonografia e remissões tipológicas.
 
 ---
 
-## 🚀 Como Executar Localmente
+## Execução Local
 
 ### Pré-requisitos
-- **Node.js** 20+
-- **Python** 3.10+
+- Node.js 20+
+- Python 3.10+
 
-### Instalação e Execução
+### Comandos
 
 ```bash
-# Instalar dependências da aplicação web
+# Dependências e execução da aplicação web
 cd web && npm install
-
-# Iniciar servidor de desenvolvimento (http://localhost:4321)
 npm run dev
 
-# Compilar para produção e gerar índices de busca Pagefind
+# Build de produção e indexação Pagefind
 npm run build
 
-# Executar suíte de testes
+# Testes da aplicação web
 npm test
 ```
 
-Para executar os testes dos scripts Python:
+Para executar a suíte de testes Python:
 ```bash
-# Na raiz do repositório
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 pytest
@@ -38,115 +35,105 @@ pytest
 
 ---
 
-## 🪕 Como Contribuir com Instrumentos
+## Como Contribuir com Instrumentos
 
-Novos instrumentos ou revisões de verbetes são bem-vindos! O catálogo é baseado em arquivos Markdown com metadados YAML estruturados.
+O catálogo é mantido em arquivos Markdown com frontmatter YAML em `web/src/content/instruments/`.
 
-### 1. Identifique a Família Organológica
-Os verbetes ficam organizados em `web/src/content/instruments/<familia>/`:
-- `aerofones/`: Instrumentos de sopro (flautas, trombetas, apitos, clarinetes).
-- `cordofones/`: Instrumentos de corda (violas, rabecas, berimbaus, arcos).
-- `idiofones/`: O próprio corpo do instrumento produz o som (chocalhos, maracás, reco-recos, sinos).
-- `membranofones/`: Membrana tensionada vibrante (tambores, caixas, zabumbas, cuícas).
+### 1. Famílias Organológicas
+- `aerofones/`: Instrumentos de sopro (flautas, trombetas, apitos).
+- `cordofones/`: Instrumentos de corda (violas, rabecas, berimbaus).
+- `idiofones/`: Instrumentos cujo próprio corpo produz o som (chocalhos, reco-recos).
+- `membranofones/`: Instrumentos de membrana tensionada (tambores, caixas, cuícas).
 
-### 2. Crie o Arquivo do Verbete
-Crie o arquivo `web/src/content/instruments/<familia>/<slug-do-instrumento>.md` usando o template abaixo:
+### 2. Template de Verbete
+Crie o arquivo `web/src/content/instruments/<familia>/<slug>.md`:
 
 ```yaml
 ---
 title: "Nome do Instrumento"
 slug: "nome-do-instrumento"
 family: "idiofones" # aerofones | cordofones | idiofones | membranofones
-subtitle: "Subtítulo ou nome alternativo (opcional)"
-description: "Descrição concisa e classificação organológica (Hornbostel-Sachs)."
-mimo_code: "1.1.2.1.1" # Código MIMO / Hornbostel-Sachs (opcional)
-author: "Nome do Pesquisador / Autor"
+subtitle: null
+description: "Descrição concisa e classificação organológica."
+mimo_code: "1.1.2.1.1" # Classificação Hornbostel-Sachs
+author: "Nome do Autor"
 reviewer: "Alice L. Satomi"
 published_date: "2026-09-02"
 modified_date: "2026-09-02"
 images:
-  - file: "media/idiofones/nome-do-instrumento/foto_01.jpg"
-    caption: "Legenda descritiva da imagem"
-    rights: "Créditos da imagem / Acervo (opcional)"
+  - file: "media/idiofones/nome-do-instrumento/foto.jpg"
+    caption: "Legenda da imagem"
+    rights: "Créditos da imagem (opcional)"
 audio_video_links:
-  - title: "Demonstração sonora / registro em campo"
+  - title: "Demonstração sonora"
     url: "https://www.youtube.com/watch?v=..."
 references:
-  - "SOBRENOME, Nome. Ano. Título do Livro ou Artigo. Local: Editora."
+  - "SOBRENOME, Nome. Ano. Título da obra. Local: Editora."
 related_instruments:
   - slug: "reco-reco"
     title: "Reco-reco"
     family: "idiofones"
-    relation: "Similar / Variante" # Similar / Variante | Mesmo tipo | Remissão | Contexto / Naipe | Homônimo
+    relation: "Similar / Variante"
 ---
 
 # Nome do Instrumento
 
-> Resumo contextual ou citação organológica em destaque.
+> Resumo contextual ou citação organológica.
 
-Texto descritivo do instrumento, contexto sociocultural, materiais utilizados, forma de execução e ocorrência geográfica.
-
-Se fizer menção a outro instrumento catalogado, use links internos: `[Reco-reco](/instrumentos/reco-reco)`.
+Texto descritivo com contexto sociocultural, materiais, execução e distribuição geográfica.
+Links internos para outros instrumentos devem usar o padrão `[Nome](/instrumentos/slug)`.
 
 ### Referências
 
 SOBRENOME, Nome. Ano. Título da obra. Local: Editora.
 ```
 
-### 3. Adicione Imagens e Mídias
-- Coloque os arquivos de imagem em `web/public/media/<familia>/<slug-do-instrumento>/`.
-- Prefira formatos otimizados (`.jpg`, `.jpeg`, `.png`, `.webp`) com boa resolução.
+### 3. Mídias
+- Salvar imagens em `web/public/media/<familia>/<slug>/`.
+- Formatos aceitos: JPG, PNG, WebP.
 
-### 4. Conecte Referências Cruzadas
-- No campo `related_instruments` do frontmatter, indique instrumentos correlatos, variantes ou que toquem no mesmo conjunto/gênero.
-- No corpo do texto, adicione links markdown direcionando para `/instrumentos/<slug-alvo>`.
-
-### 5. Valide e Submeta
+### 4. Validação e Envio
 ```bash
-# 1. Valide a integridade do verbete e mídias
+# 1. Validação estática de integridade
 python3 scripts/validate_contribution.py
 
-# 2. Verifique os testes e o build
+# 2. Testes e build local
 npm --prefix web test
 npm --prefix web run build
 
-# 3. Crie um branch e abra um Pull Request
-git checkout -b add-instrumento-nome
+# 3. Commit e Pull Request
+git checkout -b add-instrumento-<slug>
 git add web/src/content/instruments/ web/public/media/
-git commit -m "feat(acervo): adiciona verbete do instrumento <Nome>"
-git push origin add-instrumento-nome
+git commit -m "feat(acervo): adiciona verbete <slug>"
+git push origin add-instrumento-<slug>
 ```
 
 ---
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```text
-├── web/                           # Aplicação web em Astro
+├── web/                           # Aplicação web Astro
 │   ├── src/
-│   │   ├── content/instruments/   # Fonte de verdade dos 165+ verbetes Markdown
-│   │   │   ├── aerofones/
-│   │   │   ├── cordofones/
-│   │   │   ├── idiofones/
-│   │   │   └── membranofones/
-│   │   ├── components/            # Componentes da interface (busca, cards, áudio, citação)
-│   │   ├── layouts/               # Layout base com CSP e acessibilidade
-│   │   └── pages/                 # Rotas estáticas (/instrumentos, /familia, /sobre)
+│   │   ├── content/instruments/   # Verbetes em Markdown (fonte da verdade)
+│   │   ├── components/            # Componentes de interface
+│   │   ├── layouts/               # Layouts base
+│   │   └── pages/                 # Rotas estáticas
 │   ├── public/
-│   │   ├── media/                 # Fotografias e registros visuais dos instrumentos
-│   │   └── pagefind/              # Índice estático de busca full-text
-│   └── tests/                     # Testes de integridade de conteúdo e componentes
-├── scripts/                       # Scripts Python de espelhamento, extração e validação
-├── tests/                         # Testes automatizados da pipeline Python (pytest)
-└── docs/                          # Especificações técnicas e planos de preservação
+│   │   ├── media/                 # Acervo de imagens
+│   │   └── pagefind/              # Índices de busca
+│   └── tests/                     # Testes de conteúdo e componentes
+├── scripts/                       # Scripts de extração, espelhamento e validação
+├── tests/                         # Testes automatizados Python (pytest)
+└── docs/                          # Documentação e especificações
 ```
 
 ---
 
-## 🏛️ Créditos e Apoio Institucional
+## Créditos Institucionais
 
 - **Coordenação Científica**: Profª. Drª. Alice Lumi Satomi
 - **Laboratório**: LABEET – Laboratório de Estudos Etnomusicológicos
 - **Unidade**: CCTA – Centro de Comunicação, Turismo e Artes
 - **Instituição**: UFPB – Universidade Federal da Paraíba
-- **Projetos Associados**: PDMCP (Pesquisa e Documentação de Música e Cultura Popular) & Brazil Instrumentarium
+- **Projetos**: PDMCP & Brazil Instrumentarium

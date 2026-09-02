@@ -3,7 +3,7 @@ import pytest
 from scripts.validate_contribution import (
     check_instrument_content,
     run_validation,
-    generate_friendly_markdown,
+    generate_markdown_report,
     ValidationIssue
 )
 
@@ -48,7 +48,7 @@ def test_validate_missing_fields_and_broken_image(tmp_path: Path):
     md_file = inst_dir / "berimbau.md"
     md_file.write_text("""---
 title: ""
-family: "idiofones" # Wrong family (folder is cordofones)
+family: "idiofones" # Erro: pasta é cordofones
 images:
   - file: "media/cordofones/berimbau/nao_existe.jpg"
 related_instruments:
@@ -66,15 +66,15 @@ Menção a [Inexistente](/instrumentos/outro-inexistente).
     error_messages = [i.message for i in issues if i.severity == "error"]
     assert any("title" in msg for msg in error_messages)
     assert any("diverge da pasta" in msg for msg in error_messages)
-    assert any("não foi encontrado" in msg for msg in error_messages)
-    assert any("não existe no acervo" in msg for msg in error_messages)
-    assert any("aponta para um instrumento inexistente" in msg for msg in error_messages)
+    assert any("não encontrado em" in msg for msg in error_messages)
+    assert any("não encontrado no catálogo" in msg for msg in error_messages)
+    assert any("aponta para slug inexistente" in msg for msg in error_messages)
 
-    # Test friendly markdown generation
-    report = generate_friendly_markdown(1, issues)
-    assert "Identificamos alguns pequenos detalhes para ajustar" in report
-    assert "Como ajustar com carinho" in report
-    assert "Muito obrigado por contribuir" in report
+    # Test markdown report generation
+    report = generate_markdown_report(1, issues)
+    assert "Validação de Integridade do Acervo" in report
+    assert "Inconformidades (bloqueantes)" in report
+    assert "Ação necessária" in report
 
 
 def test_validate_invalid_yaml(tmp_path: Path):
@@ -92,4 +92,4 @@ family: [ unclosed list
     issues = check_instrument_content(md_file, {}, public_dir)
     errors = [i for i in issues if i.severity == "error"]
     assert len(errors) == 1
-    assert "Erro de sintaxe no cabeçalho YAML" in errors[0].message
+    assert "Erro de sintaxe YAML" in errors[0].message
